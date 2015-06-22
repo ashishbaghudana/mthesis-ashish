@@ -12,6 +12,11 @@ class Pubmed(object):
 			r_xml = requests.get()
 			data = r.text
 			soup = bs(data)
-			self.abstract = soup.find("div", {"class": "abstr"}).getText()
+			self.abstract = soup.find("div", {"class": "abstr"})
+			if (self.abstract):
+				self.valid = True
+				self.abstract = self.abstract.getText()
+			else:
+				self.valid = False
 			tree = ET.parse()
 		except ConnectionError:
