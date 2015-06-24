@@ -1,0 +1,172 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                   %
+% GENIC INTERACTION EXPRESSED BY AN EXPLICIT ACTION %
+%                                                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ID	10972809-6
+sentence	The addition of ClpX to in vitro transcription reactions resulted in the stimulation of RNAP holoenzyme activity, but sigmaH-RNAP was observed to be more sensitive to ClpX-dependent stimulation than sigmaA-RNAP.
+words	word(0,'The',0,2)	word(1,'addition',4,11)	word(2,'of',13,14)	word(3,'ClpX',16,19)	word(4,'to',21,22)	word(5,'in',24,25)	word(6,'vitro',27,31)	word(7,'transcription',33,45)	word(8,'reactions',47,55)	word(9,'resulted',57,64)	word(10,'in',66,67)	word(11,'the',69,71)	word(12,'stimulation',73,83)	word(13,'of',85,86)	word(14,'RNAP',88,91)	word(15,'holoenzyme',93,102)	word(16,'activity',104,111)	word(17,'but',114,116)	word(18,'sigmaH',118,123)	word(19,'RNAP',125,128)	word(20,'was',130,132)	word(21,'observed',134,141)	word(22,'to',143,144)	word(23,'be',146,147)	word(24,'more',149,152)	word(25,'sensitive',154,162)	word(26,'to',164,165)	word(27,'ClpX',167,170)	word(28,'dependent',172,180)	word(29,'stimulation',182,192)	word(30,'than',194,197)	word(31,'sigmaA',199,204)	word(32,'RNAP',206,209)
+agents	agent(27)	agent(3)
+targets	target(18)	target(31)
+genic_interactions	genic_interaction(27,18)	genic_interaction(27,31)	genic_interaction(3,18)	genic_interaction(3,31)
+
+ID	10788508-2
+sentence	Transcription of the cotB, cotC, and cotX genes by final sigma(K) RNA polymerase is activated by a small, DNA-binding protein called GerE.
+words	word(0,'Transcription',0,12)	word(1,'of',14,15)	word(2,'the',17,19)	word(3,'cotB',21,24)	word(4,'cotC',27,30)	word(5,'and',33,35)	word(6,'cotX',37,40)	word(7,'genes',42,46)	word(8,'by',48,49)	word(9,'final',51,55)	word(10,'sigma(K)',57,64)	word(11,'RNA',66,68)	word(12,'polymerase',70,79)	word(13,'is',81,82)	word(14,'activated',84,92)	word(15,'by',94,95)	word(16,'a',97,97)	word(17,'small',99,103)	word(18,'DNA-binding',106,116)	word(19,'protein',118,124)	word(20,'called',126,131)	word(21,'GerE',133,136)
+agents	agent(10)	agent(21)
+targets	target(3)	target(4)	target(6)
+genic_interactions	genic_interaction(10,3)	genic_interaction(10,4)	genic_interaction(10,6)	genic_interaction(21,3)	genic_interaction(21,4)	genic_interaction(21,6)
+
+ID	10788508-7
+sentence	In vitro transcription experiments suggest that the differential pattern of cot gene expression results from the combined action of GerE and another transcription factor, SpoIIID.
+words	word(0,'In',0,1)	word(1,'vitro',3,7)	word(2,'transcription',9,21)	word(3,'experiments',23,33)	word(4,'suggest',35,41)	word(5,'that',43,46)	word(6,'the',48,50)	word(7,'differential',52,63)	word(8,'pattern',65,71)	word(9,'of',73,74)	word(10,'cot',76,78)	word(11,'gene',80,83)	word(12,'expression',85,94)	word(13,'results',96,102)	word(14,'from',104,107)	word(15,'the',109,111)	word(16,'combined',113,120)	word(17,'action',122,127)	word(18,'of',129,130)	word(19,'GerE',132,135)	word(20,'and',137,139)	word(21,'another',141,147)	word(22,'transcription',149,161)	word(23,'factor',163,168)	word(24,'SpoIIID',171,177)
+agents	agent(19)	agent(24)
+targets	target(10)
+genic_interactions	genic_interaction(19,10)	genic_interaction(24,10)
+
+ID	10788508-8
+sentence	A low concentration of GerE activated cotB transcription by final sigma(K) RNA polymerase, whereas a higher concentration was needed to activate transcription of cotX or cotC.
+words	word(0,'A',0,0)	word(1,'low',2,4)	word(2,'concentration',6,18)	word(3,'of',20,21)	word(4,'GerE',23,26)	word(5,'activated',28,36)	word(6,'cotB',38,41)	word(7,'transcription',43,55)	word(8,'by',57,58)	word(9,'final',60,64)	word(10,'sigma(K)',66,73)	word(11,'RNA',75,77)	word(12,'polymerase',79,88)	word(13,'whereas',91,97)	word(14,'a',99,99)	word(15,'higher',101,106)	word(16,'concentration',108,120)	word(17,'was',122,124)	word(18,'needed',126,131)	word(19,'to',133,134)	word(20,'activate',136,143)	word(21,'transcription',145,157)	word(22,'of',159,160)	word(23,'cotX',162,165)	word(24,'or',167,168)	word(25,'cotC',170,173)
+agents	agent(4)	agent(10)
+targets	target(6)	target(10)	target(23)	target(25)
+genic_interactions	genic_interaction(4,6)	genic_interaction(4,10)	genic_interaction(10,6)	genic_interaction(4,23)	genic_interaction(4,25)
+
+ID	10788508-9
+sentence	SpoIIID at low concentration repressed cotC transcription, whereas a higher concentration only partially repressed cotX transcription and had little effect on cotB transcription.
+words	word(0,'SpoIIID',0,6)	word(1,'at',8,9)	word(2,'low',11,13)	word(3,'concentration',15,27)	word(4,'repressed',29,37)	word(5,'cotC',39,42)	word(6,'transcription',44,56)	word(7,'whereas',59,65)	word(8,'a',67,67)	word(9,'higher',69,74)	word(10,'concentration',76,88)	word(11,'only',90,93)	word(12,'partially',95,103)	word(13,'repressed',105,113)	word(14,'cotX',115,118)	word(15,'transcription',120,132)	word(16,'and',134,136)	word(17,'had',138,140)	word(18,'little',142,147)	word(19,'effect',149,154)	word(20,'on',156,157)	word(21,'cotB',159,162)	word(22,'transcription',164,176)
+agents	agent(0)
+targets	target(5)	target(14)	target(21)
+genic_interactions	genic_interaction(0,5)	genic_interaction(0,14)	genic_interaction(0,21)
+
+ID	10503549-3
+sentence	We demonstrated that katX is also a sigmaB-dependent general stress gene, since it is strongly induced by heat, salt and ethanol stress, as well as by energy depletion.
+words	word(0,'We',0,1)	word(1,'demonstrated',3,14)	word(2,'that',16,19)	word(3,'katX',21,24)	word(4,'is',26,27)	word(5,'also',29,32)	word(6,'a',34,34)	word(7,'sigmaB',36,41)	word(8,'dependent',43,51)	word(9,'general',53,59)	word(10,'stress',61,66)	word(11,'gene',68,71)	word(12,'since',74,78)	word(13,'it',80,81)	word(14,'is',83,84)	word(15,'strongly',86,93)	word(16,'induced',95,101)	word(17,'by',103,104)	word(18,'heat',106,109)	word(19,'salt',112,115)	word(20,'and',117,119)	word(21,'ethanol',121,127)	word(22,'stress',129,134)	word(23,'as',137,138)	word(24,'well',140,143)	word(25,'as',145,146)	word(26,'by',148,149)	word(27,'energy',151,156)	word(28,'depletion',158,166)
+agents	agent(7)
+targets	target(3)
+genic_interactions	genic_interaction(7,3)
+
+ID	10476035-3
+sentence	sigmaF is controlled by a regulatory cascade involving an anti-sigma factor, SpoIIAB, an anti-anti-sigma factor, SpoIIAA, and a membrane-bound phosphatase, SpoIIE, which converts the inactive, phosphorylated form of SpoIIAA back to the active form.
+words	word(0,'sigmaF',0,5)	word(1,'is',7,8)	word(2,'controlled',10,19)	word(3,'by',21,22)	word(4,'a',24,24)	word(5,'regulatory',26,35)	word(6,'cascade',37,43)	word(7,'involving',45,53)	word(8,'an',55,56)	word(9,'anti-sigma',58,67)	word(10,'factor',69,74)	word(11,'SpoIIAB',77,83)	word(12,'an',86,87)	word(13,'anti-anti-sigma',89,103)	word(14,'factor',105,110)	word(15,'SpoIIAA',113,119)	word(16,'and',122,124)	word(17,'a',126,126)	word(18,'membrane-bound',128,141)	word(19,'phosphatase',143,153)	word(20,'SpoIIE',156,161)	word(21,'which',164,168)	word(22,'converts',170,177)	word(23,'the',179,181)	word(24,'inactive',183,190)	word(25,'phosphorylated',193,206)	word(26,'form',208,211)	word(27,'of',213,214)	word(28,'SpoIIAA',216,222)	word(29,'back',224,227)	word(30,'to',229,230)	word(31,'the',232,234)	word(32,'active',236,241)	word(33,'form',243,246)
+agents	agent(11)	agent(15)	agent(20)
+targets	target(0)	target(28)
+genic_interactions	genic_interaction(11,0)	genic_interaction(15,0)	genic_interaction(20,0)	genic_interaction(20,28)
+
+ID	10468601-2
+sentence	Unlike the case for other sigma(54)-dependent genes, rocG has no UAS; instead, its expression depends on a sequence located 1.5 kilobases downstream of the rocG promoter, beyond the end of the rocG coding region.
+words	word(0,'Unlike',0,5)	word(1,'the',7,9)	word(2,'case',11,14)	word(3,'for',16,18)	word(4,'other',20,24)	word(5,'sigma(54)',26,34)	word(6,'dependent',36,44)	word(7,'genes',46,50)	word(8,'rocG',53,56)	word(9,'has',58,60)	word(10,'no',62,63)	word(11,'UAS',65,67)	word(12,'instead',70,76)	word(13,'its',79,81)	word(14,'expression',83,92)	word(15,'depends',94,100)	word(16,'on',102,103)	word(17,'a',105,105)	word(18,'sequence',107,114)	word(19,'located',116,122)	word(20,'1.5',124,126)	word(21,'kilobases',128,136)	word(22,'downstream',138,147)	word(23,'of',149,150)	word(24,'the',152,154)	word(25,'rocG',156,159)	word(26,'promoter',161,168)	word(27,'beyond',171,176)	word(28,'the',178,180)	word(29,'end',182,184)	word(30,'of',186,187)	word(31,'the',189,191)	word(32,'rocG',193,196)	word(33,'coding',198,203)	word(34,'region',205,210)
+agents	agent(5)
+targets	target(8)
+genic_interactions	genic_interaction(5,8)
+
+ID	10411757-2
+sentence	Although spo0H is transcriptionally regulated by the key regulatory device that controls sporulation initiation, the Spo0 phosphorelay, there is considerable evidence implicating a mechanism of post-translational control that governs the activity and concentration of sigmaH.
+words	word(0,'Although',0,7)	word(1,'spo0H',9,13)	word(2,'is',15,16)	word(3,'transcriptionally',18,34)	word(4,'regulated',36,44)	word(5,'by',46,47)	word(6,'the',49,51)	word(7,'key',53,55)	word(8,'regulatory',57,66)	word(9,'device',68,73)	word(10,'that',75,78)	word(11,'controls',80,87)	word(12,'sporulation',89,99)	word(13,'initiation',101,110)	word(14,'the',113,115)	word(15,'Spo0',117,120)	word(16,'phosphorelay',122,133)	word(17,'there',136,140)	word(18,'is',142,143)	word(19,'considerable',145,156)	word(20,'evidence',158,165)	word(21,'implicating',167,177)	word(22,'a',179,179)	word(23,'mechanism',181,189)	word(24,'of',191,192)	word(25,'post-translational',194,211)	word(26,'control',213,219)	word(27,'that',221,224)	word(28,'governs',226,232)	word(29,'the',234,236)	word(30,'activity',238,245)	word(31,'and',247,249)	word(32,'concentration',251,263)	word(33,'of',265,266)	word(34,'sigmaH',268,273)
+agents	agent(15)
+targets	target(1)
+genic_interactions	genic_interaction(15,1)
+
+ID	10383978-2
+sentence	In the mother cell compartment of sporulating cells, expression of the sigE gene, encoding the earlier-acting sigma factor, sigmaE, is negatively regulated by the later-acting sigma factor, sigmaK.
+words	word(0,'In',0,1)	word(1,'the',3,5)	word(2,'mother',7,12)	word(3,'cell',14,17)	word(4,'compartment',19,29)	word(5,'of',31,32)	word(6,'sporulating',34,44)	word(7,'cells',46,50)	word(8,'expression',53,62)	word(9,'of',64,65)	word(10,'the',67,69)	word(11,'sigE',71,74)	word(12,'gene',76,79)	word(13,'encoding',82,89)	word(14,'the',91,93)	word(15,'earlier-acting',95,108)	word(16,'sigma',110,114)	word(17,'factor',116,121)	word(18,'sigmaE',124,129)	word(19,'is',132,133)	word(20,'negatively',135,144)	word(21,'regulated',146,154)	word(22,'by',156,157)	word(23,'the',159,161)	word(24,'later-acting',163,174)	word(25,'sigma',176,180)	word(26,'factor',182,187)	word(27,'sigmaK',190,195)
+agents	agent(27)
+targets	target(11)
+genic_interactions	genic_interaction(27,11)
+
+ID	10323866-1
+sentence	Cell-specific activation of transcription factor sigmaF during sporulation in Bacillus subtilis requires the formation of the polar septum and the activity of a serine phosphatase (SpoIIE) located in the septum.
+words	word(0,'Cell-specific',0,12)	word(1,'activation',14,23)	word(2,'of',25,26)	word(3,'transcription',28,40)	word(4,'factor',42,47)	word(5,'sigmaF',49,54)	word(6,'during',56,61)	word(7,'sporulation',63,73)	word(8,'in',75,76)	word(9,'Bacillus subtilis',78,94)	word(10,'requires',96,103)	word(11,'the',105,107)	word(12,'formation',109,117)	word(13,'of',119,120)	word(14,'the',122,124)	word(15,'polar',126,130)	word(16,'septum',132,137)	word(17,'and',139,141)	word(18,'the',143,145)	word(19,'activity',147,154)	word(20,'of',156,157)	word(21,'a',159,159)	word(22,'serine',161,166)	word(23,'phosphatase',168,178)	word(24,'SpoIIE',181,186)	word(25,'located',189,195)	word(26,'in',197,198)	word(27,'the',200,202)	word(28,'septum',204,209)
+agents	agent(24)
+targets	target(5)
+genic_interactions	genic_interaction(24,5)
+
+ID	10323866-2
+sentence	The SpoIIE phosphatase indirectly activates sigmaF by dephosphorylating a protein (SpoIIAA-P) in the pathway that controls the activity of the transcription factor.
+words	word(0,'The',0,2)	word(1,'SpoIIE',4,9)	word(2,'phosphatase',11,21)	word(3,'indirectly',23,32)	word(4,'activates',34,42)	word(5,'sigmaF',44,49)	word(6,'by',51,52)	word(7,'dephosphorylating',54,70)	word(8,'a',72,72)	word(9,'protein',74,80)	word(10,'SpoIIAA-P',83,91)	word(11,'in',94,95)	word(12,'the',97,99)	word(13,'pathway',101,107)	word(14,'that',109,112)	word(15,'controls',114,121)	word(16,'the',123,125)	word(17,'activity',127,134)	word(18,'of',136,137)	word(19,'the',139,141)	word(20,'transcription',143,155)	word(21,'factor',157,162)
+agents	agent(1)	agent(10)
+targets	target(5)	target(10)
+genic_interactions	genic_interaction(1,5)	genic_interaction(1,10)	genic_interaction(10,5)
+
+ID	10220166-12
+sentence	Three new sigmaB-dependent genes (ydaE, ydaG and yfkM) encoding proteins with still unknown functions were also described.
+words	word(0,'Three',0,4)	word(1,'new',6,8)	word(2,'sigmaB',10,15)	word(3,'dependent',17,25)	word(4,'genes',27,31)	word(5,'ydaE',34,37)	word(6,'ydaG',40,43)	word(7,'and',45,47)	word(8,'yfkM',49,52)	word(9,'encoding',55,62)	word(10,'proteins',64,71)	word(11,'with',73,76)	word(12,'still',78,82)	word(13,'unknown',84,90)	word(14,'functions',92,100)	word(15,'were',102,105)	word(16,'also',107,110)	word(17,'described',112,120)
+agents	agent(2)
+targets	target(5)	target(6)	target(8)
+genic_interactions	genic_interaction(2,5)	genic_interaction(2,6)	genic_interaction(2,8)
+
+ID	10075739-13
+sentence	These results suggest that a rising level of GerE in sporulating cells may first activate cotD transcription from the upstream site then repress transcription as the downstream site becomes occupied.
+words	word(0,'These',0,4)	word(1,'results',6,12)	word(2,'suggest',14,20)	word(3,'that',22,25)	word(4,'a',27,27)	word(5,'rising',29,34)	word(6,'level',36,40)	word(7,'of',42,43)	word(8,'GerE',45,48)	word(9,'in',50,51)	word(10,'sporulating',53,63)	word(11,'cells',65,69)	word(12,'may',71,73)	word(13,'first',75,79)	word(14,'activate',81,88)	word(15,'cotD',90,93)	word(16,'transcription',95,107)	word(17,'from',109,112)	word(18,'the',114,116)	word(19,'upstream',118,125)	word(20,'site',127,130)	word(21,'then',132,135)	word(22,'repress',137,143)	word(23,'transcription',145,157)	word(24,'as',159,160)	word(25,'the',162,164)	word(26,'downstream',166,175)	word(27,'site',177,180)	word(28,'becomes',182,188)	word(29,'occupied',190,197)
+agents	agent(8)
+targets	target(15)
+genic_interactions	genic_interaction(8,15)	genic_interaction(8,15)
+
+ID	9891799-3
+sentence	The class includes AsiA form bacteriophage T4, which inhibits Escherichia coli sigma 70; FlgM, present in both gram-positive and gram-negative bacteria, which inhibits the flagella sigma factor sigma 28; SpoIIAB, which inhibits the sporulation-specific sigma factor, sigma F and sigma G, of Bacillus subtilis; RbsW of B. subtilis, which inhibits stress response sigma factor sigma B; and DnaK, a general regulator of the heat shock response, which in bacteria inhibits the heat shock sigma factor sigma 32.
+words	word(0,'The',0,2)	word(1,'class',4,8)	word(2,'includes',10,17)	word(3,'AsiA',19,22)	word(4,'form',24,27)	word(5,'bacteriophage',29,41)	word(6,'T4',43,44)	word(7,'which',47,51)	word(8,'inhibits',53,60)	word(9,'Escherichia coli',62,77)	word(10,'sigma 70',79,86)	word(11,'FlgM',89,92)	word(12,'present',95,101)	word(13,'in',103,104)	word(14,'both',106,109)	word(15,'gram-positive',111,123)	word(16,'and',125,127)	word(17,'gram-negative',129,141)	word(18,'bacteria',143,150)	word(19,'which',153,157)	word(20,'inhibits',159,166)	word(21,'the',168,170)	word(22,'flagella',172,179)	word(23,'sigma',181,185)	word(24,'factor',187,192)	word(25,'sigma 28',194,201)	word(26,'SpoIIAB',204,210)	word(27,'which',213,217)	word(28,'inhibits',219,226)	word(29,'the',228,230)	word(30,'sporulation-specific',232,251)	word(31,'sigma',253,257)	word(32,'factor',259,264)	word(33,'sigma F',267,273)	word(34,'and',275,277)	word(35,'sigma G',279,285)	word(36,'of',288,289)	word(37,'Bacillus subtilis',291,307)	word(38,'RbsW',310,313)	word(39,'of',315,316)	word(40,'B. subtilis',318,328)	word(41,'which',331,335)	word(42,'inhibits',337,344)	word(43,'stress',346,351)	word(44,'response',353,360)	word(45,'sigma',362,366)	word(46,'factor',368,373)	word(47,'sigma B',375,381)	word(48,'and',384,386)	word(49,'DnaK',388,391)	word(50,'a',394,394)	word(51,'general',396,402)	word(52,'regulator',404,412)	word(53,'of',414,415)	word(54,'the',417,419)	word(55,'heat',421,424)	word(56,'shock',426,430)	word(57,'response',432,439)	word(58,'which',442,446)	word(59,'in',448,449)	word(60,'bacteria',451,458)	word(61,'inhibits',460,467)	word(62,'the',469,471)	word(63,'heat',473,476)	word(64,'shock',478,482)	word(65,'sigma',484,488)	word(66,'factor',490,495)	word(67,'sigma 32',497,504)
+agents	agent(26)	agent(11)	agent(38)	agent(49)
+targets	target(33)	target(35)	target(25)	target(47)	target(67)
+genic_interactions	genic_interaction(26,33)	genic_interaction(26,35)	genic_interaction(11,25)	genic_interaction(38,47)	genic_interaction(49,67)
+
+ID	9108277-6
+sentence	We have shown previously that the transcription of degR is driven by an alternative sigma factor, sigmaD.
+words	word(0,'We',0,1)	word(1,'have',3,6)	word(2,'shown',8,12)	word(3,'previously',14,23)	word(4,'that',25,28)	word(5,'the',30,32)	word(6,'transcription',34,46)	word(7,'of',48,49)	word(8,'degR',51,54)	word(9,'is',56,57)	word(10,'driven',59,64)	word(11,'by',66,67)	word(12,'an',69,70)	word(13,'alternative',72,82)	word(14,'sigma',84,88)	word(15,'factor',90,95)	word(16,'sigmaD',98,103)
+agents	agent(16)
+targets	target(8)
+genic_interactions	genic_interaction(16,8)
+
+ID	9922240-7
+sentence	Finally, we show that proper localization of SpoIVA required the expression of one or more genes which, like spoIVA, are under the control of the mother cell transcription factor sigmaE.
+words	word(0,'Finally',0,6)	word(1,'we',9,10)	word(2,'show',12,15)	word(3,'that',17,20)	word(4,'proper',22,27)	word(5,'localization',29,40)	word(6,'of',42,43)	word(7,'SpoIVA',45,50)	word(8,'required',52,59)	word(9,'the',61,63)	word(10,'expression',65,74)	word(11,'of',76,77)	word(12,'one',79,81)	word(13,'or',83,84)	word(14,'more',86,89)	word(15,'genes',91,95)	word(16,'which',97,101)	word(17,'like',104,107)	word(18,'spoIVA',109,114)	word(19,'are',117,119)	word(20,'under',121,125)	word(21,'the',127,129)	word(22,'control',131,137)	word(23,'of',139,140)	word(24,'the',142,144)	word(25,'mother',146,151)	word(26,'cell',153,156)	word(27,'transcription',158,170)	word(28,'factor',172,177)	word(29,'sigmaE',179,184)
+agents	agent(29)
+targets	target(18)
+genic_interactions	genic_interaction(29,18)
+
+ID	9852014-2
+sentence	In addition to the typical sigmaB-dependent, stress- and starvation-inducible pattern, yvyD is also induced in response to amino acid depletion.
+words	word(0,'In',0,1)	word(1,'addition',3,10)	word(2,'to',12,13)	word(3,'the',15,17)	word(4,'typical',19,25)	word(5,'sigmaB',27,32)	word(6,'dependent',34,42)	word(7,'stress-',45,51)	word(8,'and',53,55)	word(9,'starvation-inducible',57,76)	word(10,'pattern',78,84)	word(11,'yvyD',87,90)	word(12,'is',92,93)	word(13,'also',95,98)	word(14,'induced',100,106)	word(15,'in',108,109)	word(16,'response',111,118)	word(17,'to',120,121)	word(18,'amino',123,127)	word(19,'acid',129,132)	word(20,'depletion',134,142)
+agents	agent(5)
+targets	target(11)
+genic_interactions	genic_interaction(5,11)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+% GENIC INTERACTION EXPRESSED BY A PROTEIN BINDING TO A TARGET GENE PROMOTER %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ID	10400595-2
+sentence	GerE binds to a site on one of these promoters, cotX, that overlaps its -35 region.
+words	word(0,'GerE',0,3)	word(1,'binds',5,9)	word(2,'to',11,12)	word(3,'a',14,14)	word(4,'site',16,19)	word(5,'on',21,22)	word(6,'one',24,26)	word(7,'of',28,29)	word(8,'these',31,35)	word(9,'promoters',37,45)	word(10,'cotX',48,51)	word(11,'that',54,57)	word(12,'overlaps',59,66)	word(13,'its',68,70)	word(14,'-35',72,74)	word(15,'region',76,81)
+agents	agent(0)
+targets	target(10)
+genic_interactions	genic_interaction(0,10)
+
+ID	10333516-3
+sentence	The sspH and sspL genes are recognized primarily by the forespore-specific sigma factor for RNA polymerase, sigmaG; the sspN-tlp operon is recognized equally well by sigmaG and the other forespore-specific sigma factor, sigmaF.
+words	word(0,'The',0,2)	word(1,'sspH',4,7)	word(2,'and',9,11)	word(3,'sspL',13,16)	word(4,'genes',18,22)	word(5,'are',24,26)	word(6,'recognized',28,37)	word(7,'primarily',39,47)	word(8,'by',49,50)	word(9,'the',52,54)	word(10,'forespore-specific',56,73)	word(11,'sigma',75,79)	word(12,'factor',81,86)	word(13,'for',88,90)	word(14,'RNA',92,94)	word(15,'polymerase',96,105)	word(16,'sigmaG',108,113)	word(17,'the',116,118)	word(18,'sspN',120,123)	word(19,'tlp',125,127)	word(20,'operon',129,134)	word(21,'is',136,137)	word(22,'recognized',139,148)	word(23,'equally',150,156)	word(24,'well',158,161)	word(25,'by',163,164)	word(26,'sigmaG',166,171)	word(27,'and',173,175)	word(28,'the',177,179)	word(29,'other',181,185)	word(30,'forespore-specific',187,204)	word(31,'sigma',206,210)	word(32,'factor',212,217)	word(33,'sigmaF',220,225)
+agents	agent(16)	agent(26)	agent(33)
+targets	target(1)	target(18)	target(3)	target(19)
+genic_interactions	genic_interaction(16,1)	genic_interaction(26,18)	genic_interaction(16,3)	genic_interaction(26,19)	genic_interaction(33,18)	genic_interaction(33,19)
+
+ID	9852015-9
+sentence	Our data demonstrate that the CtsR protein acts as a global repressor of the clpC operon, as well as other class III heat shock genes, by preventing unstressed transcription from either the sigmaB- or sigmaA-dependent promoter and might be inactivated or dissociate under inducing stress conditions.
+words	word(0,'Our',0,2)	word(1,'data',4,7)	word(2,'demonstrate',9,19)	word(3,'that',21,24)	word(4,'the',26,28)	word(5,'CtsR',30,33)	word(6,'protein',35,41)	word(7,'acts',43,46)	word(8,'as',48,49)	word(9,'a',51,51)	word(10,'global',53,58)	word(11,'repressor',60,68)	word(12,'of',70,71)	word(13,'the',73,75)	word(14,'clpC',77,80)	word(15,'operon',82,87)	word(16,'as',90,91)	word(17,'well',93,96)	word(18,'as',98,99)	word(19,'other',101,105)	word(20,'class',107,111)	word(21,'III',113,115)	word(22,'heat',117,120)	word(23,'shock',122,126)	word(24,'genes',128,132)	word(25,'by',135,136)	word(26,'preventing',138,147)	word(27,'unstressed',149,158)	word(28,'transcription',160,172)	word(29,'from',174,177)	word(30,'either',179,184)	word(31,'the',186,188)	word(32,'sigmaB',190,195)	word(33,'or',198,199)	word(34,'sigmaA',201,206)	word(35,'dependent',208,216)	word(36,'promoter',218,225)	word(37,'and',227,229)	word(38,'might',231,235)	word(39,'be',237,238)	word(40,'inactivated',240,250)	word(41,'or',252,253)	word(42,'dissociate',255,264)	word(43,'under',266,270)	word(44,'inducing',272,279)	word(45,'stress',281,286)	word(46,'conditions',288,297)
+agents	agent(5)	agent(32)	agent(34)
+targets	target(14)
+genic_interactions	genic_interaction(5,14)	genic_interaction(32,14)	genic_interaction(34,14)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                             %
+% GENIC INTERACTION EXPRESSED BY MEMBERSHIP TO REGULON FAMILY %
+%                                                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ID	9987136-5
+sentence	The sigma W regulon includes a penicillin binding protein (PBP4*) and a co-transcribed amino acid racemase (RacX), homologues of signal peptide peptidase (YteI), flotillin (YuaG), ABC transporters (YknXYZ), non-haem bromoperoxidase (YdjP), epoxide hydrolase (YfhM) and three small peptides with structural similarities to bacteriocin precursor polypeptides.
+words	word(0,'The',0,2)	word(1,'sigma W',4,10)	word(2,'regulon',12,18)	word(3,'includes',20,27)	word(4,'a',29,29)	word(5,'penicillin',31,40)	word(6,'binding',42,48)	word(7,'protein',50,56)	word(8,'PBP4*',59,63)	word(9,'and',66,68)	word(10,'a',70,70)	word(11,'co-transcribed',72,85)	word(12,'amino',87,91)	word(13,'acid',93,96)	word(14,'racemase',98,105)	word(15,'RacX',108,111)	word(16,'homologues',115,124)	word(17,'of',126,127)	word(18,'signal',129,134)	word(19,'peptide',136,142)	word(20,'peptidase',144,152)	word(21,'YteI',155,158)	word(22,'flotillin',162,170)	word(23,'YuaG',173,176)	word(24,'ABC',180,182)	word(25,'transporters',184,195)	word(26,'YknXYZ',198,203)	word(27,'non-haem',207,214)	word(28,'bromoperoxidase',216,230)	word(29,'YdjP',233,236)	word(30,'epoxide',240,246)	word(31,'hydrolase',248,256)	word(32,'YfhM',259,262)	word(33,'and',265,267)	word(34,'three',269,273)	word(35,'small',275,279)	word(36,'peptides',281,288)	word(37,'with',290,293)	word(38,'structural',295,304)	word(39,'similarities',306,317)	word(40,'to',319,320)	word(41,'bacteriocin',322,332)	word(42,'precursor',334,342)	word(43,'polypeptides',344,355)
+agents	agent(1)
+targets	target(8)	target(15)	target(21)	target(23)	target(26)	target(29)	target(32)
+genic_interactions	genic_interaction(1,8)	genic_interaction(1,15)	genic_interaction(1,21)	genic_interaction(1,23)	genic_interaction(1,26)	genic_interaction(1,29)	genic_interaction(1,32)
+

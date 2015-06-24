@@ -1,0 +1,515 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                   %
+% GENIC INTERACTION EXPRESSED BY AN EXPLICIT ACTION %
+%                                                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ID	11069677-3
+sentence	In vivo studies of the activity of four of the kinases, KinA, KinC, KinD (ykvD) and KinE (ykrQ), using abrB transcription as an indicator of Spo0A~P level, revealed that KinC and KinD were responsible for Spo0A~P production during the exponential phase of growth in the absence of KinA and KinB.
+words	word(0,'In',0,1)	word(1,'vivo',3,6)	word(2,'studies',8,14)	word(3,'of',16,17)	word(4,'the',19,21)	word(5,'activity',23,30)	word(6,'of',32,33)	word(7,'four',35,38)	word(8,'of',40,41)	word(9,'the',43,45)	word(10,'kinases',47,53)	word(11,'KinA',56,59)	word(12,'KinC',62,65)	word(13,'KinD',68,71)	word(14,'ykvD',74,77)	word(15,'and',80,82)	word(16,'KinE',84,87)	word(17,'ykrQ',90,93)	word(18,'using',97,101)	word(19,'abrB',103,106)	word(20,'transcription',108,120)	word(21,'as',122,123)	word(22,'an',125,126)	word(23,'indicator',128,136)	word(24,'of',138,139)	word(25,'Spo0A~P',141,147)	word(26,'level',149,153)	word(27,'revealed',156,163)	word(28,'that',165,168)	word(29,'KinC',170,173)	word(30,'and',175,177)	word(31,'KinD',179,182)	word(32,'were',184,187)	word(33,'responsible',189,199)	word(34,'for',201,203)	word(35,'Spo0A~P',205,211)	word(36,'production',213,222)	word(37,'during',224,229)	word(38,'the',231,233)	word(39,'exponential',235,245)	word(40,'phase',247,251)	word(41,'of',253,254)	word(42,'growth',256,261)	word(43,'in',263,264)	word(44,'the',266,268)	word(45,'absence',270,276)	word(46,'of',278,279)	word(47,'KinA',281,284)	word(48,'and',286,288)	word(49,'KinB',290,293)
+lemmas	lemma(0,'in')	lemma(1,'vivo')	lemma(2,'study')	lemma(3,'of')	lemma(4,'the')	lemma(5,'activity')	lemma(6,'of')	lemma(7,'four')	lemma(8,'of')	lemma(9,'the')	lemma(10,'kinase')	lemma(11,'KinA')	lemma(12,'KinC')	lemma(13,'KinD')	lemma(14,'kinD')	lemma(15,'and')	lemma(16,'KinE')	lemma(17,'kinE')	lemma(18,'use')	lemma(19,'abrB')	lemma(20,'transcription')	lemma(21,'as')	lemma(22,'an')	lemma(23,'indicator')	lemma(24,'of')	lemma(25,'Spo0A-P')	lemma(26,'level')	lemma(27,'reveal')	lemma(28,'that')	lemma(29,'KinC')	lemma(30,'and')	lemma(31,'KinD')	lemma(32,'be')	lemma(33,'responsible')	lemma(34,'for')	lemma(35,'Spo0A-P')	lemma(36,'production')	lemma(37,'during')	lemma(38,'the')	lemma(39,'exponential')	lemma(40,'phase')	lemma(41,'of')	lemma(42,'growth')	lemma(43,'in')	lemma(44,'the')	lemma(45,'absence')	lemma(46,'of')	lemma(47,'KinA')	lemma(48,'and')	lemma(49,'KinB')
+syntactic_relations	relation('comp_in:N-N',2,1)	relation('comp_of:N-N',2,5)	relation('comp_of:N-N',5,7)	relation('comp_of:N-N',7,10)	relation('appos',10,11)	relation('appos',10,13)	relation('appos',10,12)	relation('appos',10,16)	relation('appos',13,14)	relation('appos',16,17)	relation('subj:V-N',18,2)	relation('obj:V-N',18,20)	relation('mod_att:N-N',20,19)	relation('comp_as:V-N',18,23)	relation('comp_of:N-N',23,26)	relation('mod_att:N-N',26,25)	relation('subj:V-N',27,2)	relation('mod_pred:N-ADJ',29,33)	relation('mod_pred:N-ADJ',31,33)	relation('comp_for:ADJ-N',33,36)	relation('mod_att:N-N',36,35)	relation('comp_during:ADJ-N',33,40)	relation('comp_of:N-N',40,42)	relation('comp_in:ADJ-N',33,45)	relation('comp_of:N-N',45,47)	relation('comp_of:N-N',45,49)	relation('mod_att:N-ADJ',40,39)
+agents	agent(29)	agent(31)
+targets	target(35)
+genic_interactions	genic_interaction(29,35)	genic_interaction(31,35)
+
+ID	11064201-3
+sentence	In this mutant, expression of the spoIIG gene, whose transcription depends on both sigma(A) and the phosphorylated Spo0A protein, Spo0A~P, a major transcription factor during early stages of sporulation, was greatly reduced at 43 degrees C.
+words	word(0,'In',0,1)	word(1,'this',3,6)	word(2,'mutant',8,13)	word(3,'expression',16,25)	word(4,'of',27,28)	word(5,'the',30,32)	word(6,'spoIIG',34,39)	word(7,'gene',41,44)	word(8,'whose',47,51)	word(9,'transcription',53,65)	word(10,'depends',67,73)	word(11,'on',75,76)	word(12,'both',78,81)	word(13,'sigma(A)',83,90)	word(14,'and',92,94)	word(15,'the',96,98)	word(16,'phosphorylated',100,113)	word(17,'Spo0A',115,119)	word(18,'protein',121,127)	word(19,'Spo0A~P',130,136)	word(20,'a',139,139)	word(21,'major',141,145)	word(22,'transcription',147,159)	word(23,'factor',161,166)	word(24,'during',168,173)	word(25,'early',175,179)	word(26,'stages',181,186)	word(27,'of',188,189)	word(28,'sporulation',191,201)	word(29,'was',204,206)	word(30,'greatly',208,214)	word(31,'reduced',216,222)	word(32,'at',224,225)	word(33,'43',227,228)	word(34,'degrees',230,236)	word(35,'C',238,238)
+lemmas	lemma(0,'in')	lemma(1,'this')	lemma(2,'mutant')	lemma(3,'expression')	lemma(4,'of')	lemma(5,'the')	lemma(6,'spoIIG')	lemma(7,'gene')	lemma(8,'whose')	lemma(9,'transcription')	lemma(10,'depend')	lemma(11,'on')	lemma(12,'both')	lemma(13,'sigA')	lemma(14,'and')	lemma(15,'the')	lemma(16,'phosphorylated')	lemma(17,'spo0A')	lemma(18,'protein')	lemma(19,'Spo0A-P')	lemma(20,'a')	lemma(21,'major')	lemma(22,'transcription')	lemma(23,'factor')	lemma(24,'during')	lemma(25,'early')	lemma(26,'stage')	lemma(27,'of')	lemma(28,'sporulation')	lemma(29,'be')	lemma(30,'greatly')	lemma(31,'reduce')	lemma(32,'at')	lemma(33,'43')	lemma(34,'degree')	lemma(35,'C')
+syntactic_relations	relation('subj:V_PASS-N',31,3)	relation('mod_att:N-N',7,6)	relation('mod_att:N-ADJ',34,33)	relation('comp_during:N-N',23,26)	relation('comp_of:N-N',26,28)	relation('comp_on:V-N',10,13)	relation('mod_att:N-N',23,22)	relation('mod_att:N-ADJ',18,16)	relation('mod:V_PASS-ADV',31,30)	relation('mod_att:N-ADJ',26,25)	relation('mod_att:N-ADJ',23,21)	relation('mod_att:N-N',18,17)	relation('comp_on:V-N',10,18)	relation('appos',19,23)	relation('subj:V-N',10,9)	relation('appos',18,19)	relation('comp_of:N-N',3,7)	relation('comp_in:V-N',31,2)	relation('comp_of:N-N',9,7)	relation('comp_at:V_PASS-N',31,34)	relation('mod_att:N-N',34,35)
+agents	agent(13)	agent(17)
+targets	target(6)
+genic_interactions	genic_interaction(13,6)	genic_interaction(17,6)
+
+ID	11011148-3
+sentence	Transcription of ydhD was dependent on SigE, and the mRNA was detectable from 2 h after the cessation of logarithmic growth (T2 of sporulation).
+words	word(0,'Transcription',0,12)	word(1,'of',14,15)	word(2,'ydhD',17,20)	word(3,'was',22,24)	word(4,'dependent',26,34)	word(5,'on',36,37)	word(6,'SigE',39,42)	word(7,'and',45,47)	word(8,'the',49,51)	word(9,'mRNA',53,56)	word(10,'was',58,60)	word(11,'detectable',62,71)	word(12,'from',73,76)	word(13,'2',78,78)	word(14,'h',80,80)	word(15,'after',82,86)	word(16,'the',88,90)	word(17,'cessation',92,100)	word(18,'of',102,103)	word(19,'logarithmic',105,115)	word(20,'growth',117,122)	word(21,'T2',125,126)	word(22,'of',128,129)	word(23,'sporulation',131,141)
+lemmas	lemma(0,'transcription')	lemma(1,'of')	lemma(2,'ydhD')	lemma(3,'be')	lemma(4,'dependent')	lemma(5,'on')	lemma(6,'SigE')	lemma(7,'and')	lemma(8,'the')	lemma(9,'mRNA')	lemma(10,'be')	lemma(11,'detectable')	lemma(12,'from')	lemma(13,'2')	lemma(14,'h')	lemma(15,'after')	lemma(16,'the')	lemma(17,'cessation')	lemma(18,'of')	lemma(19,'logarithmic')	lemma(20,'growth')	lemma(21,'T2')	lemma(22,'of')	lemma(23,'sporulation')
+syntactic_relations	relation('comp_from:ADJ-N',11,14)	relation('mod_pred:N-ADJ',9,11)	relation('comp_on:ADJ-N',4,6)	relation('comp_of:N-N',17,20)	relation('comp_of:N-N',0,2)	relation('comp_after:N-N',14,17)	relation('mod_att:N-ADJ',14,13)	relation('comp_of:N-N',21,23)	relation('mod_att:N-ADJ',20,19)	relation('appos',20,21)	relation('mod_pred:N-ADJ',0,4)
+agents	agent(6)
+targets	target(2)
+genic_interactions	genic_interaction(6,2)
+
+ID	11011148-4
+sentence	ykuD was transcribed by SigK RNA polymerase from T4 of sporulation.
+words	word(0,'ykuD',0,3)	word(1,'was',5,7)	word(2,'transcribed',9,19)	word(3,'by',21,22)	word(4,'SigK',24,27)	word(5,'RNA',29,31)	word(6,'polymerase',33,42)	word(7,'from',44,47)	word(8,'T4',49,50)	word(9,'of',52,53)	word(10,'sporulation',55,65)
+lemmas	lemma(0,'ykuD')	lemma(1,'be')	lemma(2,'transcribe')	lemma(3,'by')	lemma(4,'SigK')	lemma(5,'RNA')	lemma(6,'polymerase')	lemma(7,'from')	lemma(8,'T4')	lemma(9,'of')	lemma(10,'sporulation')
+syntactic_relations	relation('comp_by:V_PASS-N',2,6)	relation('subj:V_PASS-N',2,0)	relation('mod_att:N-N',6,5)	relation('comp_of:N-N',8,10)	relation('mod_att:N-N',6,4)	relation('comp_from:V_PASS-N',2,8)
+agents	agent(4)
+targets	target(0)
+genic_interactions	genic_interaction(4,0)
+
+ID	11011148-5
+sentence	Both SigK and GerE were essential for ykvP expression, and this gene was transcribed from T5 of sporulation.
+words	word(0,'Both',0,3)	word(1,'SigK',5,8)	word(2,'and',10,12)	word(3,'GerE',14,17)	word(4,'were',19,22)	word(5,'essential',24,32)	word(6,'for',34,36)	word(7,'ykvP',38,41)	word(8,'expression',43,52)	word(9,'and',55,57)	word(10,'this',59,62)	word(11,'gene',64,67)	word(12,'was',69,71)	word(13,'transcribed',73,83)	word(14,'from',85,88)	word(15,'T5',90,91)	word(16,'of',93,94)	word(17,'sporulation',96,106)
+lemmas	lemma(0,'both')	lemma(1,'SigK')	lemma(2,'and')	lemma(3,'GerE')	lemma(4,'be')	lemma(5,'essential')	lemma(6,'for')	lemma(7,'ykvP')	lemma(8,'expression')	lemma(9,'and')	lemma(10,'this')	lemma(11,'gene')	lemma(12,'be')	lemma(13,'transcribe')	lemma(14,'from')	lemma(15,'T5')	lemma(16,'of')	lemma(17,'sporulation')
+syntactic_relations	relation('mod_att:N-N',8,7)	relation('mod_pred:N-ADJ',3,5)	relation('mod_pred:N-ADJ',1,5)	relation('comp_for:ADJ-N',5,8)	relation('subj:V_PASS-N',13,11)	relation('comp_of:N-N',15,17)	relation('comp_from:V_PASS-N',13,15)
+agents	agent(1)	agent(3)
+targets	target(7)
+genic_interactions	genic_interaction(1,7)	genic_interaction(3,7)
+
+ID	10767540-2
+sentence	Analysis of the expression of a translational ywhE-lacZ fusion showed that ywhE expression is sporulation-specific, and is controlled predominantly by the forespore-specific sigma factor sigma(F), and to a lesser extent by sigma(G).
+words	word(0,'Analysis',0,7)	word(1,'of',9,10)	word(2,'the',12,14)	word(3,'expression',16,25)	word(4,'of',27,28)	word(5,'a',30,30)	word(6,'translational',32,44)	word(7,'ywhE',46,49)	word(8,'lacZ',51,54)	word(9,'fusion',56,61)	word(10,'showed',63,68)	word(11,'that',70,73)	word(12,'ywhE',75,78)	word(13,'expression',80,89)	word(14,'is',91,92)	word(15,'sporulation-specific',94,113)	word(16,'and',116,118)	word(17,'is',120,121)	word(18,'controlled',123,132)	word(19,'predominantly',134,146)	word(20,'by',148,149)	word(21,'the',151,153)	word(22,'forespore-specific',155,172)	word(23,'sigma',174,178)	word(24,'factor',180,185)	word(25,'sigma(F)',187,194)	word(26,'and',197,199)	word(27,'to',201,202)	word(28,'a',204,204)	word(29,'lesser',206,211)	word(30,'extent',213,218)	word(31,'by',220,221)	word(32,'sigma(G)',223,230)
+lemmas	lemma(0,'analysis')	lemma(1,'of')	lemma(2,'the')	lemma(3,'expression')	lemma(4,'of')	lemma(5,'a')	lemma(6,'translational')	lemma(7,'ywhE')	lemma(8,'lacZ')	lemma(9,'fusion')	lemma(10,'show')	lemma(11,'that')	lemma(12,'ywhE')	lemma(13,'expression')	lemma(14,'be')	lemma(15,'sporulation-specific')	lemma(16,'and')	lemma(17,'be')	lemma(18,'control')	lemma(19,'predominantly')	lemma(20,'by')	lemma(21,'the')	lemma(22,'forespore-specific')	lemma(23,'sigma')	lemma(24,'factor')	lemma(25,'sigF')	lemma(26,'and')	lemma(27,'to')	lemma(28,'a')	lemma(29,'lesser')	lemma(30,'extent')	lemma(31,'by')	lemma(32,'sigG')
+syntactic_relations	relation('comp_of:N-N',0,3)	relation('comp_of:N-N',3,9)	relation('mod_att:N-ADJ',9,6)	relation('mod_att:N-N',8,7)	relation('mod_att:N-N',9,8)	relation('subj:V-N',10,0)	relation('mod_att:N-N',13,12)	relation('mod_pred:N-ADJ',13,15)	relation('subj:V_PASS-N',18,13)	relation('mod:V_PASS-ADV',18,19)	relation('comp_by:V_PASS-N',18,25)	relation('mod_att:N-N',25,24)	relation('mod_att:N-N',24,23)	relation('mod_att:N-ADJ',24,22)	relation('comp_by:V_PASS-N',18,32)	relation('mod_att:N-ADJ',30,29)	relation('comp_to:V_PASS-N',18,30)
+agents	agent(25)	agent(32)
+targets	target(12)
+genic_interactions	genic_interaction(25,12)	genic_interaction(32,12)
+
+ID	10747015-3
+sentence	Secondly, SpoIIE is essential for the activation of the first compartment-specific transcription factor sigma(F) in the prespore.
+words	word(0,'Secondly',0,7)	word(1,'SpoIIE',10,15)	word(2,'is',17,18)	word(3,'essential',20,28)	word(4,'for',30,32)	word(5,'the',34,36)	word(6,'activation',38,47)	word(7,'of',49,50)	word(8,'the',52,54)	word(9,'first',56,60)	word(10,'compartment-specific',62,81)	word(11,'transcription',83,95)	word(12,'factor',97,102)	word(13,'sigma(F)',104,111)	word(14,'in',113,114)	word(15,'the',116,118)	word(16,'prespore',120,127)
+lemmas	lemma(0,'secondly')	lemma(1,'SpoIIE')	lemma(2,'be')	lemma(3,'essential')	lemma(4,'for')	lemma(5,'the')	lemma(6,'activation')	lemma(7,'of')	lemma(8,'the')	lemma(9,'first')	lemma(10,'compartment-specific')	lemma(11,'transcription')	lemma(12,'factor')	lemma(13,'sigF')	lemma(14,'in')	lemma(15,'the')	lemma(16,'prespore')
+syntactic_relations	relation('mod_att:N-ADJ',12,9)	relation('comp_for:ADJ-N',3,6)	relation('comp_of:N-N',6,12)	relation('comp_in:N-N',6,16)	relation('mod:V-ADV',2,0)	relation('mod_att:N-N',12,13)	relation('mod_pred:N-ADJ',1,3)	relation('mod_att:N-ADJ',12,10)	relation('mod_att:N-N',12,11)
+agents	agent(1)
+targets	target(13)
+genic_interactions	genic_interaction(1,13)
+
+ID	10648512-3
+sentence	In the shaA mutant, sigma(H)-dependent expression of spo0A and spoVG at an early stage of sporulation was sensitive to external NaCl.
+words	word(0,'In',0,1)	word(1,'the',3,5)	word(2,'shaA',7,10)	word(3,'mutant',12,17)	word(4,'sigma(H)',20,27)	word(5,'dependent',29,37)	word(6,'expression',39,48)	word(7,'of',50,51)	word(8,'spo0A',53,57)	word(9,'and',59,61)	word(10,'spoVG',63,67)	word(11,'at',69,70)	word(12,'an',72,73)	word(13,'early',75,79)	word(14,'stage',81,85)	word(15,'of',87,88)	word(16,'sporulation',90,100)	word(17,'was',102,104)	word(18,'sensitive',106,114)	word(19,'to',116,117)	word(20,'external',119,126)	word(21,'NaCl',128,131)
+lemmas	lemma(0,'in')	lemma(1,'the')	lemma(2,'mrpA')	lemma(3,'mutant')	lemma(4,'sigH')	lemma(5,'dependent')	lemma(6,'expression')	lemma(7,'of')	lemma(8,'spo0A')	lemma(9,'and')	lemma(10,'spoVG')	lemma(11,'at')	lemma(12,'an')	lemma(13,'early')	lemma(14,'stage')	lemma(15,'of')	lemma(16,'sporulation')	lemma(17,'be')	lemma(18,'sensitive')	lemma(19,'to')	lemma(20,'external')	lemma(21,'NaCl')
+syntactic_relations	relation('comp_at:N-N',6,14)	relation('comp_of:N-N',14,16)	relation('comp_in:N-N',17,3)	relation('comp_of:N-N',6,10)	relation('mod_att:N-ADJ',6,5)	relation('mod:ADJ-N',5,4)	relation('mod_att:N-ADJ',21,20)	relation('comp_of:N-N',6,8)	relation('mod_att:N-ADJ',14,13)	relation('mod_att:N-N',3,2)	relation('comp_to:ADJ-N',18,21)	relation('mod_pred:N-ADJ',6,18)
+agents	agent(4)
+targets	target(8)	target(10)
+genic_interactions	genic_interaction(4,8)	genic_interaction(4,10)
+
+ID	10629188-5
+sentence	The expression of rsfA is under the control of both sigma(F) and sigma(G).
+words	word(0,'The',0,2)	word(1,'expression',4,13)	word(2,'of',15,16)	word(3,'rsfA',18,21)	word(4,'is',23,24)	word(5,'under',26,30)	word(6,'the',32,34)	word(7,'control',36,42)	word(8,'of',44,45)	word(9,'both',47,50)	word(10,'sigma(F)',52,59)	word(11,'and',61,63)	word(12,'sigma(G)',65,72)
+lemmas	lemma(0,'the')	lemma(1,'expression')	lemma(2,'of')	lemma(3,'rsfA')	lemma(4,'be')	lemma(5,'under')	lemma(6,'the')	lemma(7,'control')	lemma(8,'of')	lemma(9,'both')	lemma(10,'sigF')	lemma(11,'and')	lemma(12,'sigG')
+syntactic_relations	relation('comp_of:N-N',1,3)	relation('subj:V-N',4,1)	relation('comp_under:V-N',4,7)	relation('comp_of:N-N',7,10)	relation('comp_of:N-N',7,12)
+agents	agent(10)	agent(12)
+targets	target(3)
+genic_interactions	genic_interaction(10,3)	genic_interaction(12,3)
+
+ID	10515909-4
+sentence	Expression of the sigma(K)-dependent cwlH gene depended on gerE.
+words	word(0,'Expression',0,9)	word(1,'of',11,12)	word(2,'the',14,16)	word(3,'sigma(K)',18,25)	word(4,'dependent',27,35)	word(5,'cwlH',37,40)	word(6,'gene',42,45)	word(7,'depended',47,54)	word(8,'on',56,57)	word(9,'gerE',59,62)
+lemmas	lemma(0,'expression')	lemma(1,'of')	lemma(2,'the')	lemma(3,'sigK')	lemma(4,'dependent')	lemma(5,'cwlH')	lemma(6,'gene')	lemma(7,'depend')	lemma(8,'on')	lemma(9,'gerE')
+syntactic_relations	relation('subj:V-N',7,0)	relation('mod_att:N-ADJ',6,4)	relation('mod:ADJ-N',4,3)	relation('mod_att:N-N',6,5)	relation('comp_of:N-N',0,6)	relation('comp_on:V-N',7,9)
+agents	agent(3)	agent(9)
+targets	target(5)
+genic_interactions	genic_interaction(3,5)	genic_interaction(9,5)
+
+ID	10503549-5
+sentence	Our results indicate that the level of KatX level in outgrowing spores depends mainly on EsigmaF, because sigB mutants show normal KatX activity in dormant and outgrowing spores.
+words	word(0,'Our',0,2)	word(1,'results',4,10)	word(2,'indicate',12,19)	word(3,'that',21,24)	word(4,'the',26,28)	word(5,'level',30,34)	word(6,'of',36,37)	word(7,'KatX',39,42)	word(8,'level',44,48)	word(9,'in',50,51)	word(10,'outgrowing',53,62)	word(11,'spores',64,69)	word(12,'depends',71,77)	word(13,'mainly',79,84)	word(14,'on',86,87)	word(15,'EsigmaF',89,95)	word(16,'because',98,104)	word(17,'sigB',106,109)	word(18,'mutants',111,117)	word(19,'show',119,122)	word(20,'normal',124,129)	word(21,'KatX',131,134)	word(22,'activity',136,143)	word(23,'in',145,146)	word(24,'dormant',148,154)	word(25,'and',156,158)	word(26,'outgrowing',160,169)	word(27,'spores',171,176)
+lemmas	lemma(0,'our')	lemma(1,'result')	lemma(2,'indicate')	lemma(3,'that')	lemma(4,'the')	lemma(5,'level')	lemma(6,'of')	lemma(7,'KatX')	lemma(8,'level')	lemma(9,'in')	lemma(10,'outgrow')	lemma(11,'swarm')	lemma(12,'depend')	lemma(13,'mainly')	lemma(14,'on')	lemma(15,'EsigmaF')	lemma(16,'because')	lemma(17,'sigB')	lemma(18,'mutant')	lemma(19,'show')	lemma(20,'normal')	lemma(21,'KatX')	lemma(22,'activity')	lemma(23,'in')	lemma(24,'dormant')	lemma(25,'and')	lemma(26,'outgrow')	lemma(27,'swarm')
+syntactic_relations	relation('comp_of:N-N',5,8)	relation('mod_att:N-N',18,17)	relation('comp_on:V-N',12,15)	relation('mod:V-ADV',12,13)	relation('comp_in:V-N',19,27)	relation('subj:V-N',19,18)	relation('mod_att:N-ADJ',11,10)	relation('subj:V-N',2,1)	relation('mod_att:N-N',22,21)	relation('mod_att:N-ADJ',27,26)	relation('mod_att:N-ADJ',27,24)	relation('obj:V-N',19,22)	relation('subj:V-N',12,5)	relation('mod_att:N-N',8,7)	relation('mod_att:N-ADJ',22,20)	relation('comp_in:N-N',8,11)
+agents	agent(15)
+targets	target(7)
+genic_interactions	genic_interaction(15,7)
+
+ID	10503549-7
+sentence	Therefore, the physiological role of sigmaB-dependent katX expression remains obscure.
+words	word(0,'Therefore',0,8)	word(1,'the',11,13)	word(2,'physiological',15,27)	word(3,'role',29,32)	word(4,'of',34,35)	word(5,'sigmaB',37,42)	word(6,'dependent',44,52)	word(7,'katX',54,57)	word(8,'expression',59,68)	word(9,'remains',70,76)	word(10,'obscure',78,84)
+lemmas	lemma(0,'therefore')	lemma(1,'the')	lemma(2,'physiological')	lemma(3,'role')	lemma(4,'of')	lemma(5,'sigB')	lemma(6,'dependent')	lemma(7,'katX')	lemma(8,'expression')	lemma(9,'remain')	lemma(10,'obscure')
+syntactic_relations	relation('mod_att:N-N',8,7)	relation('mod_att:N-ADJ',3,2)	relation('mod:ADJ-N',6,5)	relation('mod_pred:N-ADJ',3,10)	relation('mod_att:N-ADJ',8,6)	relation('comp_of:N-N',3,8)	relation('mod:V-ADV',9,0)
+agents	agent(5)
+targets	target(7)
+genic_interactions	genic_interaction(5,7)
+
+ID	10476035-10
+sentence	Taken together, the results support the idea that sequestration of SpoIIE protein into the prespore plays an important role in the control of sigmaF activation and in coupling this activation to septation.
+words	word(0,'Taken',0,4)	word(1,'together',6,13)	word(2,'the',16,18)	word(3,'results',20,26)	word(4,'support',28,34)	word(5,'the',36,38)	word(6,'idea',40,43)	word(7,'that',45,48)	word(8,'sequestration',50,62)	word(9,'of',64,65)	word(10,'SpoIIE',67,72)	word(11,'protein',74,80)	word(12,'into',82,85)	word(13,'the',87,89)	word(14,'prespore',91,98)	word(15,'plays',100,104)	word(16,'an',106,107)	word(17,'important',109,117)	word(18,'role',119,122)	word(19,'in',124,125)	word(20,'the',127,129)	word(21,'control',131,137)	word(22,'of',139,140)	word(23,'sigmaF',142,147)	word(24,'activation',149,158)	word(25,'and',160,162)	word(26,'in',164,165)	word(27,'coupling',167,174)	word(28,'this',176,179)	word(29,'activation',181,190)	word(30,'to',192,193)	word(31,'septation',195,203)
+lemmas	lemma(0,'take')	lemma(1,'together')	lemma(2,'the')	lemma(3,'result')	lemma(4,'support')	lemma(5,'the')	lemma(6,'idea')	lemma(7,'that')	lemma(8,'sequestration')	lemma(9,'of')	lemma(10,'SpoIIE')	lemma(11,'protein')	lemma(12,'into')	lemma(13,'the')	lemma(14,'prespore')	lemma(15,'play')	lemma(16,'an')	lemma(17,'important')	lemma(18,'role')	lemma(19,'in')	lemma(20,'the')	lemma(21,'control')	lemma(22,'of')	lemma(23,'sigF')	lemma(24,'activation')	lemma(25,'and')	lemma(26,'in')	lemma(27,'coupling')	lemma(28,'this')	lemma(29,'activation')	lemma(30,'to')	lemma(31,'septation')
+syntactic_relations	relation('comp_in:N-N',18,21)	relation('comp_of:N-N',21,24)	relation('subj:V-N',15,8)	relation('mod_att:N-N',24,23)	relation('mod_att:N-ADJ',18,17)	relation('comp_of:N-N',8,11)	relation('obj:V-N',27,29)	relation('mod_att:N-N',11,10)	relation('subj:V-N',4,3)	relation('obj:V-N',15,18)	relation('obj:V-N',4,6)	relation('comp_to:V-N',27,31)	relation('comp_into:N-N',8,14)	relation('comp_in:N-N',18,27)	relation('mod_att:N-ADJ',3,0)	relation('mod:ADJ-ADV',0,1)
+agents	agent(10)
+targets	target(23)
+genic_interactions	genic_interaction(10,23)
+
+ID	10468601-1
+sentence	The rocG gene of Bacillus subtilis, encoding a catabolic glutamate dehydrogenase, is transcribed by SigL-containing RNA polymerase and requires for its expression RocR, a member of the NtrC/NifA family of proteins that bind to enhancer-like elements, called upstream activating sequences (UAS).
+words	word(0,'The',0,2)	word(1,'rocG',4,7)	word(2,'gene',9,12)	word(3,'of',14,15)	word(4,'Bacillus subtilis',17,33)	word(5,'encoding',36,43)	word(6,'a',45,45)	word(7,'catabolic',47,55)	word(8,'glutamate',57,65)	word(9,'dehydrogenase',67,79)	word(10,'is',82,83)	word(11,'transcribed',85,95)	word(12,'by',97,98)	word(13,'SigL',100,103)	word(14,'containing',105,114)	word(15,'RNA',116,118)	word(16,'polymerase',120,129)	word(17,'and',131,133)	word(18,'requires',135,142)	word(19,'for',144,146)	word(20,'its',148,150)	word(21,'expression',152,161)	word(22,'RocR',163,166)	word(23,'a',169,169)	word(24,'member',171,176)	word(25,'of',178,179)	word(26,'the',181,183)	word(27,'NtrC/NifA',185,193)	word(28,'family',195,200)	word(29,'of',202,203)	word(30,'proteins',205,212)	word(31,'that',214,217)	word(32,'bind',219,222)	word(33,'to',224,225)	word(34,'enhancer-like',227,239)	word(35,'elements',241,248)	word(36,'called',251,256)	word(37,'upstream',258,265)	word(38,'activating',267,276)	word(39,'sequences',278,286)	word(40,'UAS',289,291)
+lemmas	lemma(0,'the')	lemma(1,'rocG')	lemma(2,'gene')	lemma(3,'of')	lemma(4,'Bacillus subtilis')	lemma(5,'encode')	lemma(6,'a')	lemma(7,'catabolic')	lemma(8,'glutamate')	lemma(9,'dehydrogenase')	lemma(10,'be')	lemma(11,'transcribe')	lemma(12,'by')	lemma(13,'SigL')	lemma(14,'contain')	lemma(15,'RNA')	lemma(16,'polymerase')	lemma(17,'and')	lemma(18,'require')	lemma(19,'for')	lemma(20,'its')	lemma(21,'expression')	lemma(22,'RocR')	lemma(23,'a')	lemma(24,'member')	lemma(25,'of')	lemma(26,'the')	lemma(27,'NtrC/NifA')	lemma(28,'family')	lemma(29,'of')	lemma(30,'protein')	lemma(31,'that')	lemma(32,'bind')	lemma(33,'to')	lemma(34,'enhancer-like')	lemma(35,'element')	lemma(36,'call')	lemma(37,'upstream')	lemma(38,'activate')	lemma(39,'sequence')	lemma(40,'UAS')
+syntactic_relations	relation('subj:V-N',32,30)	relation('subj:V-N',5,2)	relation('comp_of:N-N',24,28)	relation('mod_att:N-N',28,27)	relation('subj:V-N',18,2)	relation('appos',39,40)	relation('mod_att:N-ADJ',39,38)	relation('mod_att:N-ADJ',39,37)	relation('obj:V-N',5,9)	relation('mod_att:N-ADJ',16,14)	relation('mod:ADJ-N',14,13)	relation('comp_of:N-N',2,4)	relation('appos',22,24)	relation('comp_to:V-N',32,35)	relation('comp_by:V_PASS-N',11,16)	relation('mod_att:N-N',9,8)	relation('mod_att:N-ADJ',35,34)	relation('obj:V_PASS-N',36,39)	relation('subj:V_PASS-N',36,35)	relation('mod_att:N-N',2,1)	relation('mod_att:N-N',16,15)	relation('subj:V_PASS-N',11,2)	relation('obj:V-N',18,22)	relation('comp_for:V-N',18,21)	relation('comp_of:N-N',28,30)	relation('mod_att:N-ADJ',8,7)
+agents	agent(13)	agent(22)
+targets	target(1)
+genic_interactions	genic_interaction(13,1)	genic_interaction(22,1)
+
+ID	10464187-11
+sentence	In addition to controlling transcription of phrC, sigmaH appears to control expression of at least one other gene required for production of CSF.
+words	word(0,'In',0,1)	word(1,'addition',3,10)	word(2,'to',12,13)	word(3,'controlling',15,25)	word(4,'transcription',27,39)	word(5,'of',41,42)	word(6,'phrC',44,47)	word(7,'sigmaH',50,55)	word(8,'appears',57,63)	word(9,'to',65,66)	word(10,'control',68,74)	word(11,'expression',76,85)	word(12,'of',87,88)	word(13,'at',90,91)	word(14,'least',93,97)	word(15,'one',99,101)	word(16,'other',103,107)	word(17,'gene',109,112)	word(18,'required',114,121)	word(19,'for',123,125)	word(20,'production',127,136)	word(21,'of',138,139)	word(22,'CSF',141,143)
+lemmas	lemma(0,'in')	lemma(1,'addition')	lemma(2,'to')	lemma(3,'control')	lemma(4,'transcription')	lemma(5,'of')	lemma(6,'phrC')	lemma(7,'sigH')	lemma(8,'appear')	lemma(9,'to')	lemma(10,'control')	lemma(11,'expression')	lemma(12,'of')	lemma(13,'at')	lemma(14,'least')	lemma(15,'one')	lemma(16,'other')	lemma(17,'gene')	lemma(18,'require')	lemma(19,'for')	lemma(20,'production')	lemma(21,'of')	lemma(22,'CSF')
+syntactic_relations	relation('comp_to:N-V',1,3)	relation('comp_of:N-N',20,22)	relation('subj:V-N',10,7)	relation('comp_of:N-N',11,17)	relation('comp_for:V_PASS-N',18,20)	relation('obj:V-N',10,11)	relation('comp_in:V-N',8,1)	relation('comp_of:N-N',4,6)	relation('obj:V-N',3,4)	relation('subj:V_PASS-N',18,17)	relation('mod_att:N-ADJ',17,15)
+agents	agent(7)
+targets	target(6)
+genic_interactions	genic_interaction(7,6)
+
+ID	10463184-4
+sentence	Northern blot and primer extension analyses indicated that yfhS is transcribed by E sigma E during sporulation.
+words	word(0,'Northern',0,7)	word(1,'blot',9,12)	word(2,'and',14,16)	word(3,'primer',18,23)	word(4,'extension',25,33)	word(5,'analyses',35,42)	word(6,'indicated',44,52)	word(7,'that',54,57)	word(8,'yfhS',59,62)	word(9,'is',64,65)	word(10,'transcribed',67,77)	word(11,'by',79,80)	word(12,'E sigma E',82,90)	word(13,'during',92,97)	word(14,'sporulation',99,109)
+lemmas	lemma(0,'northern')	lemma(1,'blot')	lemma(2,'and')	lemma(3,'prime')	lemma(4,'extension')	lemma(5,'analysis')	lemma(6,'indicate')	lemma(7,'that')	lemma(8,'yfhS')	lemma(9,'be')	lemma(10,'transcribe')	lemma(11,'by')	lemma(12,'E sigma E')	lemma(13,'during')	lemma(14,'sporulation')
+syntactic_relations	relation('comp_by:V_PASS-N',10,12)	relation('subj:V-N',6,5)	relation('mod_att:N-N',1,0)	relation('mod_att:N-N',4,3)	relation('mod_att:N-N',5,1)	relation('mod_att:N-N',5,4)	relation('subj:V_PASS-N',10,8)	relation('comp_during:V_PASS-N',10,14)
+agents	agent(12)
+targets	target(8)
+genic_interactions	genic_interaction(12,8)
+
+ID	10463184-8
+sentence	These results suggest that YfhP may act as a negative regulator for the transcription of yfhQ, yfhR, sspE and yfhP.
+words	word(0,'These',0,4)	word(1,'results',6,12)	word(2,'suggest',14,20)	word(3,'that',22,25)	word(4,'YfhP',27,30)	word(5,'may',32,34)	word(6,'act',36,38)	word(7,'as',40,41)	word(8,'a',43,43)	word(9,'negative',45,52)	word(10,'regulator',54,62)	word(11,'for',64,66)	word(12,'the',68,70)	word(13,'transcription',72,84)	word(14,'of',86,87)	word(15,'yfhQ',89,92)	word(16,'yfhR',95,98)	word(17,'sspE',101,104)	word(18,'and',106,108)	word(19,'yfhP',110,113)
+lemmas	lemma(0,'these')	lemma(1,'result')	lemma(2,'suggest')	lemma(3,'that')	lemma(4,'YfhP')	lemma(5,'may')	lemma(6,'act')	lemma(7,'as')	lemma(8,'a')	lemma(9,'negative')	lemma(10,'regulator')	lemma(11,'for')	lemma(12,'the')	lemma(13,'transcription')	lemma(14,'of')	lemma(15,'yfhQ')	lemma(16,'fabL')	lemma(17,'sspE')	lemma(18,'and')	lemma(19,'yfhP')
+syntactic_relations	relation('comp_as:V-N',6,10)	relation('comp_of:N-N',13,19)	relation('subj:V-N',6,4)	relation('comp_for:N-N',10,13)	relation('mod_att:N-ADJ',10,9)	relation('subj:V-N',2,1)	relation('comp_of:N-N',13,15)	relation('comp_of:N-N',13,17)	relation('comp_of:N-N',13,16)
+agents	agent(4)
+targets	target(15)	target(16)	target(17)	target(19)
+genic_interactions	genic_interaction(4,15)	genic_interaction(4,16)	genic_interaction(4,17)	genic_interaction(4,19)
+
+ID	10383978-4
+sentence	Production of sigmaK about 1 h earlier than normal does affect Spo0A, which when phosphorylated is an activator of sigE transcription.
+words	word(0,'Production',0,9)	word(1,'of',11,12)	word(2,'sigmaK',14,19)	word(3,'about',21,25)	word(4,'1',27,27)	word(5,'h',29,29)	word(6,'earlier',31,37)	word(7,'than',39,42)	word(8,'normal',44,49)	word(9,'does',51,54)	word(10,'affect',56,61)	word(11,'Spo0A',63,67)	word(12,'which',70,74)	word(13,'when',76,79)	word(14,'phosphorylated',81,94)	word(15,'is',96,97)	word(16,'an',99,100)	word(17,'activator',102,110)	word(18,'of',112,113)	word(19,'sigE',115,118)	word(20,'transcription',120,132)
+lemmas	lemma(0,'production')	lemma(1,'of')	lemma(2,'sigK')	lemma(3,'about')	lemma(4,'1')	lemma(5,'h')	lemma(6,'early')	lemma(7,'than')	lemma(8,'normal')	lemma(9,'do')	lemma(10,'affect')	lemma(11,'spo0A')	lemma(12,'which')	lemma(13,'when')	lemma(14,'phosphorylated')	lemma(15,'be')	lemma(16,'an')	lemma(17,'activator')	lemma(18,'of')	lemma(19,'sigE')	lemma(20,'transcription')
+syntactic_relations	relation('mod_att:N-N',20,19)	relation('comp_of:N-N',17,20)	relation('subj:V-N',10,0)	relation('comp_of:N-N',0,2)	relation('obj:V-N',10,11)	relation('mod_pred:N-N',11,17)	relation('mod_post:N-ADJ',0,6)	relation('mod:ADJ-N',6,5)	relation('mod_att:N-ADJ',5,4)	relation('mod:ADJ-ADV',4,3)	relation('comp_than:ADJ-N',6,8)	relation('subj:V_PASS-N',14,11)
+agents	agent(2)	agent(11)
+targets	target(11)	target(19)
+genic_interactions	genic_interaction(2,11)	genic_interaction(11,19)
+
+ID	10323866-7
+sentence	The first stage, which involves the phosphatase function of SpoIIE, depends on the cell division protein FtsZ and could correspond to the FtsZ-dependent assembly of SpoIIE into E-rings.
+words	word(0,'The',0,2)	word(1,'first',4,8)	word(2,'stage',10,14)	word(3,'which',17,21)	word(4,'involves',23,30)	word(5,'the',32,34)	word(6,'phosphatase',36,46)	word(7,'function',48,55)	word(8,'of',57,58)	word(9,'SpoIIE',60,65)	word(10,'depends',68,74)	word(11,'on',76,77)	word(12,'the',79,81)	word(13,'cell',83,86)	word(14,'division',88,95)	word(15,'protein',97,103)	word(16,'FtsZ',105,108)	word(17,'and',110,112)	word(18,'could',114,118)	word(19,'correspond',120,129)	word(20,'to',131,132)	word(21,'the',134,136)	word(22,'FtsZ',138,141)	word(23,'dependent',143,151)	word(24,'assembly',153,160)	word(25,'of',162,163)	word(26,'SpoIIE',165,170)	word(27,'into',172,175)	word(28,'E-rings',177,183)
+lemmas	lemma(0,'the')	lemma(1,'first')	lemma(2,'stage')	lemma(3,'which')	lemma(4,'involve')	lemma(5,'the')	lemma(6,'phosphatase')	lemma(7,'function')	lemma(8,'of')	lemma(9,'SpoIIE')	lemma(10,'depend')	lemma(11,'on')	lemma(12,'the')	lemma(13,'cell')	lemma(14,'division')	lemma(15,'protein')	lemma(16,'FtsZ')	lemma(17,'and')	lemma(18,'could')	lemma(19,'correspond')	lemma(20,'to')	lemma(21,'the')	lemma(22,'FtsZ')	lemma(23,'dependent')	lemma(24,'assembly')	lemma(25,'of')	lemma(26,'SpoIIE')	lemma(27,'into')	lemma(28,'E-rings')
+syntactic_relations	relation('comp_of:N-N',24,26)	relation('mod_att:N-ADJ',2,1)	relation('subj:V-N',19,2)	relation('mod_att:N-ADJ',7,6)	relation('mod_att:N-N',16,15)	relation('mod_att:N-N',14,13)	relation('obj:V-N',4,7)	relation('subj:V-N',4,2)	relation('mod:ADJ-N',23,22)	relation('comp_on:V-N',10,16)	relation('comp_into:N-N',24,28)	relation('comp_of:N-N',7,9)	relation('mod_att:N-N',15,14)	relation('subj:V-N',10,2)	relation('comp_to:V-N',19,24)	relation('mod_att:N-ADJ',24,23)
+agents	agent(16)	agent(22)
+targets	target(9)	target(26)
+genic_interactions	genic_interaction(16,9)	genic_interaction(22,26)
+
+ID	10323866-9
+sentence	Evidence based on the use of modified and mutant forms of the phosphatase protein indicates that SpoIIE blocks the capacity of unphosphorylated SpoIIAA to activate sigmaF until formation of the polar septum is completed.
+words	word(0,'Evidence',0,7)	word(1,'based',9,13)	word(2,'on',15,16)	word(3,'the',18,20)	word(4,'use',22,24)	word(5,'of',26,27)	word(6,'modified',29,36)	word(7,'and',38,40)	word(8,'mutant',42,47)	word(9,'forms',49,53)	word(10,'of',55,56)	word(11,'the',58,60)	word(12,'phosphatase',62,72)	word(13,'protein',74,80)	word(14,'indicates',82,90)	word(15,'that',92,95)	word(16,'SpoIIE',97,102)	word(17,'blocks',104,109)	word(18,'the',111,113)	word(19,'capacity',115,122)	word(20,'of',124,125)	word(21,'unphosphorylated',127,142)	word(22,'SpoIIAA',144,150)	word(23,'to',152,153)	word(24,'activate',155,162)	word(25,'sigmaF',164,169)	word(26,'until',171,175)	word(27,'formation',177,185)	word(28,'of',187,188)	word(29,'the',190,192)	word(30,'polar',194,198)	word(31,'septum',200,205)	word(32,'is',207,208)	word(33,'completed',210,218)
+lemmas	lemma(0,'evidence')	lemma(1,'base')	lemma(2,'on')	lemma(3,'the')	lemma(4,'use')	lemma(5,'of')	lemma(6,'modified')	lemma(7,'and')	lemma(8,'mutant')	lemma(9,'form')	lemma(10,'of')	lemma(11,'the')	lemma(12,'phosphatase')	lemma(13,'protein')	lemma(14,'indicate')	lemma(15,'that')	lemma(16,'SpoIIE')	lemma(17,'block')	lemma(18,'the')	lemma(19,'capacity')	lemma(20,'of')	lemma(21,'unphosphorylated')	lemma(22,'SpoIIAA')	lemma(23,'to')	lemma(24,'activate')	lemma(25,'sigF')	lemma(26,'until')	lemma(27,'formation')	lemma(28,'of')	lemma(29,'the')	lemma(30,'polar')	lemma(31,'septum')	lemma(32,'be')	lemma(33,'complete')
+syntactic_relations	relation('comp_of:N-N',19,22)	relation('comp_of:N-N',27,31)	relation('subj:V-N',17,16)	relation('mod_att:N-ADJ',8,9)	relation('mod_att:N-ADJ',22,21)	relation('mod_att:N-ADJ',31,30)	relation('comp_on:V_PASS-N',1,4)	relation('comp_of:N-N',9,13)	relation('obj:V-N',24,25)	relation('mod_att:N-N',13,12)	relation('subj:V_PASS-N',33,27)	relation('subj:V_PASS-N',1,0)	relation('mod_att:N-ADJ',9,6)	relation('subj:V-N',14,0)	relation('comp_of:N-N',4,9)	relation('obj:V-N',17,19)	relation('comp_until:V-N',17,27)	relation('comp_to:N-V',19,24)
+agents	agent(16)	agent(22)
+targets	target(22)	target(25)
+genic_interactions	genic_interaction(16,22)	genic_interaction(22,25)
+
+ID	10234829-1
+sentence	Dephosphorylation of SpoIIAA-P by SpoIIE is strictly dependent on the presence of the bivalent metal ions Mn2+ or Mg2+.
+words	word(0,'Dephosphorylation',0,16)	word(1,'of',18,19)	word(2,'SpoIIAA-P',21,29)	word(3,'by',31,32)	word(4,'SpoIIE',34,39)	word(5,'is',41,42)	word(6,'strictly',44,51)	word(7,'dependent',53,61)	word(8,'on',63,64)	word(9,'the',66,68)	word(10,'presence',70,77)	word(11,'of',79,80)	word(12,'the',82,84)	word(13,'bivalent',86,93)	word(14,'metal',95,99)	word(15,'ions',101,104)	word(16,'Mn2+',106,109)	word(17,'or',111,112)	word(18,'Mg2+',114,117)
+lemmas	lemma(0,'Dephosphorylation')	lemma(1,'of')	lemma(2,'SpoIIAA-P')	lemma(3,'by')	lemma(4,'SpoIIE')	lemma(5,'be')	lemma(6,'strictly')	lemma(7,'dependent')	lemma(8,'on')	lemma(9,'the')	lemma(10,'presence')	lemma(11,'of')	lemma(12,'the')	lemma(13,'bivalent')	lemma(14,'metal')	lemma(15,'ion')	lemma(16,'Mn2+')	lemma(17,'or')	lemma(18,'Mg2+')
+syntactic_relations	relation('comp_of:N-N',10,16)	relation('comp_by:N-N',0,4)	relation('comp_of:N-N',0,2)	relation('mod:ADJ-ADV',7,6)	relation('mod_att:N-N',15,14)	relation('comp_on:ADJ-N',7,10)	relation('mod_pred:N-ADJ',0,7)	relation('mod_att:N-N',18,15)	relation('mod_att:N-ADJ',15,13)	relation('mod_att:N-N',16,15)	relation('comp_of:N-N',10,18)
+agents	agent(4)
+targets	target(2)
+genic_interactions	genic_interaction(4,2)
+
+ID	10220166-7
+sentence	(i) The finding that the bmrUR operon is under sigmaB control indicates that the elimination of multidrug compounds might be a new function in multiple stress resistance.
+words	word(0,'i',1,1)	word(1,'The',4,6)	word(2,'finding',8,14)	word(3,'that',16,19)	word(4,'the',21,23)	word(5,'bmrUR',25,29)	word(6,'operon',31,36)	word(7,'is',38,39)	word(8,'under',41,45)	word(9,'sigmaB',47,52)	word(10,'control',54,60)	word(11,'indicates',62,70)	word(12,'that',72,75)	word(13,'the',77,79)	word(14,'elimination',81,91)	word(15,'of',93,94)	word(16,'multidrug',96,104)	word(17,'compounds',106,114)	word(18,'might',116,120)	word(19,'be',122,123)	word(20,'a',125,125)	word(21,'new',127,129)	word(22,'function',131,138)	word(23,'in',140,141)	word(24,'multiple',143,150)	word(25,'stress',152,157)	word(26,'resistance',159,168)
+lemmas	lemma(0,'i')	lemma(1,'the')	lemma(2,'finding')	lemma(3,'that')	lemma(4,'the')	lemma(5,'bmrUR')	lemma(6,'operon')	lemma(7,'be')	lemma(8,'under')	lemma(9,'sigB')	lemma(10,'control')	lemma(11,'indicate')	lemma(12,'that')	lemma(13,'the')	lemma(14,'elimination')	lemma(15,'of')	lemma(16,'multidrug')	lemma(17,'compound')	lemma(18,'might')	lemma(19,'be')	lemma(20,'a')	lemma(21,'new')	lemma(22,'function')	lemma(23,'in')	lemma(24,'multiple')	lemma(25,'stress')	lemma(26,'resistance')
+syntactic_relations	relation('mod_att:N-ADJ',25,24)	relation('mod_att:N-N',6,5)	relation('mod_att:N-ADJ',22,21)	relation('subj:V-N',7,6)	relation('mod_att:N-ADJ',17,16)	relation('subj:V-N',11,2)	relation('mod_att:N-N',26,25)	relation('mod_att:N-N',10,9)	relation('comp_of:N-N',14,17)	relation('comp_under:V-N',7,10)	relation('comp_in:N-N',22,26)	relation('mod_pred:N-N',14,22)
+agents	agent(9)
+targets	target(5)
+genic_interactions	genic_interaction(9,5)
+
+ID	10200961-2
+sentence	Cell specificity is first established in the forespore under the control of the sigma F factor, which is itself activated through the action of the SpoIIE serine phosphatase, an enzyme targeted to the septum between the two cells.
+words	word(0,'Cell',0,3)	word(1,'specificity',5,15)	word(2,'is',17,18)	word(3,'first',20,24)	word(4,'established',26,36)	word(5,'in',38,39)	word(6,'the',41,43)	word(7,'forespore',45,53)	word(8,'under',55,59)	word(9,'the',61,63)	word(10,'control',65,71)	word(11,'of',73,74)	word(12,'the',76,78)	word(13,'sigma F',80,86)	word(14,'factor',88,93)	word(15,'which',96,100)	word(16,'is',102,103)	word(17,'itself',105,110)	word(18,'activated',112,120)	word(19,'through',122,128)	word(20,'the',130,132)	word(21,'action',134,139)	word(22,'of',141,142)	word(23,'the',144,146)	word(24,'SpoIIE',148,153)	word(25,'serine',155,160)	word(26,'phosphatase',162,172)	word(27,'an',175,176)	word(28,'enzyme',178,183)	word(29,'targeted',185,192)	word(30,'to',194,195)	word(31,'the',197,199)	word(32,'septum',201,206)	word(33,'between',208,214)	word(34,'the',216,218)	word(35,'two',220,222)	word(36,'cells',224,228)
+lemmas	lemma(0,'cell')	lemma(1,'specificity')	lemma(2,'be')	lemma(3,'first')	lemma(4,'establish')	lemma(5,'in')	lemma(6,'the')	lemma(7,'forespore')	lemma(8,'under')	lemma(9,'the')	lemma(10,'control')	lemma(11,'of')	lemma(12,'the')	lemma(13,'sigF')	lemma(14,'factor')	lemma(15,'which')	lemma(16,'be')	lemma(17,'itself')	lemma(18,'activate')	lemma(19,'through')	lemma(20,'the')	lemma(21,'action')	lemma(22,'of')	lemma(23,'the')	lemma(24,'SpoIIE')	lemma(25,'serine')	lemma(26,'phosphatase')	lemma(27,'an')	lemma(28,'enzyme')	lemma(29,'target')	lemma(30,'to')	lemma(31,'the')	lemma(32,'septum')	lemma(33,'between')	lemma(34,'the')	lemma(35,'two')	lemma(36,'cell')
+syntactic_relations	relation('comp_to:V_PASS-N',29,32)	relation('appos',26,28)	relation('mod_att:N-ADJ',26,25)	relation('mod_att:N-N',14,13)	relation('subj:V_PASS-N',18,14)	relation('mod_att:N-N',1,0)	relation('subj:V_PASS-N',29,28)	relation('mod:V_PASS-ADV',4,3)	relation('subj:V_PASS-N',4,1)	relation('comp_between:N-N',32,36)	relation('comp_of:N-N',21,26)	relation('comp_of:N-N',10,14)	relation('mod_att:N-N',26,24)	relation('mod:V_PASS-ADV',18,17)	relation('comp_in:V_PASS-N',4,7)	relation('comp_under:V_PASS-N',4,10)	relation('comp_through:V_PASS-N',18,21)
+agents	agent(24)
+targets	target(13)
+genic_interactions	genic_interaction(24,13)
+
+ID	10075739-3
+sentence	Most cot genes, and the gerE gene, are transcribed by sigmaK RNA polymerase.
+words	word(0,'Most',0,3)	word(1,'cot',5,7)	word(2,'genes',9,13)	word(3,'and',16,18)	word(4,'the',20,22)	word(5,'gerE',24,27)	word(6,'gene',29,32)	word(7,'are',35,37)	word(8,'transcribed',39,49)	word(9,'by',51,52)	word(10,'sigmaK',54,59)	word(11,'RNA',61,63)	word(12,'polymerase',65,74)
+lemmas	lemma(0,'most')	lemma(1,'cot')	lemma(2,'gene')	lemma(3,'and')	lemma(4,'the')	lemma(5,'gerE')	lemma(6,'gene')	lemma(7,'be')	lemma(8,'transcribe')	lemma(9,'by')	lemma(10,'sigK')	lemma(11,'RNA')	lemma(12,'polymerase')
+syntactic_relations	relation('mod_att:N-N',12,10)	relation('subj:V_PASS-N',8,6)	relation('subj:V_PASS-N',8,2)	relation('comp_by:V_PASS-N',8,12)	relation('mod_att:N-N',2,1)	relation('mod_att:N-N',12,11)	relation('mod_att:N-N',6,5)
+agents	agent(10)
+targets	target(1)	target(5)
+genic_interactions	genic_interaction(10,1)	genic_interaction(10,5)
+
+ID	10075739-4
+sentence	Previously, it was shown that the GerE protein inhibits transcription in vitro of the sigK gene encoding sigmaK.
+words	word(0,'Previously',0,9)	word(1,'it',12,13)	word(2,'was',15,17)	word(3,'shown',19,23)	word(4,'that',25,28)	word(5,'the',30,32)	word(6,'GerE',34,37)	word(7,'protein',39,45)	word(8,'inhibits',47,54)	word(9,'transcription',56,68)	word(10,'in',70,71)	word(11,'vitro',73,77)	word(12,'of',79,80)	word(13,'the',82,84)	word(14,'sigK',86,89)	word(15,'gene',91,94)	word(16,'encoding',96,103)	word(17,'sigmaK',105,110)
+lemmas	lemma(0,'previously')	lemma(1,'it')	lemma(2,'be')	lemma(3,'show')	lemma(4,'that')	lemma(5,'the')	lemma(6,'GerE')	lemma(7,'protein')	lemma(8,'inhibit')	lemma(9,'transcription')	lemma(10,'in')	lemma(11,'vitro')	lemma(12,'of')	lemma(13,'the')	lemma(14,'sigK')	lemma(15,'gene')	lemma(16,'encode')	lemma(17,'sigK')
+syntactic_relations	relation('mod_att:N-N',7,6)	relation('comp_of:N-N',9,15)	relation('obj:V-N',8,9)	relation('mod:V-ADV',3,0)	relation('subj:V-N',8,7)	relation('mod_att:N-N',15,14)	relation('subj:V-N',16,15)	relation('obj:V-N',16,17)	relation('subj:V_PASS-N',3,1)	relation('comp_in:N-N',9,11)
+agents	agent(6)
+targets	target(14)
+genic_interactions	genic_interaction(6,14)
+
+ID	10075739-8
+sentence	These results demonstrate that sigmaK-dependent transcription of gerE initiates a negative feedback loop in which GerE acts as a repressor to limit production of sigmaK.
+words	word(0,'These',0,4)	word(1,'results',6,12)	word(2,'demonstrate',14,24)	word(3,'that',26,29)	word(4,'sigmaK',31,36)	word(5,'dependent',38,46)	word(6,'transcription',48,60)	word(7,'of',62,63)	word(8,'gerE',65,68)	word(9,'initiates',70,78)	word(10,'a',80,80)	word(11,'negative',82,89)	word(12,'feedback',91,98)	word(13,'loop',100,103)	word(14,'in',105,106)	word(15,'which',108,112)	word(16,'GerE',114,117)	word(17,'acts',119,122)	word(18,'as',124,125)	word(19,'a',127,127)	word(20,'repressor',129,137)	word(21,'to',139,140)	word(22,'limit',142,146)	word(23,'production',148,157)	word(24,'of',159,160)	word(25,'sigmaK',162,167)
+lemmas	lemma(0,'these')	lemma(1,'result')	lemma(2,'demonstrate')	lemma(3,'that')	lemma(4,'sigK')	lemma(5,'dependent')	lemma(6,'transcription')	lemma(7,'of')	lemma(8,'gerE')	lemma(9,'initiate')	lemma(10,'a')	lemma(11,'negative')	lemma(12,'feedback')	lemma(13,'loop')	lemma(14,'in')	lemma(15,'which')	lemma(16,'GerE')	lemma(17,'act')	lemma(18,'as')	lemma(19,'a')	lemma(20,'represser')	lemma(21,'to')	lemma(22,'limit')	lemma(23,'production')	lemma(24,'of')	lemma(25,'sigK')
+syntactic_relations	relation('comp_in:V-N',17,13)	relation('subj:V-N',2,1)	relation('subj:V-N',9,6)	relation('obj:V-N',9,13)	relation('mod_att:N-N',13,12)	relation('mod_att:N-ADJ',12,11)	relation('subj:V-N',17,16)	relation('comp_of:N-N',23,25)	relation('mod_att:N-ADJ',6,5)	relation('mod:ADJ-N',5,4)	relation('comp_to:V-V',17,22)	relation('comp_as:V-N',17,20)	relation('comp_of:N-N',6,8)	relation('obj:V-N',22,23)
+agents	agent(4)	agent(16)
+targets	target(8)	target(25)
+genic_interactions	genic_interaction(4,8)	genic_interaction(16,25)
+
+ID	10075739-11
+sentence	A low level of GerE activated transcription of cotD by sigmaK RNA polymerase in vitro, but a higher level of GerE repressed cotD transcription.
+words	word(0,'A',0,0)	word(1,'low',2,4)	word(2,'level',6,10)	word(3,'of',12,13)	word(4,'GerE',15,18)	word(5,'activated',20,28)	word(6,'transcription',30,42)	word(7,'of',44,45)	word(8,'cotD',47,50)	word(9,'by',52,53)	word(10,'sigmaK',55,60)	word(11,'RNA',62,64)	word(12,'polymerase',66,75)	word(13,'in',77,78)	word(14,'vitro',80,84)	word(15,'but',87,89)	word(16,'a',91,91)	word(17,'higher',93,98)	word(18,'level',100,104)	word(19,'of',106,107)	word(20,'GerE',109,112)	word(21,'repressed',114,122)	word(22,'cotD',124,127)	word(23,'transcription',129,141)
+lemmas	lemma(0,'a')	lemma(1,'low')	lemma(2,'level')	lemma(3,'of')	lemma(4,'GerE')	lemma(5,'activate')	lemma(6,'transcription')	lemma(7,'of')	lemma(8,'cotD')	lemma(9,'by')	lemma(10,'sigK')	lemma(11,'RNA')	lemma(12,'polymerase')	lemma(13,'in')	lemma(14,'vitro')	lemma(15,'but')	lemma(16,'a')	lemma(17,'high')	lemma(18,'level')	lemma(19,'of')	lemma(20,'GerE')	lemma(21,'repressed')	lemma(22,'cotD')	lemma(23,'transcription')
+syntactic_relations	relation('obj:V-N',5,6)	relation('comp_by:V-N',5,12)	relation('subj:V-N',21,18)	relation('comp_of:N-N',2,4)	relation('mod_att:N-ADJ',18,17)	relation('comp_of:N-N',18,20)	relation('mod_att:N-N',12,11)	relation('subj:V-N',5,2)	relation('comp_of:N-N',6,8)	relation('mod_att:N-N',23,22)	relation('mod_att:N-ADJ',2,1)	relation('obj:V-N',21,23)	relation('mod_att:N-N',12,10)	relation('comp_in:V-N',5,14)
+agents	agent(4)	agent(10)	agent(20)
+targets	target(8)	target(10)	target(22)
+genic_interactions	genic_interaction(4,8)	genic_interaction(4,10)	genic_interaction(10,8)	genic_interaction(20,22)
+
+ID	9852018-5
+sentence	sspG transcription also requires the DNA binding protein GerE.
+words	word(0,'sspG',0,3)	word(1,'transcription',5,17)	word(2,'also',19,22)	word(3,'requires',24,31)	word(4,'the',33,35)	word(5,'DNA',37,39)	word(6,'binding',41,47)	word(7,'protein',49,55)	word(8,'GerE',57,60)
+lemmas	lemma(0,'sspG')	lemma(1,'transcription')	lemma(2,'also')	lemma(3,'require')	lemma(4,'the')	lemma(5,'DNA')	lemma(6,'binding')	lemma(7,'protein')	lemma(8,'GerE')
+syntactic_relations	relation('mod:ADJ-N',6,5)	relation('obj:V-N',3,8)	relation('mod_att:N-N',1,0)	relation('mod_att:N-ADJ',7,6)	relation('mod_att:N-N',8,7)	relation('mod:V-ADV',3,2)	relation('subj:V-N',3,1)
+agents	agent(8)
+targets	target(0)
+genic_interactions	genic_interaction(8,0)
+
+ID	9852018-6
+sentence	In contrast, sspJ is transcribed in the forespore compartment by RNA polymerase with the forespore-specific sigmaG and appears to give a monocistronic transcript.
+words	word(0,'In',0,1)	word(1,'contrast',3,10)	word(2,'sspJ',13,16)	word(3,'is',18,19)	word(4,'transcribed',21,31)	word(5,'in',33,34)	word(6,'the',36,38)	word(7,'forespore',40,48)	word(8,'compartment',50,60)	word(9,'by',62,63)	word(10,'RNA',65,67)	word(11,'polymerase',69,78)	word(12,'with',80,83)	word(13,'the',85,87)	word(14,'forespore-specific',89,106)	word(15,'sigmaG',108,113)	word(16,'and',115,117)	word(17,'appears',119,125)	word(18,'to',127,128)	word(19,'give',130,133)	word(20,'a',135,135)	word(21,'monocistronic',137,149)	word(22,'transcript',151,160)
+lemmas	lemma(0,'in')	lemma(1,'contrast')	lemma(2,'sspJ')	lemma(3,'be')	lemma(4,'transcribe')	lemma(5,'in')	lemma(6,'the')	lemma(7,'forespore')	lemma(8,'compartment')	lemma(9,'by')	lemma(10,'RNA')	lemma(11,'polymerase')	lemma(12,'with')	lemma(13,'the')	lemma(14,'forespore-specific')	lemma(15,'sigG')	lemma(16,'and')	lemma(17,'appear')	lemma(18,'to')	lemma(19,'give')	lemma(20,'a')	lemma(21,'monocistronic')	lemma(22,'transcript')
+syntactic_relations	relation('comp_in:V_PASS-N',4,1)	relation('comp_in:V_PASS-N',4,8)	relation('comp_with:V_PASS-N',4,15)	relation('mod_att:N-ADJ',15,14)	relation('mod_att:N-ADJ',22,21)	relation('obj:V-N',19,22)	relation('mod_att:N-N',8,7)	relation('comp_by:V_PASS-N',4,11)	relation('mod_att:N-N',11,10)	relation('subj:V_PASS-N',4,2)	relation('subj:V-N',19,2)
+agents	agent(15)
+targets	target(2)
+genic_interactions	genic_interaction(15,2)
+
+ID	9696775-12
+sentence	ComK negatively controls the transcription of hag by stimulating the transcription of comF-flgM, thereby increasing the production of the FlgM antisigma factor that inhibits sigmaD activity.
+words	word(0,'ComK',0,3)	word(1,'negatively',5,14)	word(2,'controls',16,23)	word(3,'the',25,27)	word(4,'transcription',29,41)	word(5,'of',43,44)	word(6,'hag',46,48)	word(7,'by',50,51)	word(8,'stimulating',53,63)	word(9,'the',65,67)	word(10,'transcription',69,81)	word(11,'of',83,84)	word(12,'comF',86,89)	word(13,'flgM',91,94)	word(14,'thereby',97,103)	word(15,'increasing',105,114)	word(16,'the',116,118)	word(17,'production',120,129)	word(18,'of',131,132)	word(19,'the',134,136)	word(20,'FlgM',138,141)	word(21,'antisigma',143,151)	word(22,'factor',153,158)	word(23,'that',160,163)	word(24,'inhibits',165,172)	word(25,'sigmaD',174,179)	word(26,'activity',181,188)
+lemmas	lemma(0,'ComK')	lemma(1,'negatively')	lemma(2,'control')	lemma(3,'the')	lemma(4,'transcription')	lemma(5,'of')	lemma(6,'hag')	lemma(7,'by')	lemma(8,'stimulate')	lemma(9,'the')	lemma(10,'transcription')	lemma(11,'of')	lemma(12,'comF')	lemma(13,'flgM')	lemma(14,'thereby')	lemma(15,'increase')	lemma(16,'the')	lemma(17,'production')	lemma(18,'of')	lemma(19,'the')	lemma(20,'FlgM')	lemma(21,'antisigma')	lemma(22,'factor')	lemma(23,'that')	lemma(24,'inhibit')	lemma(25,'sigD')	lemma(26,'activity')
+syntactic_relations	relation('mod:V-ADV',15,14)	relation('subj:V-N',2,0)	relation('subj:V-N',15,0)	relation('obj:V-N',15,17)	relation('mod_att:N-N',22,20)	relation('mod_att:N-N',22,21)	relation('obj:V-N',24,26)	relation('comp_of:N-N',17,22)	relation('obj:V-N',8,10)	relation('subj:V-N',24,22)	relation('comp_by:V-V',2,8)	relation('mod:V-ADV',2,1)	relation('obj:V-N',2,4)	relation('comp_of:N-N',10,12)	relation('comp_of:N-N',10,13)	relation('comp_of:N-N',4,6)	relation('mod_att:N-N',26,25)
+agents	agent(0)	agent(20)
+targets	target(6)	target(12)	target(13)	target(20)	target(25)
+genic_interactions	genic_interaction(0,6)	genic_interaction(0,12)	genic_interaction(0,13)	genic_interaction(0,20)	genic_interaction(20,25)
+
+ID	9696771-4
+sentence	This stress-induced increase in ykzA expression is absolutely dependent on the alternative sigma factor sigmaB, which controls a large stationary-phase and stress regulon.
+words	word(0,'This',0,3)	word(1,'stress-induced',5,18)	word(2,'increase',20,27)	word(3,'in',29,30)	word(4,'ykzA',32,35)	word(5,'expression',37,46)	word(6,'is',48,49)	word(7,'absolutely',51,60)	word(8,'dependent',62,70)	word(9,'on',72,73)	word(10,'the',75,77)	word(11,'alternative',79,89)	word(12,'sigma',91,95)	word(13,'factor',97,102)	word(14,'sigmaB',104,109)	word(15,'which',112,116)	word(16,'controls',118,125)	word(17,'a',127,127)	word(18,'large',129,133)	word(19,'stationary-phase',135,150)	word(20,'and',152,154)	word(21,'stress',156,161)	word(22,'regulon',163,169)
+lemmas	lemma(0,'this')	lemma(1,'stress-induced')	lemma(2,'increase')	lemma(3,'in')	lemma(4,'ykzA')	lemma(5,'expression')	lemma(6,'be')	lemma(7,'absolutely')	lemma(8,'dependent')	lemma(9,'on')	lemma(10,'the')	lemma(11,'alternative')	lemma(12,'sigma')	lemma(13,'factor')	lemma(14,'sigB')	lemma(15,'which')	lemma(16,'control')	lemma(17,'a')	lemma(18,'large')	lemma(19,'stationary-phase')	lemma(20,'and')	lemma(21,'stress')	lemma(22,'regulon')
+syntactic_relations	relation('mod:ADJ-ADV',8,7)	relation('comp_on:ADJ-N',8,14)	relation('mod_att:N-N',13,12)	relation('mod_att:N-ADJ',2,1)	relation('comp_in:N-N',2,5)	relation('mod_att:N-N',5,4)	relation('mod_pred:N-ADJ',2,8)	relation('mod_att:N-ADJ',13,11)	relation('mod_att:N-N',14,13)	relation('obj:V-N',16,19)	relation('subj:V-N',16,14)	relation('mod_att:N-ADJ',19,18)	relation('obj:V-N',16,22)	relation('mod_att:N-N',22,21)
+agents	agent(14)
+targets	target(4)
+genic_interactions	genic_interaction(14,4)
+
+ID	9636707-8
+sentence	sigma X also contributes to the expression of CsbB, a putative membrane-bound glucosyl transferase that is partially controlled by the sigma B stress response sigma factor.
+words	word(0,'sigma X',0,6)	word(1,'also',8,11)	word(2,'contributes',13,23)	word(3,'to',25,26)	word(4,'the',28,30)	word(5,'expression',32,41)	word(6,'of',43,44)	word(7,'CsbB',46,49)	word(8,'a',52,52)	word(9,'putative',54,61)	word(10,'membrane-bound',63,76)	word(11,'glucosyl',78,85)	word(12,'transferase',87,97)	word(13,'that',99,102)	word(14,'is',104,105)	word(15,'partially',107,115)	word(16,'controlled',117,126)	word(17,'by',128,129)	word(18,'the',131,133)	word(19,'sigma B',135,141)	word(20,'stress',143,148)	word(21,'response',150,157)	word(22,'sigma',159,163)	word(23,'factor',165,170)
+lemmas	lemma(0,'sigX')	lemma(1,'also')	lemma(2,'contribute')	lemma(3,'to')	lemma(4,'the')	lemma(5,'expression')	lemma(6,'of')	lemma(7,'CsbB')	lemma(8,'a')	lemma(9,'putative')	lemma(10,'membrane-bound')	lemma(11,'glucosyl')	lemma(12,'transferase')	lemma(13,'that')	lemma(14,'be')	lemma(15,'partially')	lemma(16,'control')	lemma(17,'by')	lemma(18,'the')	lemma(19,'sigB')	lemma(20,'stress')	lemma(21,'response')	lemma(22,'sigma')	lemma(23,'factor')
+syntactic_relations	relation('subj:V-N',2,0)	relation('comp_to:V-N',2,5)	relation('mod:V-ADV',2,1)	relation('comp_of:N-N',5,7)	relation('appos',7,12)	relation('mod_att:N-ADJ',12,9)	relation('mod_att:N-ADJ',12,11)	relation('mod_att:N-ADJ',12,10)	relation('subj:V_PASS-N',16,12)	relation('mod:V_PASS-ADV',16,15)	relation('comp_by:V_PASS-N',16,23)	relation('mod_att:N-N',23,19)	relation('mod_att:N-N',23,22)	relation('mod_att:N-N',23,21)	relation('mod_att:N-N',21,20)
+agents	agent(0)	agent(19)
+targets	target(7)
+genic_interactions	genic_interaction(0,7)	genic_interaction(19,7)
+
+ID	9271869-4
+sentence	Transcriptional studies showed that nadE is strongly induced in response to heat, ethanol and salt stress or after starvation for glucose in a sigma B-dependent manner.
+words	word(0,'Transcriptional',0,14)	word(1,'studies',16,22)	word(2,'showed',24,29)	word(3,'that',31,34)	word(4,'nadE',36,39)	word(5,'is',41,42)	word(6,'strongly',44,51)	word(7,'induced',53,59)	word(8,'in',61,62)	word(9,'response',64,71)	word(10,'to',73,74)	word(11,'heat',76,79)	word(12,'ethanol',82,88)	word(13,'and',90,92)	word(14,'salt',94,97)	word(15,'stress',99,104)	word(16,'or',106,107)	word(17,'after',109,113)	word(18,'starvation',115,124)	word(19,'for',126,128)	word(20,'glucose',130,136)	word(21,'in',138,139)	word(22,'a',141,141)	word(23,'sigma B',143,149)	word(24,'dependent',151,159)	word(25,'manner',161,166)
+lemmas	lemma(0,'transcriptional')	lemma(1,'study')	lemma(2,'show')	lemma(3,'that')	lemma(4,'nadE')	lemma(5,'be')	lemma(6,'strongly')	lemma(7,'induce')	lemma(8,'in')	lemma(9,'response')	lemma(10,'to')	lemma(11,'heat')	lemma(12,'ethanol')	lemma(13,'and')	lemma(14,'salt')	lemma(15,'stress')	lemma(16,'or')	lemma(17,'after')	lemma(18,'starvation')	lemma(19,'for')	lemma(20,'glucose')	lemma(21,'in')	lemma(22,'a')	lemma(23,'sigB')	lemma(24,'dependent')	lemma(25,'manner')
+syntactic_relations	relation('mod:ADJ-N',24,23)	relation('comp_in:V_PASS-N',7,9)	relation('comp_to:N-N',9,15)	relation('comp_after:V_PASS-N',7,18)	relation('comp_for:N-N',18,20)	relation('comp_in:V_PASS-N',7,25)	relation('subj:V_PASS-N',7,4)	relation('mod_att:N-ADJ',1,0)	relation('mod_att:N-N',15,14)	relation('mod:V_PASS-ADV',7,6)	relation('subj:V-N',2,1)	relation('mod_att:N-N',15,12)	relation('mod_att:N-N',15,11)	relation('mod_att:N-ADJ',25,24)
+agents	agent(23)
+targets	target(4)
+genic_interactions	genic_interaction(23,4)
+
+ID	10913081-11
+sentence	Furthermore, YtxH and YvyD seemed to be induced after phosphate starvation in the wild type in a sigma(B)-dependent manner and in the sigB mutant probably via sigma(H).
+words	word(0,'Furthermore',0,10)	word(1,'YtxH',13,16)	word(2,'and',18,20)	word(3,'YvyD',22,25)	word(4,'seemed',27,32)	word(5,'to',34,35)	word(6,'be',37,38)	word(7,'induced',40,46)	word(8,'after',48,52)	word(9,'phosphate',54,62)	word(10,'starvation',64,73)	word(11,'in',75,76)	word(12,'the',78,80)	word(13,'wild',82,85)	word(14,'type',87,90)	word(15,'in',92,93)	word(16,'a',95,95)	word(17,'sigma(B)',97,104)	word(18,'dependent',106,114)	word(19,'manner',116,121)	word(20,'and',123,125)	word(21,'in',127,128)	word(22,'the',130,132)	word(23,'sigB',134,137)	word(24,'mutant',139,144)	word(25,'probably',146,153)	word(26,'via',155,157)	word(27,'sigma(H)',159,166)
+lemmas	lemma(0,'furthermore')	lemma(1,'YtxH')	lemma(2,'and')	lemma(3,'YvyD')	lemma(4,'seem')	lemma(5,'to')	lemma(6,'be')	lemma(7,'induce')	lemma(8,'after')	lemma(9,'phosphate')	lemma(10,'starvation')	lemma(11,'in')	lemma(12,'the')	lemma(13,'wild')	lemma(14,'type')	lemma(15,'in')	lemma(16,'a')	lemma(17,'sigB')	lemma(18,'dependent')	lemma(19,'manner')	lemma(20,'and')	lemma(21,'in')	lemma(22,'the')	lemma(23,'sigB')	lemma(24,'mutant')	lemma(25,'probably')	lemma(26,'via')	lemma(27,'sigH')
+syntactic_relations	relation('comp_in:V_PASS-N',7,24)	relation('comp_in:V_PASS-N',7,19)	relation('comp_in:V_PASS-N',7,14)	relation('mod_att:N-N',10,9)	relation('mod_att:N-ADJ',19,18)	relation('mod_att:N-N',24,23)	relation('mod:V-ADV',4,0)	relation('mod_att:N-ADJ',14,13)	relation('comp_via:V_PASS-N',7,27)	relation('comp_after:V_PASS-N',7,10)	relation('subj:V_PASS-N',1,7)	relation('subj:V_PASS-N',3,7)	relation('mod:V-ADV',7,25)	relation('mod:ADJ-N',18,17)
+agents	agent(17)	agent(27)
+targets	target(1)	target(3)
+genic_interactions	genic_interaction(17,1)	genic_interaction(17,3)	genic_interaction(27,1)	genic_interaction(27,3)
+
+ID	10747015-5
+sentence	Localization of SpoIIE was shown to be dependent on the essential cell division protein FtsZ.
+words	word(0,'Localization',0,11)	word(1,'of',13,14)	word(2,'SpoIIE',16,21)	word(3,'was',23,25)	word(4,'shown',27,31)	word(5,'to',33,34)	word(6,'be',36,37)	word(7,'dependent',39,47)	word(8,'on',49,50)	word(9,'the',52,54)	word(10,'essential',56,64)	word(11,'cell',66,69)	word(12,'division',71,78)	word(13,'protein',80,86)	word(14,'FtsZ',88,91)
+lemmas	lemma(0,'localization')	lemma(1,'of')	lemma(2,'SpoIIE')	lemma(3,'be')	lemma(4,'show')	lemma(5,'to')	lemma(6,'be')	lemma(7,'dependent')	lemma(8,'on')	lemma(9,'the')	lemma(10,'essential')	lemma(11,'cell')	lemma(12,'division')	lemma(13,'protein')	lemma(14,'FtsZ')
+syntactic_relations	relation('comp_of:N-N',0,2)	relation('mod_att:N-ADJ',13,10)	relation('mod_pred:N-ADJ',0,7)	relation('mod_att:N-N',14,13)	relation('mod_att:N-N',12,11)	relation('mod_att:N-N',13,12)	relation('comp_on:ADJ-N',7,14)
+agents	agent(14)
+targets	target(2)
+genic_interactions	genic_interaction(14,2)
+
+ID	10094682-7
+sentence	The expression of the bkd operon was induced by the presence of isoleucine or valine in the growth medium and depended upon the presence of the sigma factor SigL, a member of the sigma 54 family.
+words	word(0,'The',0,2)	word(1,'expression',4,13)	word(2,'of',15,16)	word(3,'the',18,20)	word(4,'bkd',22,24)	word(5,'operon',26,31)	word(6,'was',33,35)	word(7,'induced',37,43)	word(8,'by',45,46)	word(9,'the',48,50)	word(10,'presence',52,59)	word(11,'of',61,62)	word(12,'isoleucine',64,73)	word(13,'or',75,76)	word(14,'valine',78,83)	word(15,'in',85,86)	word(16,'the',88,90)	word(17,'growth',92,97)	word(18,'medium',99,104)	word(19,'and',106,108)	word(20,'depended',110,117)	word(21,'upon',119,122)	word(22,'the',124,126)	word(23,'presence',128,135)	word(24,'of',137,138)	word(25,'the',140,142)	word(26,'sigma',144,148)	word(27,'factor',150,155)	word(28,'SigL',157,160)	word(29,'a',163,163)	word(30,'member',165,170)	word(31,'of',172,173)	word(32,'the',175,177)	word(33,'sigma 54',179,186)	word(34,'family',188,193)
+lemmas	lemma(0,'the')	lemma(1,'expression')	lemma(2,'of')	lemma(3,'the')	lemma(4,'bkd')	lemma(5,'operon')	lemma(6,'be')	lemma(7,'induce')	lemma(8,'by')	lemma(9,'the')	lemma(10,'presence')	lemma(11,'of')	lemma(12,'isoleucine')	lemma(13,'or')	lemma(14,'valine')	lemma(15,'in')	lemma(16,'the')	lemma(17,'growth')	lemma(18,'medium')	lemma(19,'and')	lemma(20,'depend')	lemma(21,'upon')	lemma(22,'the')	lemma(23,'presence')	lemma(24,'of')	lemma(25,'the')	lemma(26,'sigma')	lemma(27,'factor')	lemma(28,'SigL')	lemma(29,'a')	lemma(30,'member')	lemma(31,'of')	lemma(32,'the')	lemma(33,'sigN')	lemma(34,'family')
+syntactic_relations	relation('comp_by:V_PASS-N',7,10)	relation('comp_of:N-N',10,12)	relation('comp_of:N-N',10,14)	relation('subj:V-N',20,1)	relation('mod_att:N-N',34,33)	relation('comp_of:N-N',30,34)	relation('mod_att:N-N',5,4)	relation('comp_of:N-N',23,28)	relation('mod_att:N-N',27,26)	relation('mod_att:N-N',18,17)	relation('comp_of:N-N',1,5)	relation('mod_att:N-N',28,27)	relation('subj:V_PASS-N',7,1)	relation('appos',28,30)	relation('comp_upon:V_PASS-N',20,23)	relation('comp_in:N-N',10,18)
+agents	agent(28)
+targets	target(4)
+genic_interactions	genic_interaction(28,4)
+
+ID	9108277-9
+sentence	From these results we conclude that ComK negatively regulates degR expression by preventing sigmaD-driven transcription of degR, possibly through interaction with the control region.
+words	word(0,'From',0,3)	word(1,'these',5,9)	word(2,'results',11,17)	word(3,'we',19,20)	word(4,'conclude',22,29)	word(5,'that',31,34)	word(6,'ComK',36,39)	word(7,'negatively',41,50)	word(8,'regulates',52,60)	word(9,'degR',62,65)	word(10,'expression',67,76)	word(11,'by',78,79)	word(12,'preventing',81,90)	word(13,'sigmaD',92,97)	word(14,'driven',99,104)	word(15,'transcription',106,118)	word(16,'of',120,121)	word(17,'degR',123,126)	word(18,'possibly',129,136)	word(19,'through',138,144)	word(20,'interaction',146,156)	word(21,'with',158,161)	word(22,'the',163,165)	word(23,'control',167,173)	word(24,'region',175,180)
+lemmas	lemma(0,'from')	lemma(1,'these')	lemma(2,'result')	lemma(3,'we')	lemma(4,'conclude')	lemma(5,'that')	lemma(6,'ComK')	lemma(7,'negatively')	lemma(8,'regulate')	lemma(9,'degR')	lemma(10,'expression')	lemma(11,'by')	lemma(12,'prevent')	lemma(13,'sigD')	lemma(14,'drive')	lemma(15,'transcription')	lemma(16,'of')	lemma(17,'degR')	lemma(18,'possibly')	lemma(19,'through')	lemma(20,'interaction')	lemma(21,'with')	lemma(22,'the')	lemma(23,'control')	lemma(24,'region')
+syntactic_relations	relation('mod_att:N-N',10,9)	relation('comp_by:V-V',8,12)	relation('mod:V-ADV',8,7)	relation('comp_with:N-N',20,24)	relation('comp_of:N-N',15,17)	relation('subj:V-N',4,3)	relation('obj:V-N',12,15)	relation('comp_from:V-N',4,2)	relation('obj:V-N',8,10)	relation('subj:V-N',8,6)	relation('mod:ADJ-N',14,13)	relation('mod_att:N-ADJ',15,14)	relation('mod_att:N-N',24,23)	relation('comp_through:V-N',12,20)	relation('mod:V-ADV',12,18)
+agents	agent(6)	agent(13)
+targets	target(9)	target(13)	target(17)
+genic_interactions	genic_interaction(6,9)	genic_interaction(6,13)	genic_interaction(13,17)	genic_interaction(6,17)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+% GENIC INTERACTION EXPRESSED BY A PROTEIN BINDING TO A TARGET GENE PROMOTER %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ID	9139908-4
+sentence	We overproduced and purified sigma(X) from Escherichia coli and demonstrate that in vitro, both sigma(A) and sigma(X) holoenzymes recognize promoter elements within the sigX-ypuN control region.
+words	word(0,'We',0,1)	word(1,'overproduced',3,14)	word(2,'and',16,18)	word(3,'purified',20,27)	word(4,'sigma(X)',29,36)	word(5,'from',38,41)	word(6,'Escherichia coli',43,58)	word(7,'and',60,62)	word(8,'demonstrate',64,74)	word(9,'that',76,79)	word(10,'in',81,82)	word(11,'vitro',84,88)	word(12,'both',91,94)	word(13,'sigma(A)',96,103)	word(14,'and',105,107)	word(15,'sigma(X)',109,116)	word(16,'holoenzymes',118,128)	word(17,'recognize',130,138)	word(18,'promoter',140,147)	word(19,'elements',149,156)	word(20,'within',158,163)	word(21,'the',165,167)	word(22,'sigX',169,172)	word(23,'ypuN',174,177)	word(24,'control',179,185)	word(25,'region',187,192)
+lemmas	lemma(0,'we')	lemma(1,'overproduce')	lemma(2,'and')	lemma(3,'purify')	lemma(4,'sigX')	lemma(5,'from')	lemma(6,'Escherichia coli')	lemma(7,'and')	lemma(8,'demonstrate')	lemma(9,'that')	lemma(10,'in')	lemma(11,'vitro')	lemma(12,'both')	lemma(13,'sigA')	lemma(14,'and')	lemma(15,'sigX')	lemma(16,'holoenzyme')	lemma(17,'recognize')	lemma(18,'promoter')	lemma(19,'element')	lemma(20,'within')	lemma(21,'the')	lemma(22,'sigX')	lemma(23,'ypuN')	lemma(24,'control')	lemma(25,'region')
+syntactic_relations	relation('comp_in:V-N',17,11)	relation('mod_att:N-N',25,24)	relation('subj:V-N',8,0)	relation('comp_from:V-N',3,6)	relation('comp_from:V-N',1,6)	relation('mod_att:N-N',19,18)	relation('obj:V-N',17,19)	relation('mod_att:N-N',16,13)	relation('subj:V-N',1,0)	relation('comp_within:N-N',19,25)	relation('obj:V-N',1,4)	relation('obj:V-N',3,4)	relation('subj:V-N',3,0)	relation('subj:V-N',17,16)	relation('mod_att:N-N',16,15)	relation('mod_att:N-N',23,22)	relation('mod_att:N-N',25,23)
+agents	agent(13)	agent(15)
+targets	target(22)	target(23)
+genic_interactions	genic_interaction(13,22)	genic_interaction(15,22)	genic_interaction(13,23)	genic_interaction(15,23)
+
+ID	9401028-7
+sentence	Transcriptional studies demonstrated that the expression from the araE promoter is induced by L-arabinose, repressed by glucose, and negatively regulated by AraR.
+words	word(0,'Transcriptional',0,14)	word(1,'studies',16,22)	word(2,'demonstrated',24,35)	word(3,'that',37,40)	word(4,'the',42,44)	word(5,'expression',46,55)	word(6,'from',57,60)	word(7,'the',62,64)	word(8,'araE',66,69)	word(9,'promoter',71,78)	word(10,'is',80,81)	word(11,'induced',83,89)	word(12,'by',91,92)	word(13,'L-arabinose',94,104)	word(14,'repressed',107,115)	word(15,'by',117,118)	word(16,'glucose',120,126)	word(17,'and',129,131)	word(18,'negatively',133,142)	word(19,'regulated',144,152)	word(20,'by',154,155)	word(21,'AraR',157,160)
+lemmas	lemma(0,'transcriptional')	lemma(1,'study')	lemma(2,'demonstrate')	lemma(3,'that')	lemma(4,'the')	lemma(5,'expression')	lemma(6,'from')	lemma(7,'the')	lemma(8,'araE')	lemma(9,'promoter')	lemma(10,'be')	lemma(11,'induce')	lemma(12,'by')	lemma(13,'L-arabinose')	lemma(14,'repress')	lemma(15,'by')	lemma(16,'glucose')	lemma(17,'and')	lemma(18,'negatively')	lemma(19,'regulate')	lemma(20,'by')	lemma(21,'AraR')
+syntactic_relations	relation('mod:V_PASS-ADV',19,18)	relation('subj:V_PASS-N',11,5)	relation('comp_by:V_PASS-N',14,16)	relation('mod_att:N-ADJ',1,0)	relation('mod_att:N-N',9,8)	relation('subj:V-N',2,1)	relation('subj:V_PASS-N',19,5)	relation('subj:V_PASS-N',14,5)	relation('comp_by:V_PASS-N',19,21)	relation('comp_by:V_PASS-N',11,13)	relation('comp_from:N-N',5,9)
+agents	agent(21)
+targets	target(8)
+genic_interactions	genic_interaction(21,8)
+
+ID	9683469-3
+sentence	A sigmaW-dependent promoter (PW) precedes sigW, demonstrating that this transcription factor is positively autoregulated.
+words	word(0,'A',0,0)	word(1,'sigmaW',2,7)	word(2,'dependent',9,17)	word(3,'promoter',19,26)	word(4,'PW',29,30)	word(5,'precedes',33,40)	word(6,'sigW',42,45)	word(7,'demonstrating',48,60)	word(8,'that',62,65)	word(9,'this',67,70)	word(10,'transcription',72,84)	word(11,'factor',86,91)	word(12,'is',93,94)	word(13,'positively',96,105)	word(14,'autoregulated',107,119)
+lemmas	lemma(0,'a')	lemma(1,'sigW')	lemma(2,'dependent')	lemma(3,'promoter')	lemma(4,'PW')	lemma(5,'precede')	lemma(6,'sigW')	lemma(7,'demonstrate')	lemma(8,'that')	lemma(9,'this')	lemma(10,'transcription')	lemma(11,'factor')	lemma(12,'be')	lemma(13,'positively')	lemma(14,'autoregulated')
+syntactic_relations	relation('obj:V-N',5,6)	relation('mod_att:N-ADJ',3,2)	relation('appos',3,4)	relation('subj:V-N',5,3)	relation('subj:V_PASS-N',14,11)	relation('mod:V_PASS-ADV',14,13)	relation('mod:ADJ-N',2,1)	relation('mod_att:N-N',11,10)
+agents	agent(1)
+targets	target(6)
+genic_interactions	genic_interaction(1,6)
+
+ID	9683503-1
+sentence	The results indicate that PhoP~P is sufficient to repress the transcription of the tagA and tagD promoters and also to activate the transcription of the tuaA promoter.
+words	word(0,'The',0,2)	word(1,'results',4,10)	word(2,'indicate',12,19)	word(3,'that',21,24)	word(4,'PhoP~P',26,31)	word(5,'is',33,34)	word(6,'sufficient',36,45)	word(7,'to',47,48)	word(8,'repress',50,56)	word(9,'the',58,60)	word(10,'transcription',62,74)	word(11,'of',76,77)	word(12,'the',79,81)	word(13,'tagA',83,86)	word(14,'and',88,90)	word(15,'tagD',92,95)	word(16,'promoters',97,105)	word(17,'and',107,109)	word(18,'also',111,114)	word(19,'to',116,117)	word(20,'activate',119,126)	word(21,'the',128,130)	word(22,'transcription',132,144)	word(23,'of',146,147)	word(24,'the',149,151)	word(25,'tuaA',153,156)	word(26,'promoter',158,165)
+lemmas	lemma(0,'the')	lemma(1,'result')	lemma(2,'indicate')	lemma(3,'that')	lemma(4,'PhoP~P')	lemma(5,'be')	lemma(6,'sufficient')	lemma(7,'to')	lemma(8,'repress')	lemma(9,'the')	lemma(10,'transcription')	lemma(11,'of')	lemma(12,'the')	lemma(13,'tagA')	lemma(14,'and')	lemma(15,'tagD')	lemma(16,'promoter')	lemma(17,'and')	lemma(18,'also')	lemma(19,'to')	lemma(20,'activate')	lemma(21,'the')	lemma(22,'transcription')	lemma(23,'of')	lemma(24,'the')	lemma(25,'tuaA')	lemma(26,'promoter')
+syntactic_relations	relation('obj:V-N',20,22)	relation('comp_of:N-N',10,16)	relation('comp_of:N-N',22,26)	relation('mod_pred:N-ADJ',4,6)	relation('obj:V-N',8,10)	relation('subj:V-N',2,1)	relation('mod_att:N-N',16,13)	relation('mod_att:N-N',16,15)	relation('mod_att:N-N',26,25)	relation('comp_to:ADJ-V',6,8)	relation('comp_to:ADJ-V',6,20)	relation('mod:ADJ-ADV',6,18)
+agents	agent(4)
+targets	target(13)	target(15)	target(25)
+genic_interactions	genic_interaction(4,13)	genic_interaction(4,15)	genic_interaction(4,25)
+
+ID	9846747-4
+sentence	Primer extension experiments and Northern blot analysis show that an active sigmaA-dependent promoter precedes kdgR and transcription is terminated at the putative p-independent terminator downstream of kdgT.
+words	word(0,'Primer',0,5)	word(1,'extension',7,15)	word(2,'experiments',17,27)	word(3,'and',29,31)	word(4,'Northern',33,40)	word(5,'blot',42,45)	word(6,'analysis',47,54)	word(7,'show',56,59)	word(8,'that',61,64)	word(9,'an',66,67)	word(10,'active',69,74)	word(11,'sigmaA',76,81)	word(12,'dependent',83,91)	word(13,'promoter',93,100)	word(14,'precedes',102,109)	word(15,'kdgR',111,114)	word(16,'and',116,118)	word(17,'transcription',120,132)	word(18,'is',134,135)	word(19,'terminated',137,146)	word(20,'at',148,149)	word(21,'the',151,153)	word(22,'putative',155,162)	word(23,'p-independent',164,176)	word(24,'terminator',178,187)	word(25,'downstream',189,198)	word(26,'of',200,201)	word(27,'kdgT',203,206)
+lemmas	lemma(0,'prime')	lemma(1,'extension')	lemma(2,'experiment')	lemma(3,'and')	lemma(4,'northern')	lemma(5,'blot')	lemma(6,'analysis')	lemma(7,'show')	lemma(8,'that')	lemma(9,'an')	lemma(10,'active')	lemma(11,'sigA')	lemma(12,'dependent')	lemma(13,'promoter')	lemma(14,'precede')	lemma(15,'kdgR')	lemma(16,'and')	lemma(17,'transcription')	lemma(18,'be')	lemma(19,'terminate')	lemma(20,'at')	lemma(21,'the')	lemma(22,'putative')	lemma(23,'p-independent')	lemma(24,'terminator')	lemma(25,'downstream')	lemma(26,'of')	lemma(27,'kdgT')
+syntactic_relations	relation('mod_att:N-N',1,0)	relation('mod_att:N-N',2,1)	relation('mod_att:N-N',5,4)	relation('mod_att:N-N',6,5)	relation('mod:V_PASS-ADV',19,25)	relation('mod:ADJ-N',12,11)	relation('mod_att:N-ADJ',13,12)	relation('mod_att:N-ADJ',13,10)	relation('comp_of:ADV-N',25,27)	relation('subj:V-N',7,6)	relation('subj:V-N',7,2)	relation('obj:V-N',14,15)	relation('mod_att:N-ADJ',24,22)	relation('subj:V-N',14,13)	relation('mod_att:N-ADJ',24,23)	relation('subj:V_PASS-N',19,17)	relation('comp_at:V-N',19,24)
+agents	agent(11)
+targets	target(15)
+genic_interactions	genic_interaction(11,15)
+
+ID	9852014-4
+sentence	The sigmaB-dependent promoter drives expression of yvyD under stress conditions and after glucose starvation, whereas a sigmaH-dependent promoter is responsible for yvyD transcription following amino acid limitation.
+words	word(0,'The',0,2)	word(1,'sigmaB',4,9)	word(2,'dependent',11,19)	word(3,'promoter',21,28)	word(4,'drives',30,35)	word(5,'expression',37,46)	word(6,'of',48,49)	word(7,'yvyD',51,54)	word(8,'under',56,60)	word(9,'stress',62,67)	word(10,'conditions',69,78)	word(11,'and',80,82)	word(12,'after',84,88)	word(13,'glucose',90,96)	word(14,'starvation',98,107)	word(15,'whereas',110,116)	word(16,'a',118,118)	word(17,'sigmaH',120,125)	word(18,'dependent',127,135)	word(19,'promoter',137,144)	word(20,'is',146,147)	word(21,'responsible',149,159)	word(22,'for',161,163)	word(23,'yvyD',165,168)	word(24,'transcription',170,182)	word(25,'following',184,192)	word(26,'amino',194,198)	word(27,'acid',200,203)	word(28,'limitation',205,214)
+lemmas	lemma(0,'the')	lemma(1,'sigB')	lemma(2,'dependent')	lemma(3,'promoter')	lemma(4,'drive')	lemma(5,'expression')	lemma(6,'of')	lemma(7,'yvyD')	lemma(8,'under')	lemma(9,'stress')	lemma(10,'condition')	lemma(11,'and')	lemma(12,'after')	lemma(13,'glucose')	lemma(14,'starvation')	lemma(15,'whereas')	lemma(16,'a')	lemma(17,'sigH')	lemma(18,'dependent')	lemma(19,'promoter')	lemma(20,'be')	lemma(21,'responsible')	lemma(22,'for')	lemma(23,'yvyD')	lemma(24,'transcription')	lemma(25,'follow')	lemma(26,'amino')	lemma(27,'acid')	lemma(28,'limitation')
+syntactic_relations	relation('mod:ADJ-N',18,17)	relation('mod_att:N-ADJ',19,18)	relation('mod:ADJ-N',2,1)	relation('mod_att:N-ADJ',3,2)	relation('mod_att:N-N',28,27)	relation('mod_att:N-ADJ',27,26)	relation('obj:V-N',4,5)	relation('comp_after:V-N',4,14)	relation('mod_att:N-N',10,9)	relation('mod_att:N-N',14,13)	relation('subj:V-N',4,3)	relation('obj:V-N',25,28)	relation('comp_of:N-N',5,7)	relation('mod_att:N-N',24,23)	relation('comp_under:V-N',4,10)	relation('comp_for:ADJ-N',21,24)	relation('subj:V-N',25,24)	relation('mod_pred:N-ADJ',19,21)
+agents	agent(1)	agent(17)
+targets	target(7)	target(23)
+genic_interactions	genic_interaction(1,7)	genic_interaction(17,23)
+
+ID	9852015-1
+sentence	The Bacillus subtilis clpC operon is regulated by two stress induction pathways relying on either sigmaB or a class III stress induction mechanism acting at a sigmaA-like promoter.
+words	word(0,'The',0,2)	word(1,'Bacillus subtilis',4,20)	word(2,'clpC',22,25)	word(3,'operon',27,32)	word(4,'is',34,35)	word(5,'regulated',37,45)	word(6,'by',47,48)	word(7,'two',50,52)	word(8,'stress',54,59)	word(9,'induction',61,69)	word(10,'pathways',71,78)	word(11,'relying',80,86)	word(12,'on',88,89)	word(13,'either',91,96)	word(14,'sigmaB',98,103)	word(15,'or',105,106)	word(16,'a',108,108)	word(17,'class',110,114)	word(18,'III',116,118)	word(19,'stress',120,125)	word(20,'induction',127,135)	word(21,'mechanism',137,145)	word(22,'acting',147,152)	word(23,'at',154,155)	word(24,'a',157,157)	word(25,'sigmaA',159,164)	word(26,'like',166,169)	word(27,'promoter',171,178)
+lemmas	lemma(0,'the')	lemma(1,'Bacillus subtilis')	lemma(2,'mecB')	lemma(3,'operon')	lemma(4,'be')	lemma(5,'regulate')	lemma(6,'by')	lemma(7,'two')	lemma(8,'stress')	lemma(9,'induction')	lemma(10,'pathway')	lemma(11,'rely')	lemma(12,'on')	lemma(13,'either')	lemma(14,'sigB')	lemma(15,'or')	lemma(16,'a')	lemma(17,'class')	lemma(18,'III')	lemma(19,'stress')	lemma(20,'induction')	lemma(21,'mechanism')	lemma(22,'act')	lemma(23,'at')	lemma(24,'a')	lemma(25,'sigA')	lemma(26,'like')	lemma(27,'promoter')
+syntactic_relations	relation('subj:V-N',22,21)	relation('mod_att:N-N',10,9)	relation('mod_att:N-N',9,8)	relation('mod_att:N-N',21,20)	relation('subj:V-N',11,10)	relation('mod_att:N-N',21,17)	relation('comp_on:V-N',11,14)	relation('mod_att:N-ADJ',27,26)	relation('mod:ADJ-N',26,25)	relation('comp_by:V_PASS-N',5,10)	relation('mod_att:N-N',20,19)	relation('comp_at:V-N',22,27)	relation('mod_att:N-N',3,1)	relation('subj:V_PASS-N',5,3)	relation('mod_post:N-ADJ',17,18)	relation('comp_on:V-N',11,21)	relation('mod_att:N-N',3,2)
+agents	agent(14)	agent(25)
+targets	target(2)
+genic_interactions	genic_interaction(14,2)	genic_interaction(25,2)
+
+ID	10075739-5
+sentence	Here, we show that GerE binds near the sigK transcriptional start site, to act as a repressor.
+words	word(0,'Here',0,3)	word(1,'we',6,7)	word(2,'show',9,12)	word(3,'that',14,17)	word(4,'GerE',19,22)	word(5,'binds',24,28)	word(6,'near',30,33)	word(7,'the',35,37)	word(8,'sigK',39,42)	word(9,'transcriptional',44,58)	word(10,'start',60,64)	word(11,'site',66,69)	word(12,'to',72,73)	word(13,'act',75,77)	word(14,'as',79,80)	word(15,'a',82,82)	word(16,'repressor',84,92)
+lemmas	lemma(0,'here')	lemma(1,'we')	lemma(2,'show')	lemma(3,'that')	lemma(4,'GerE')	lemma(5,'bind')	lemma(6,'near')	lemma(7,'the')	lemma(8,'sigK')	lemma(9,'transcriptional')	lemma(10,'start')	lemma(11,'site')	lemma(12,'to')	lemma(13,'act')	lemma(14,'as')	lemma(15,'a')	lemma(16,'represser')
+syntactic_relations	relation('subj:V-N',5,4)	relation('subj:V-N',13,4)	relation('comp_as:V-N',13,16)	relation('mod:V-ADV',2,0)	relation('mod_att:N-N',11,8)	relation('comp_near:V-N',5,11)	relation('mod_att:N-N',11,10)	relation('mod_att:N-ADJ',11,9)	relation('subj:V-N',2,1)	relation('comp_to:V-V',5,13)
+agents	agent(4)
+targets	target(8)
+genic_interactions	genic_interaction(4,8)
+
+ID	10075739-9
+sentence	We show that GerE binds to two sites that span the -35 region of the cotD promoter.
+words	word(0,'We',0,1)	word(1,'show',3,6)	word(2,'that',8,11)	word(3,'GerE',13,16)	word(4,'binds',18,22)	word(5,'to',24,25)	word(6,'two',27,29)	word(7,'sites',31,35)	word(8,'that',37,40)	word(9,'span',42,45)	word(10,'the',47,49)	word(11,'-35',51,53)	word(12,'region',55,60)	word(13,'of',62,63)	word(14,'the',65,67)	word(15,'cotD',69,72)	word(16,'promoter',74,81)
+lemmas	lemma(0,'we')	lemma(1,'show')	lemma(2,'that')	lemma(3,'GerE')	lemma(4,'bind')	lemma(5,'to')	lemma(6,'two')	lemma(7,'site')	lemma(8,'that')	lemma(9,'span')	lemma(10,'the')	lemma(11,'-35')	lemma(12,'region')	lemma(13,'of')	lemma(14,'the')	lemma(15,'cotD')	lemma(16,'promoter')
+syntactic_relations	relation('mod_att:N-N',16,15)	relation('subj:V-N',9,7)	relation('comp_to:V-N',4,7)	relation('subj:V-N',4,3)	relation('comp_of:N-N',12,16)	relation('subj:V-N',1,0)	relation('obj:V-N',9,12)	relation('mod_att:N-ADJ',12,11)	relation('mod_att:N-ADJ',7,6)
+agents	agent(3)
+targets	target(15)
+genic_interactions	genic_interaction(3,15)
+
+ID	10383978-8
+sentence	The ald promoter, like the sigE promoter, is believed to be recognized by sigmaA RNA polymerase, suggesting that sigmaK may inhibit sigmaA activity late in sporulation.
+words	word(0,'The',0,2)	word(1,'ald',4,6)	word(2,'promoter',8,15)	word(3,'like',18,21)	word(4,'the',23,25)	word(5,'sigE',27,30)	word(6,'promoter',32,39)	word(7,'is',42,43)	word(8,'believed',45,52)	word(9,'to',54,55)	word(10,'be',57,58)	word(11,'recognized',60,69)	word(12,'by',71,72)	word(13,'sigmaA',74,79)	word(14,'RNA',81,83)	word(15,'polymerase',85,94)	word(16,'suggesting',97,106)	word(17,'that',108,111)	word(18,'sigmaK',113,118)	word(19,'may',120,122)	word(20,'inhibit',124,130)	word(21,'sigmaA',132,137)	word(22,'activity',139,146)	word(23,'late',148,151)	word(24,'in',153,154)	word(25,'sporulation',156,166)
+lemmas	lemma(0,'the')	lemma(1,'ald')	lemma(2,'promoter')	lemma(3,'like')	lemma(4,'the')	lemma(5,'sigE')	lemma(6,'promoter')	lemma(7,'be')	lemma(8,'believe')	lemma(9,'to')	lemma(10,'be')	lemma(11,'recognize')	lemma(12,'by')	lemma(13,'sigA')	lemma(14,'RNA')	lemma(15,'polymerase')	lemma(16,'suggest')	lemma(17,'that')	lemma(18,'sigK')	lemma(19,'may')	lemma(20,'inhibit')	lemma(21,'sigA')	lemma(22,'activity')	lemma(23,'late')	lemma(24,'in')	lemma(25,'sporulation')
+syntactic_relations	relation('comp_by:V_PASS-N',11,15)	relation('mod_att:N-N',22,21)	relation('obj:V-N',20,22)	relation('mod_att:N-N',15,14)	relation('mod_att:N-N',15,13)	relation('subj:V-N',20,18)	relation('subj:V_PASS-N',11,2)	relation('mod_att:N-N',2,1)	relation('mod_att:N-N',6,5)	relation('comp_like:V_PASS-N',11,6)	relation('mod:V-ADV',20,23)	relation('comp_in:ADV-N',23,25)
+agents	agent(13)	agent(18)
+targets	target(1)	target(21)
+genic_interactions	genic_interaction(13,1)	genic_interaction(18,21)
+
+ID	10400595-1
+sentence	During endospore formation in Bacillus subtilis, the DNA binding protein GerE stimulates transcription from several promoters that are used by RNA polymerase containing sigmaK
+words	word(0,'During',0,5)	word(1,'endospore',7,15)	word(2,'formation',17,25)	word(3,'in',27,28)	word(4,'Bacillus subtilis',30,46)	word(5,'the',49,51)	word(6,'DNA',53,55)	word(7,'binding',57,63)	word(8,'protein',65,71)	word(9,'GerE',73,76)	word(10,'stimulates',78,87)	word(11,'transcription',89,101)	word(12,'from',103,106)	word(13,'several',108,114)	word(14,'promoters',116,124)	word(15,'that',126,129)	word(16,'are',131,133)	word(17,'used',135,138)	word(18,'by',140,141)	word(19,'RNA',143,145)	word(20,'polymerase',147,156)	word(21,'containing',158,167)	word(22,'sigmaK',169,174)
+lemmas	lemma(0,'during')	lemma(1,'endospore')	lemma(2,'formation')	lemma(3,'in')	lemma(4,'Bacillus subtilis')	lemma(5,'the')	lemma(6,'DNA')	lemma(7,'binding')	lemma(8,'protein')	lemma(9,'GerE')	lemma(10,'stimulate')	lemma(11,'transcription')	lemma(12,'from')	lemma(13,'several')	lemma(14,'promoter')	lemma(15,'that')	lemma(16,'be')	lemma(17,'use')	lemma(18,'by')	lemma(19,'RNA')	lemma(20,'polymerase')	lemma(21,'contain')	lemma(22,'sigK')
+syntactic_relations	relation('subj:V-N',21,20)	relation('mod_att:N-N',9,8)	relation('obj:V-N',21,22)	relation('mod_att:N-N',20,19)	relation('comp_during:V-N',10,2)	relation('mod:ADJ-N',7,6)	relation('subj:V_PASS-N',17,14)	relation('comp_in:N-N',2,4)	relation('comp_by:V_PASS-N',17,20)	relation('mod_att:N-ADJ',2,1)	relation('obj:V-N',10,11)	relation('comp_from:N-N',11,14)	relation('subj:V-N',10,9)	relation('mod_att:N-ADJ',8,7)	relation('mod_att:N-ADJ',14,13)
+agents	agent(9)
+targets	target(22)
+genic_interactions	genic_interaction(9,22)
+
+ID	10503549-4
+sentence	The -10 and -35 sequences of the sigmaB- and sigmaF-dependent promoters of katX overlap, and the transcriptional start points used by EsigmaB and EsigmaF differ by only one nucleotide.
+words	word(0,'The',0,2)	word(1,'-10',4,6)	word(2,'and',8,10)	word(3,'-35',12,14)	word(4,'sequences',16,24)	word(5,'of',26,27)	word(6,'the',29,31)	word(7,'sigmaB',33,38)	word(8,'and',41,43)	word(9,'sigmaF',45,50)	word(10,'dependent',52,60)	word(11,'promoters',62,70)	word(12,'of',72,73)	word(13,'katX',75,78)	word(14,'overlap',80,86)	word(15,'and',89,91)	word(16,'the',93,95)	word(17,'transcriptional',97,111)	word(18,'start',113,117)	word(19,'points',119,124)	word(20,'used',126,129)	word(21,'by',131,132)	word(22,'EsigmaB',134,140)	word(23,'and',142,144)	word(24,'EsigmaF',146,152)	word(25,'differ',154,159)	word(26,'by',161,162)	word(27,'only',164,167)	word(28,'one',169,171)	word(29,'nucleotide',173,182)
+lemmas	lemma(0,'the')	lemma(1,'-10')	lemma(2,'and')	lemma(3,'-35')	lemma(4,'sequence')	lemma(5,'of')	lemma(6,'the')	lemma(7,'sigB')	lemma(8,'and')	lemma(9,'sigF')	lemma(10,'dependent')	lemma(11,'promoter')	lemma(12,'of')	lemma(13,'katX')	lemma(14,'overlap')	lemma(15,'and')	lemma(16,'the')	lemma(17,'transcriptional')	lemma(18,'start')	lemma(19,'point')	lemma(20,'use')	lemma(21,'by')	lemma(22,'EsigmaB')	lemma(23,'and')	lemma(24,'EsigmaF')	lemma(25,'differ')	lemma(26,'by')	lemma(27,'only')	lemma(28,'one')	lemma(29,'nucleotide')
+syntactic_relations	relation('comp_by:V_PASS-N',20,24)	relation('mod_att:N-ADJ',4,1)	relation('mod_att:N-ADJ',4,3)	relation('comp_of:N-N',4,11)	relation('mod_att:N-N',19,18)	relation('comp_of:N-N',11,13)	relation('subj:V-N',25,19)	relation('mod_att:N-ADJ',19,17)	relation('subj:V-N',14,4)	relation('comp_by:V-N',25,29)	relation('comp_by:V_PASS-N',20,22)	relation('subj:V_PASS-N',20,19)	relation('mod_att:N-ADJ',11,10)	relation('mod:ADJ-N',10,9)	relation('mod:ADJ-N',10,7)	relation('mod:ADJ-ADV',28,27)	relation('mod_att:N-ADJ',29,28)
+agents	agent(7)	agent(9)
+targets	target(13)
+genic_interactions	genic_interaction(7,13)	genic_interaction(9,13)
+
+ID	10788508-10
+sentence	DNase I footprinting showed that SpoIIID binds strongly to two sites in the cotC promoter region, binds weakly to one site in the cotX promoter, and does not bind specifically to cotB.
+words	word(0,'DNase',0,4)	word(1,'I',6,6)	word(2,'footprinting',8,19)	word(3,'showed',21,26)	word(4,'that',28,31)	word(5,'SpoIIID',33,39)	word(6,'binds',41,45)	word(7,'strongly',47,54)	word(8,'to',56,57)	word(9,'two',59,61)	word(10,'sites',63,67)	word(11,'in',69,70)	word(12,'the',72,74)	word(13,'cotC',76,79)	word(14,'promoter',81,88)	word(15,'region',90,95)	word(16,'binds',98,102)	word(17,'weakly',104,109)	word(18,'to',111,112)	word(19,'one',114,116)	word(20,'site',118,121)	word(21,'in',123,124)	word(22,'the',126,128)	word(23,'cotX',130,133)	word(24,'promoter',135,142)	word(25,'and',145,147)	word(26,'does',149,152)	word(27,'not',154,156)	word(28,'bind',158,161)	word(29,'specifically',163,174)	word(30,'to',176,177)	word(31,'cotB',179,182)
+lemmas	lemma(0,'DNase')	lemma(1,'I')	lemma(2,'footprinting')	lemma(3,'show')	lemma(4,'that')	lemma(5,'SpoIIID')	lemma(6,'bind')	lemma(7,'strongly')	lemma(8,'to')	lemma(9,'two')	lemma(10,'site')	lemma(11,'in')	lemma(12,'the')	lemma(13,'cotC')	lemma(14,'promoter')	lemma(15,'region')	lemma(16,'bind')	lemma(17,'weakly')	lemma(18,'to')	lemma(19,'one')	lemma(20,'site')	lemma(21,'in')	lemma(22,'the')	lemma(23,'cotX')	lemma(24,'promoter')	lemma(25,'and')	lemma(26,'do')	lemma(27,'not')	lemma(28,'bind')	lemma(29,'specifically')	lemma(30,'to')	lemma(31,'cotB')
+syntactic_relations	relation('subj:V-N',28,5)	relation('subj:V-N',6,5)	relation('comp_in:N-N',10,15)	relation('mod:V-ADV',6,7)	relation('mod_att:N-N',2,0)	relation('mod:V-ADV',28,29)	relation('mod:V-ADV',16,17)	relation('mod_att:N-N',24,23)	relation('comp_in:N-N',20,24)	relation('mod_att:N-N',15,14)	relation('mod_att:N-N',15,13)	relation('subj:V-N',16,5)	relation('mod_post:N-ADJ',0,1)	relation('comp_to:V-N',28,31)	relation('comp_to:V-N',16,20)	relation('comp_to:V-N',6,10)	relation('subj:V-N',3,2)	relation('neg',28,27)	relation('mod_att:N-ADJ',10,9)	relation('mod_att:N-ADJ',20,19)
+agents	agent(5)
+targets	target(13)	target(23)	target(31)
+genic_interactions	genic_interaction(5,13)	genic_interaction(5,23)	genic_interaction(5,31)
+
+ID	10801786-5
+sentence	However, the mutant was unable to stimulate transcription by final sigma(A)-RNA polymerase from the Spo0A-dependent spoIIG operon promoter.
+words	word(0,'However',0,6)	word(1,'the',9,11)	word(2,'mutant',13,18)	word(3,'was',20,22)	word(4,'unable',24,29)	word(5,'to',31,32)	word(6,'stimulate',34,42)	word(7,'transcription',44,56)	word(8,'by',58,59)	word(9,'final',61,65)	word(10,'sigma(A)',67,74)	word(11,'RNA',76,78)	word(12,'polymerase',80,89)	word(13,'from',91,94)	word(14,'the',96,98)	word(15,'Spo0A',100,104)	word(16,'dependent',106,114)	word(17,'spoIIG',116,121)	word(18,'operon',123,128)	word(19,'promoter',130,137)
+lemmas	lemma(0,'however')	lemma(1,'the')	lemma(2,'mutant')	lemma(3,'be')	lemma(4,'unable')	lemma(5,'to')	lemma(6,'stimulate')	lemma(7,'transcription')	lemma(8,'by')	lemma(9,'final')	lemma(10,'sigA')	lemma(11,'RNA')	lemma(12,'polymerase')	lemma(13,'from')	lemma(14,'the')	lemma(15,'spo0A')	lemma(16,'dependent')	lemma(17,'spoIIG')	lemma(18,'operon')	lemma(19,'promoter')
+syntactic_relations	relation('mod_att:N-ADJ',19,16)	relation('mod:ADJ-N',16,15)	relation('comp_from:N-N',7,19)	relation('mod:V-ADV',3,0)	relation('obj:V-N',6,7)	relation('mod_att:N-N',19,18)	relation('mod_att:N-ADJ',12,11)	relation('mod_att:N-ADJ',12,10)	relation('mod_pred:N-ADJ',2,4)	relation('mod_att:N-N',18,17)	relation('comp_by:N-N',7,12)	relation('comp_to:ADJ-V',4,6)	relation('mod_att:N-ADJ',12,9)
+agents	agent(15)	agent(10)
+targets	target(17)	target(10)
+genic_interactions	genic_interaction(15,17)	genic_interaction(10,17)	genic_interaction(15,10)
+
+ID	11021934-4
+sentence	Therefore, ftsY is solely expressed during sporulation from a sigma(K)- and GerE-controlled promoter that is located immediately upstream of ftsY inside the smc gene.
+words	word(0,'Therefore',0,8)	word(1,'ftsY',11,14)	word(2,'is',16,17)	word(3,'solely',19,24)	word(4,'expressed',26,34)	word(5,'during',36,41)	word(6,'sporulation',43,53)	word(7,'from',55,58)	word(8,'a',60,60)	word(9,'sigma(K)',62,69)	word(10,'and',72,74)	word(11,'GerE',76,79)	word(12,'controlled',81,90)	word(13,'promoter',92,99)	word(14,'that',101,104)	word(15,'is',106,107)	word(16,'located',109,115)	word(17,'immediately',117,127)	word(18,'upstream',129,136)	word(19,'of',138,139)	word(20,'ftsY',141,144)	word(21,'inside',146,151)	word(22,'the',153,155)	word(23,'smc',157,159)	word(24,'gene',161,164)
+lemmas	lemma(0,'therefore')	lemma(1,'ftsY')	lemma(2,'be')	lemma(3,'solely')	lemma(4,'express')	lemma(5,'during')	lemma(6,'sporulation')	lemma(7,'from')	lemma(8,'a')	lemma(9,'sigK')	lemma(10,'and')	lemma(11,'GerE')	lemma(12,'controlled')	lemma(13,'promoter')	lemma(14,'that')	lemma(15,'be')	lemma(16,'locate')	lemma(17,'immediately')	lemma(18,'upstream')	lemma(19,'of')	lemma(20,'ftsY')	lemma(21,'inside')	lemma(22,'the')	lemma(23,'smc')	lemma(24,'gene')
+syntactic_relations	relation('mod:ADJ-N',12,11)	relation('mod:ADJ-N',12,9)	relation('mod_att:N-ADJ',13,12)	relation('mod_att:N-N',24,23)	relation('comp_of:ADV-N',18,20)	relation('comp_inside:V_PASS-N',16,24)	relation('comp_during:V_PASS-N',4,6)	relation('mod:ADV-ADV',18,17)	relation('mod:V_PASS-ADV',16,18)	relation('mod:V_PASS-ADV',4,0)	relation('mod:V_PASS-ADV',4,3)	relation('subj:V_PASS-N',4,1)	relation('subj:V_PASS-N',16,13)	relation('comp_from:V_PASS-N',4,13)
+agents	agent(9)	agent(11)
+targets	target(1)
+genic_interactions	genic_interaction(9,1)	genic_interaction(11,1)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                             %
+% GENIC INTERACTION EXPRESSED BY MEMBERSHIP TO REGULON FAMILY %
+%                                                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ID	10220166-10
+sentence	The ydaP gene might belong to the increasing number of sigmaB-dependent genes whose orthologues are under the control of sigmas in Escherichia coli, indicating that both regulons may fulfil similar functions.
+words	word(0,'The',0,2)	word(1,'ydaP',4,7)	word(2,'gene',9,12)	word(3,'might',14,18)	word(4,'belong',20,25)	word(5,'to',27,28)	word(6,'the',30,32)	word(7,'increasing',34,43)	word(8,'number',45,50)	word(9,'of',52,53)	word(10,'sigmaB',55,60)	word(11,'dependent',62,70)	word(12,'genes',72,76)	word(13,'whose',78,82)	word(14,'orthologues',84,94)	word(15,'are',96,98)	word(16,'under',100,104)	word(17,'the',106,108)	word(18,'control',110,116)	word(19,'of',118,119)	word(20,'sigmas',121,126)	word(21,'in',128,129)	word(22,'Escherichia coli',131,146)	word(23,'indicating',149,158)	word(24,'that',160,163)	word(25,'both',165,168)	word(26,'regulons',170,177)	word(27,'may',179,181)	word(28,'fulfil',183,188)	word(29,'similar',190,196)	word(30,'functions',198,206)
+lemmas	lemma(0,'the')	lemma(1,'ydaP')	lemma(2,'gene')	lemma(3,'might')	lemma(4,'belong')	lemma(5,'to')	lemma(6,'the')	lemma(7,'increase')	lemma(8,'number')	lemma(9,'of')	lemma(10,'sigB')	lemma(11,'dependent')	lemma(12,'gene')	lemma(13,'whose')	lemma(14,'orthologues')	lemma(15,'be')	lemma(16,'under')	lemma(17,'the')	lemma(18,'control')	lemma(19,'of')	lemma(20,'sigma')	lemma(21,'in')	lemma(22,'Escherichia coli')	lemma(23,'indicate')	lemma(24,'that')	lemma(25,'both')	lemma(26,'regulons')	lemma(27,'may')	lemma(28,'fulfill')	lemma(29,'similar')	lemma(30,'function')
+syntactic_relations	relation('comp_in:V-N',15,22)	relation('mod:ADJ-N',11,10)	relation('comp_under:V-N',15,18)	relation('mod_att:N-ADJ',8,7)	relation('subj:V-N',28,26)	relation('comp_to:V-N',4,8)	relation('mod_att:N-ADJ',12,11)	relation('subj:V-N',4,2)	relation('comp_of:N-N',18,20)	relation('subj:V-N',15,14)	relation('mod_att:N-N',2,1)	relation('comp_of:N-N',8,12)	relation('comp_of:N-N',14,12)	relation('obj:V-N',28,30)	relation('mod_att:N-ADJ',30,29)
+agents	agent(10)
+targets	target(1)
+genic_interactions	genic_interaction(10,1)
+
+ID	9852014-10
+sentence	This indicates that the yvyD gene product, being a member of both the sigmaB and sigmaH regulons, might negatively regulate the activity of the sigmaL regulon.
+words	word(0,'This',0,3)	word(1,'indicates',5,13)	word(2,'that',15,18)	word(3,'the',20,22)	word(4,'yvyD',24,27)	word(5,'gene',29,32)	word(6,'product',34,40)	word(7,'being',43,47)	word(8,'a',49,49)	word(9,'member',51,56)	word(10,'of',58,59)	word(11,'both',61,64)	word(12,'the',66,68)	word(13,'sigmaB',70,75)	word(14,'and',77,79)	word(15,'sigmaH',81,86)	word(16,'regulons',88,95)	word(17,'might',98,102)	word(18,'negatively',104,113)	word(19,'regulate',115,122)	word(20,'the',124,126)	word(21,'activity',128,135)	word(22,'of',137,138)	word(23,'the',140,142)	word(24,'sigmaL',144,149)	word(25,'regulon',151,157)
+lemmas	lemma(0,'this')	lemma(1,'indicate')	lemma(2,'that')	lemma(3,'the')	lemma(4,'yvyD')	lemma(5,'gene')	lemma(6,'product')	lemma(7,'being')	lemma(8,'a')	lemma(9,'member')	lemma(10,'of')	lemma(11,'both')	lemma(12,'the')	lemma(13,'sigB')	lemma(14,'and')	lemma(15,'sigH')	lemma(16,'regulons')	lemma(17,'might')	lemma(18,'negatively')	lemma(19,'regulate')	lemma(20,'the')	lemma(21,'activity')	lemma(22,'of')	lemma(23,'the')	lemma(24,'sigL')	lemma(25,'regulon')
+syntactic_relations	relation('mod:V-ADV',19,18)	relation('mod_att:N-N',16,13)	relation('mod_att:N-N',6,5)	relation('mod_att:N-N',5,4)	relation('mod_att:N-N',25,24)	relation('comp_of:N-N',21,25)	relation('obj:V-N',19,21)	relation('subj:V-N',19,6)	relation('mod_att:N-N',16,15)	relation('mod_pred:N-N',6,9)	relation('comp_of:N-N',9,16)
+agents	agent(13)	agent(15)	agent(4)
+targets	target(4)	target(24)
+genic_interactions	genic_interaction(13,4)	genic_interaction(15,4)	genic_interaction(4,24)
+
+ID	9841221-4
+sentence	In that respect sigB is similar to the previously described gene gsiB which is also a member of the sigmaB regulon.
+words	word(0,'In',0,1)	word(1,'that',3,6)	word(2,'respect',8,14)	word(3,'sigB',16,19)	word(4,'is',21,22)	word(5,'similar',24,30)	word(6,'to',32,33)	word(7,'the',35,37)	word(8,'previously',39,48)	word(9,'described',50,58)	word(10,'gene',60,63)	word(11,'gsiB',65,68)	word(12,'which',70,74)	word(13,'is',76,77)	word(14,'also',79,82)	word(15,'a',84,84)	word(16,'member',86,91)	word(17,'of',93,94)	word(18,'the',96,98)	word(19,'sigmaB',100,105)	word(20,'regulon',107,113)
+lemmas	lemma(0,'in')	lemma(1,'that')	lemma(2,'respect')	lemma(3,'sigB')	lemma(4,'be')	lemma(5,'similar')	lemma(6,'to')	lemma(7,'the')	lemma(8,'previously')	lemma(9,'describe')	lemma(10,'gene')	lemma(11,'gsiB')	lemma(12,'which')	lemma(13,'be')	lemma(14,'also')	lemma(15,'a')	lemma(16,'member')	lemma(17,'of')	lemma(18,'the')	lemma(19,'sigB')	lemma(20,'regulon')
+syntactic_relations	relation('mod:V-ADV',13,14)	relation('mod_att:N-N',11,10)	relation('mod_att:N-N',20,19)	relation('comp_in:V-N',4,2)	relation('comp_of:N-N',16,20)	relation('mod_att:N-ADJ',10,9)	relation('comp_to:ADJ-N',5,11)	relation('mod_pred:N-ADJ',3,5)	relation('mod_pred:N-N',11,16)	relation('mod:ADJ-ADV',9,8)
+agents	agent(19)
+targets	target(11)	target(3)
+genic_interactions	genic_interaction(19,11)	genic_interaction(19,3)
+
