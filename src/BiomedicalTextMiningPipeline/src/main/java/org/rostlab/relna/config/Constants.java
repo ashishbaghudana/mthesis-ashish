@@ -21,7 +21,7 @@ public class Constants {
 	public static final String GIMLI_RESOURCES = "src/main/resources/gimli/";
 	
 	private static final String [] CRFS = {"models/crf_protein.gz", "models/crf_dna.gz", "models/crf_rna.gz"};
-	private static final String [] CONFIG = {"config/jnlpba_protein.config", "config/jnlpba_dna.config", "config/jnlpba_rna.config"};
+	private static final String [] CONFIG = {"config/jnlpba_dna.config", "config/jnlpba_protein.config", "config/jnlpba_rna.config"};
 	
 	public static final String PROTEIN_MODEL = GIMLI_RESOURCES.concat(CRFS[0]);
 	public static final String DNA_MODEL = GIMLI_RESOURCES.concat(CRFS[1]);

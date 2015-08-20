@@ -6,7 +6,8 @@ version = '1.0'
 jar {
     manifest {
         attributes 'Implementation-Title': 'Gradle Quickstart',
-                   'Implementation-Version': version
+                   'Implementation-Version': version,
+                   'Main-Class': 'org.rostlab.relna.driver.NameTaggerRecognizer'
     }
 }
 
@@ -18,7 +19,10 @@ dependencies {
     compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
     testCompile group: 'junit', name: 'junit', version: '4.+'
     compile group: 'org.apache.opennlp', name: 'opennlp-tools', version: '1.6.0'
-    compile files('src/main/resources/gimli/target/gimli-1.0.2-jar-with-dependencies.jar')
+    compile group: 'commons-cli', name: 'commons-cli', version: '1.3.1'
+    compile group: 'edu.stanford.nlp', name: 'stanford-corenlp', version: '3.5.2'
+    compile group: 'org.json', name: 'json', version: '20141113'
+    compile files('src/main/resources/gimli/target/gimli-1.0.3-SNAPSHOT-jar-with-dependencies.jar')
 }
 
 test {

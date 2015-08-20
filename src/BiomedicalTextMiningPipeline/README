@@ -1,0 +1,10 @@
+INSTALLATION
+
+1. Unzip the gimli.zip file into src/main/resources/
+2. This will create a folder gimli in the src/main/resources/ containing all the Gimli files required for the project.
+
+RUNNING THE TOOL
+Run the main method from org.rostlab.relna.driver.NameTaggerRecognizer with the following arguments:
+	-c <path-to-corpus-in-IOB-format>
+	-g <path-to-load-or-save-gdep>
+	-o <path-to-output-with-suffix-iob2>

@@ -63,17 +63,16 @@ public class GimliParser implements Parser {
 			
 			if (s!=null) {
 				while(!(s.equals(".\tO"))) {
-					System.out.println(s);
-					line = s.split("\t");
+					if (s.isEmpty())
+						s = br.readLine();
+					line = s.split("\\s+");
 					startOffset = endOffset + 1;
 					endOffset = startOffset + line[0].length();
 					token = new Token(startOffset, endOffset-1, line[0], line[1]);
 					sentence.addToken(token);
 					s = br.readLine();
 				}
-				
-				System.out.println(s);
-				
+
 				line = s.split("\t");
 				startOffset = endOffset + 1;
 				endOffset = startOffset + line[0].length();
@@ -89,11 +88,11 @@ public class GimliParser implements Parser {
 		return doc;
 	}
 	
-	public static void main(String [] args) {
+	public static void main(String [] args) {		
 		GimliParser gimli = new GimliParser();
 		Document doc = null;
 		try {
-			FileInputStream file = new FileInputStream(new File("/home/ashish/workspace/BiomedicalTextMiningPipieline/src/main/resources/sample/abstract/output.txt"));
+			FileInputStream file = new FileInputStream(new File("/home/ashish/workspace/BiomedicalTextMiningPipieline/src/main/resources/sample/abstract/output.iob2"));
 			doc = gimli.parse(file);
 			System.out.println(doc.getSection(0));
 		} catch (FileNotFoundException e) {
