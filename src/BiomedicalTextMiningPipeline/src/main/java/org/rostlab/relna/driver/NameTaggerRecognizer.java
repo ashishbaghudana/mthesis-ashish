@@ -22,7 +22,7 @@ public class NameTaggerRecognizer {
 	
 	private static Logger logger = LoggerFactory.getLogger(NameTaggerRecognizer.class);
 	
-	public static void main(String [] args) {
+	public static void main (String [] args) {
 		DefaultParser parser = new DefaultParser();
 		Options options = new Options();
 		options.addOption("h", "help", false, "Print usage information.");
