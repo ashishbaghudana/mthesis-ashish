@@ -46,7 +46,8 @@ public class Section {
 	public HashMap<Integer, ArrayList<Phrase>> getProteinTokens() {
 		HashMap<Integer, ArrayList<Phrase>> proteinTokens = new HashMap<Integer, ArrayList<Phrase>>();
 		for (Sentence sentence : sentences) {
-			proteinTokens.put(sentence.sentenceId, sentence.getProteinTokens());
+			if (!sentence.getProteinTokens().isEmpty())
+				proteinTokens.put(sentence.sentenceId, sentence.getProteinTokens());
 		}
 		return proteinTokens;
 	}
@@ -54,7 +55,8 @@ public class Section {
 	public HashMap<Integer, ArrayList<Phrase>> getDNATokens() {
 		HashMap<Integer, ArrayList<Phrase>> DNATokens = new HashMap<Integer, ArrayList<Phrase>>();
 		for (Sentence sentence : sentences) {
-			DNATokens.put(sentence.sentenceId, sentence.getDNATokens());
+			if (!sentence.getDNATokens().isEmpty())
+				DNATokens.put(sentence.sentenceId, sentence.getDNATokens());
 		}
 		return DNATokens;
 	}
@@ -62,7 +64,8 @@ public class Section {
 	public HashMap<Integer, ArrayList<Phrase>> getRNATokens() {
 		HashMap<Integer, ArrayList<Phrase>> RNATokens = new HashMap<Integer, ArrayList<Phrase>>();
 		for (Sentence sentence : sentences) {
-			RNATokens.put(sentence.sentenceId, sentence.getRNATokens());
+			if (!sentence.getRNATokens().isEmpty())
+				RNATokens.put(sentence.sentenceId, sentence.getRNATokens());
 		}
 		return RNATokens;
 	}

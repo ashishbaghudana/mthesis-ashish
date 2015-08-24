@@ -50,7 +50,8 @@ public class Document {
 	public HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>> getProteinTokens() {
 		HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>> proteinTokens = new HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>>();
 		for (Section section : sections) {
-			proteinTokens.put(section.sectionId, section.getProteinTokens());
+			if (!section.getProteinTokens().isEmpty())
+				proteinTokens.put(section.sectionId, section.getProteinTokens());
 		}
 		return proteinTokens;
 	}
@@ -58,7 +59,8 @@ public class Document {
 	public HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>> getDNATokens() {
 		HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>> DNATokens = new HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>>();
 		for (Section section : sections) {
-			DNATokens.put(section.sectionId, section.getDNATokens());
+			if (!section.getDNATokens().isEmpty())
+				DNATokens.put(section.sectionId, section.getDNATokens());
 		}
 		return DNATokens;
 	}
@@ -66,7 +68,8 @@ public class Document {
 	public HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>> getRNATokens() {
 		HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>> RNATokens = new HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>>();
 		for (Section section : sections) {
-			RNATokens.put(section.sectionId, section.getRNATokens());
+			if (!section.getRNATokens().isEmpty())
+				RNATokens.put(section.sectionId, section.getRNATokens());
 		}
 		return RNATokens;
 	}
