@@ -7,7 +7,13 @@
 ### RUNNING THE TOOL ###
 
 Navigate to `build/libs` and run the tool with `java -jar BiomedicalTextMiningPipeline.jar` with the following arguments:
+<<<<<<< HEAD
 * -c **path-to-corpus-in-IOB-format**
 * -g **path-to-load-or-save-gdep**
 * -o **path-to-output-with-suffix-iob2**
 * -f **input format - txt or iob2**
+=======
+* -c _path-to-corpus-in-IOB-format_
+* -g _path-to-load-or-save-gdep_
+* -o _path-to-output-with-suffix-iob2_
+>>>>>>> 609d65f8e1e68cf9ee83e279c956fd4cde56433a
