@@ -16,11 +16,10 @@ public class RelationshipExtractor {
 		HashMap<Integer, HashMap<Integer, ArrayList<ArrayList<Phrase>>>> proteinDNA = new HashMap<Integer, HashMap<Integer, ArrayList<ArrayList<Phrase>>>>();
 		HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>> DNATokens = this.document.getDNATokens();
 		HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>> proteinTokens = this.document.getProteinTokens();
-		
 		for (int i=0; i<this.document.size(); i++){
 			HashMap<Integer, ArrayList<ArrayList<Phrase>>> map = new HashMap<Integer, ArrayList<ArrayList<Phrase>>>();
 			for (int j=0; j<this.document.getSection(i).size(); j++) {
-				if (this.hasProteinTokens(proteinTokens.get(i).get(j)) && this.hasDNATokens(DNATokens.get(i).get(j))) {
+				if (proteinTokens.containsKey(i) && DNATokens.containsKey(i) && proteinTokens.get(i).containsKey(j) && DNATokens.get(i).containsKey(j) && this.hasProteinTokens(proteinTokens.get(i).get(j)) && this.hasDNATokens(DNATokens.get(i).get(j))) {
 					ArrayList<ArrayList<Phrase>> phrases = new ArrayList<ArrayList<Phrase>>();
 					for (Phrase proteinPhrase : proteinTokens.get(i).get(j)) {
 						for (Phrase DNAPhrase : DNATokens.get(i).get(j)) {
@@ -30,10 +29,12 @@ public class RelationshipExtractor {
 							phrases.add(smallPhrase);
 						}
 					}
-					map.put(j, phrases);
+					if (!phrases.isEmpty())
+						map.put(j, phrases);
 				}
 			}
-			proteinDNA.put(i, map);
+			if (!map.isEmpty())
+				proteinDNA.put(i, map);
 		}
 		
 		return proteinDNA;
@@ -47,7 +48,7 @@ public class RelationshipExtractor {
 		for (int i=0; i<this.document.size(); i++){
 			HashMap<Integer, ArrayList<ArrayList<Phrase>>> map = new HashMap<Integer, ArrayList<ArrayList<Phrase>>>();
 			for (int j=0; j<this.document.getSection(i).size(); j++) {
-				if (this.hasProteinTokens(proteinTokens.get(i).get(j)) && this.hasRNATokens(RNATokens.get(i).get(j))) {
+				if (proteinTokens.containsKey(i) && RNATokens.containsKey(i) && proteinTokens.get(i).containsKey(j) && RNATokens.get(i).containsKey(j) &&this.hasProteinTokens(proteinTokens.get(i).get(j)) && this.hasRNATokens(RNATokens.get(i).get(j))) {
 					ArrayList<ArrayList<Phrase>> phrases = new ArrayList<ArrayList<Phrase>>();
 					for (Phrase proteinPhrase : proteinTokens.get(i).get(j)) {
 						for (Phrase DNAPhrase : RNATokens.get(i).get(j)) {
@@ -57,10 +58,12 @@ public class RelationshipExtractor {
 							phrases.add(smallPhrase);
 						}
 					}
-					map.put(j, phrases);
+					if (!phrases.isEmpty())
+						map.put(j, phrases);
 				}
 			}
-			proteinRNA.put(i, map);
+			if (!map.isEmpty())
+				proteinRNA.put(i, map);
 		}
 		
 		return proteinRNA;
