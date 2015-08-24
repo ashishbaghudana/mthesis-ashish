@@ -18,9 +18,8 @@ public class JSONFileWriter implements IWriter {
 	public void write(String file) {
 		try {
 			FileWriter fw = new FileWriter(new File(file));
-			this.json.write(fw);
+			fw.write(json.toString(4));
 			fw.close();
-			
 		} catch (JSONException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -29,7 +28,13 @@ public class JSONFileWriter implements IWriter {
 	}
 
 	public void write(Writer writer) {
-		this.json.write(writer);
+		try {
+			writer.write(json.toString(4));
+		} catch (JSONException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public JSONFileWriter(Document doc) {
@@ -46,10 +51,8 @@ public class JSONFileWriter implements IWriter {
 		
 		HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>> proteinTokens = document.getProteinTokens();
 		for (int key : proteinTokens.keySet()) {
-			JSONObject sectionJSON = new JSONObject();
 			HashMap<Integer, ArrayList<Phrase>> sectionProteinTokens = proteinTokens.get(key);
 			for (int sentenceKey : sectionProteinTokens.keySet()) {
-				JSONObject sentenceJSON = new JSONObject();
 				ArrayList<Phrase> sentenceProteinTokens = sectionProteinTokens.get(sentenceKey);
 				for(Phrase phrase : sentenceProteinTokens) {
 					JSONObject phraseJSON = new JSONObject();
@@ -57,21 +60,17 @@ public class JSONFileWriter implements IWriter {
 					phraseJSON.accumulate("tokenEnd", phrase.getEndOffset());
 					phraseJSON.accumulate("token", phrase.toString());
 					phraseJSON.accumulate("tokenType", "protein");
-					sentenceJSON.accumulate("proteinEntities", phraseJSON);
+					phraseJSON.accumulate("sentenceId", sentenceKey);
+					phraseJSON.accumulate("sectionId", key);
+					json.accumulate("proteinEntities", phraseJSON);
 				}
-				sentenceJSON.accumulate("sentenceId", sentenceKey);
-				sectionJSON.accumulate("proteinEntities", sentenceJSON);
 			}
-			sectionJSON.accumulate("sectionId", key);
-			json.accumulate("proteinEntities", sectionJSON);
 		}
 		
 		HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>> DNATokens = document.getDNATokens();
 		for (int key : DNATokens.keySet()) {
-			JSONObject sectionJSON = new JSONObject();
 			HashMap<Integer, ArrayList<Phrase>> sectionDNATokens = DNATokens.get(key);
 			for (int sentenceKey : sectionDNATokens.keySet()) {
-				JSONObject sentenceJSON = new JSONObject();
 				ArrayList<Phrase> sentenceDNATokens = sectionDNATokens.get(sentenceKey);
 				for(Phrase phrase : sentenceDNATokens) {
 					JSONObject phraseJSON = new JSONObject();
@@ -79,21 +78,17 @@ public class JSONFileWriter implements IWriter {
 					phraseJSON.accumulate("tokenEnd", phrase.getEndOffset());
 					phraseJSON.accumulate("token", phrase.toString());
 					phraseJSON.accumulate("tokenType", "protein");
-					sentenceJSON.accumulate("DNAEntities", phraseJSON);
+					phraseJSON.accumulate("sentenceId", sentenceKey);
+					phraseJSON.accumulate("sectionId", key);
+					json.accumulate("DNAEntities", phraseJSON);
 				}
-				sentenceJSON.accumulate("sentenceId", sentenceKey);
-				sectionJSON.accumulate("DNAEntities", sentenceJSON);
 			}
-			sectionJSON.accumulate("sectionId", key);
-			json.accumulate("DNAEntities", sectionJSON);
 		}
 		
 		HashMap<Integer, HashMap<Integer, ArrayList<Phrase>>> RNATokens = document.getRNATokens();
 		for (int key : RNATokens.keySet()) {
-			JSONObject sectionJSON = new JSONObject();
 			HashMap<Integer, ArrayList<Phrase>> sectionRNATokens = RNATokens.get(key);
 			for (int sentenceKey : sectionRNATokens.keySet()) {
-				JSONObject sentenceJSON = new JSONObject();
 				ArrayList<Phrase> sentenceRNATokens = sectionRNATokens.get(sentenceKey);
 				for(Phrase phrase : sentenceRNATokens) {
 					JSONObject phraseJSON = new JSONObject();
@@ -101,13 +96,11 @@ public class JSONFileWriter implements IWriter {
 					phraseJSON.accumulate("tokenEnd", phrase.getEndOffset());
 					phraseJSON.accumulate("token", phrase.toString());
 					phraseJSON.accumulate("tokenType", "protein");
-					sentenceJSON.accumulate("RNAEntities", phraseJSON);
+					phraseJSON.accumulate("sentenceId", sentenceKey);
+					phraseJSON.accumulate("sectionId", key);
+					json.accumulate("RNAEntities", phraseJSON);
 				}
-				sentenceJSON.accumulate("sentenceId", sentenceKey);
-				sectionJSON.accumulate("RNAEntities", sentenceJSON);
 			}
-			sectionJSON.accumulate("sectionId", key);
-			json.accumulate("RNAEntities", sectionJSON);
 		}
 		
 		JSONObject relationships = new JSONObject();
@@ -123,14 +116,15 @@ public class JSONFileWriter implements IWriter {
 					relation.accumulate("proteinTokenStart", phrase.get(0).getStartOffset());
 					relation.accumulate("proteinTokenEnd", phrase.get(0).getEndOffset());
 					relation.accumulate("DNATokenStart", phrase.get(1).getStartOffset());
-					relation.accumulate("DNATokenStart", phrase.get(1).getEndOffset());
+					relation.accumulate("DNATokenEnd", phrase.get(1).getEndOffset());
 					relation.accumulate("proteinToken", phrase.get(0).toString());
 					relation.accumulate("DNAToken", phrase.get(1).toString());
 					relationships.accumulate("ProteinDNARelationships", relation);
 				}
 			}
 		}
-		json.accumulate("relationships", relationships);
+		if (relationships.length()!=0)
+			json.accumulate("relationships", relationships);
 		
 		relationships = new JSONObject();
 		HashMap<Integer, HashMap<Integer, ArrayList<ArrayList<Phrase>>>> proteinRNARelations = document.getProteinRNARelationships();
@@ -145,15 +139,15 @@ public class JSONFileWriter implements IWriter {
 					relation.accumulate("proteinTokenStart", phrase.get(0).getStartOffset());
 					relation.accumulate("proteinTokenEnd", phrase.get(0).getEndOffset());
 					relation.accumulate("RNATokenStart", phrase.get(1).getStartOffset());
-					relation.accumulate("RNATokenStart", phrase.get(1).getEndOffset());
+					relation.accumulate("RNATokenEnd", phrase.get(1).getEndOffset());
 					relation.accumulate("proteinToken", phrase.get(0).toString());
 					relation.accumulate("RNAToken", phrase.get(1).toString());
 					relationships.accumulate("ProteinRNARelationships", relation);
 				}
 			}
 		}
-		json.accumulate("relationships", relationships);
-		
+		if (relationships.length()!=0)
+			json.accumulate("relationships", relationships);
 	}
 
 }
