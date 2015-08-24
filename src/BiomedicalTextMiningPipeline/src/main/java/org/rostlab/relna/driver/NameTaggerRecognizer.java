@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.Options;
@@ -14,6 +15,7 @@ import org.rostlab.relna.annotator.*;
 import org.rostlab.relna.corpus.Document;
 import org.rostlab.relna.corpus.Phrase;
 import org.rostlab.relna.parser.GimliParser;
+import org.rostlab.relna.external.GimliConverter;
 import org.rostlab.relna.writer.JSONFileWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,19 +24,21 @@ public class NameTaggerRecognizer {
 	
 	private static Logger logger = LoggerFactory.getLogger(NameTaggerRecognizer.class);
 	
-	public static void main (String [] args) {
+	public static void main(String [] args) {
 		DefaultParser parser = new DefaultParser();
 		Options options = new Options();
 		options.addOption("h", "help", false, "Print usage information.");
 		options.addOption("c", "corpus", true, "File with the corpus.");
 	    options.addOption("g", "gdep", true, "File to load/save the GDep output.");
 		options.addOption("o", "output", true, "File to save the final output.");
+		options.addOption("f", "format", true, "Input file format - txt or iob2");
 		
 		CommandLine commandLine = null;
 		
 		String corpus = null;
 		String gdep = null;
 		String output = null;
+		String format = null;
 		
 		try {
 			commandLine = parser.parse(options, args);
@@ -63,6 +67,14 @@ public class NameTaggerRecognizer {
 			return;
 		}
 		
+		if (commandLine.hasOption("f")) {
+			format = commandLine.getOptionValue("f");
+		}
+		else {
+			System.err.println("Please specify the input file format.");
+			return;
+		}
+		
 		if (commandLine.hasOption("o")) {
 			output = commandLine.getOptionValue("o");
 		} 
@@ -71,8 +83,16 @@ public class NameTaggerRecognizer {
 			return;
 		}
 		
-		NamedEntityRecognizer ner = new NamedEntityRecognizer(corpus, gdep, output);		
-		ner.tag();
+//		if (format.equals("iob2")) {
+//			NamedEntityRecognizer ner = new NamedEntityRecognizer(corpus, gdep, output);		
+//			ner.tag();
+//		}
+//		else {
+//			GimliConverter gimliConverter = new GimliConverter(corpus, FilenameUtils.removeExtension(corpus)+".iob2");
+//			gimliConverter.convert();
+//			NamedEntityRecognizer ner = new NamedEntityRecognizer(FilenameUtils.removeExtension(corpus)+".iob2", gdep, output);
+//			ner.tag();
+//		}
 		
 		GimliParser gimli = new GimliParser();
 		Document doc = null;
