@@ -5,7 +5,7 @@ public class WordTokenizer implements Tokenizer {
 	public String [] tokenize(String text) {
 		String [] tokenizedString = null;
 		text = text.replace(" ", "@tok@");
-		text = text.replace(".", "@tok@.");
+		text = text.replace(".", "@tok@.@tok@");
 		text = text.replace(",", "@tok@,");
 		text = text.replace(":", "@tok@:");
 		text = text.replace(";", "@tok@;");
