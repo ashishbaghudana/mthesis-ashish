@@ -41,13 +41,18 @@ public class GimliConverter {
 		try {
 			BufferedWriter bw = new BufferedWriter(new FileWriter(this.outputFile));
 			bw.write(id);
-			bw.write("\n");
+			bw.newLine();
+			bw.newLine();
 			for (String token : title) {
 				bw.write(token);
+				bw.newLine();
 			}
+			bw.newLine();
 			for (String token : paperAbstract) {
 				bw.write(token);
+				bw.newLine();
 			}
+			bw.newLine();
 			bw.close();
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -57,6 +62,13 @@ public class GimliConverter {
 	public void convert() {
 		this.readFile();
 		this.writeFile();
+	}
+	
+	public static void main(String [] args) {
+		String input = "/home/ashish/workspace/BiomedicalTextMiningPipieline/src/main/resources/sample/abstract/abstract.txt";
+		String output = "/home/ashish/workspace/BiomedicalTextMiningPipieline/src/main/resources/sample/abstract/abstract.iob2";
+		GimliConverter gimli = new GimliConverter(input, output);
+		gimli.convert();
 	}
 
 }
