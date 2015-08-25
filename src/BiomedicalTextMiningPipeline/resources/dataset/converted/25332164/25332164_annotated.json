@@ -1,0 +1,154 @@
+{
+    "relationships": [
+        {"ProteinDNARelationships": [
+            {
+                "proteinTokenEnd": 579,
+                "DNATokenStart": 638,
+                "DNATokenEnd": 660,
+                "DNAToken": "5' untranslated regions",
+                "sentenceId": 3,
+                "sectionId": 1,
+                "proteinTokenStart": 575,
+                "proteinToken": "eIF4B"
+            },
+            {
+                "proteinTokenEnd": 579,
+                "DNATokenStart": 664,
+                "DNATokenEnd": 667,
+                "DNAToken": "UTRs",
+                "sentenceId": 3,
+                "sectionId": 1,
+                "proteinTokenStart": 575,
+                "proteinToken": "eIF4B"
+            }
+        ]},
+        {"ProteinRNARelationships": [
+            {
+                "RNATokenStart": 616,
+                "RNAToken": "mRNAs",
+                "proteinTokenEnd": 579,
+                "RNATokenEnd": 620,
+                "sentenceId": 3,
+                "sectionId": 1,
+                "proteinTokenStart": 575,
+                "proteinToken": "eIF4B"
+            },
+            {
+                "RNATokenStart": 729,
+                "RNAToken": "mRNA",
+                "proteinTokenEnd": 579,
+                "RNATokenEnd": 732,
+                "sentenceId": 3,
+                "sectionId": 1,
+                "proteinTokenStart": 575,
+                "proteinToken": "eIF4B"
+            }
+        ]}
+    ],
+    "proteinEntities": [
+        {
+            "tokenEnd": 36,
+            "sentenceId": 0,
+            "tokenStart": 32,
+            "sectionId": 0,
+            "tokenType": "protein",
+            "token": "eIF4B"
+        },
+        {
+            "tokenEnd": 248,
+            "sentenceId": 0,
+            "tokenStart": 211,
+            "sectionId": 1,
+            "tokenType": "protein",
+            "token": "synapto- dendritic protein repertoires"
+        },
+        {
+            "tokenEnd": 486,
+            "sentenceId": 2,
+            "tokenStart": 456,
+            "sectionId": 1,
+            "tokenType": "protein",
+            "token": "eukaryotic initiation factor 4B"
+        },
+        {
+            "tokenEnd": 494,
+            "sentenceId": 2,
+            "tokenStart": 490,
+            "sectionId": 1,
+            "tokenType": "protein",
+            "token": "eIF4B"
+        },
+        {
+            "tokenEnd": 579,
+            "sentenceId": 3,
+            "tokenStart": 575,
+            "sectionId": 1,
+            "tokenType": "protein",
+            "token": "eIF4B"
+        },
+        {
+            "tokenEnd": 883,
+            "sentenceId": 4,
+            "tokenStart": 862,
+            "sectionId": 1,
+            "tokenType": "protein",
+            "token": "protein phosphatase 2A"
+        },
+        {
+            "tokenEnd": 976,
+            "sentenceId": 5,
+            "tokenStart": 972,
+            "sectionId": 1,
+            "tokenType": "protein",
+            "token": "eIF4B"
+        },
+        {
+            "tokenEnd": 1155,
+            "sentenceId": 6,
+            "tokenStart": 1151,
+            "sectionId": 1,
+            "tokenType": "protein",
+            "token": "eIF4B"
+        }
+    ],
+    "DNAEntities": [
+        {
+            "tokenEnd": 660,
+            "sentenceId": 3,
+            "tokenStart": 638,
+            "sectionId": 1,
+            "tokenType": "protein",
+            "token": "5' untranslated regions"
+        },
+        {
+            "tokenEnd": 667,
+            "sentenceId": 3,
+            "tokenStart": 664,
+            "sectionId": 1,
+            "tokenType": "protein",
+            "token": "UTRs"
+        }
+    ],
+    "RNAEntities": [
+        {
+            "tokenEnd": 620,
+            "sentenceId": 3,
+            "tokenStart": 616,
+            "sectionId": 1,
+            "tokenType": "protein",
+            "token": "mRNAs"
+        },
+        {
+            "tokenEnd": 732,
+            "sentenceId": 3,
+            "tokenStart": 729,
+            "sectionId": 1,
+            "tokenType": "protein",
+            "token": "mRNA"
+        }
+    ],
+    "anncomplete": false,
+    "id": "###MEDLINE:25332164",
+    "abstract": "In neurons , translational regulation of gene expression has been implicated in the activity- dependent management of synapto- dendritic protein repertoires . However , the fundamentals of stimulus- modulated translational control in neurons remain poorly understood . Here we describe a mechanism in which regulatory brain cytoplasmic ( BC ) RNAs cooperate with eukaryotic initiation factor 4B ( eIF4B ) to control translation in a manner that is responsive to neuronal activity . eIF4B is required for the translation of mRNAs with structured 5' untranslated regions ( UTRs ) , exemplified here by neuronal protein kinase Mζ ( PKMζ ) mRNA . Upon neuronal stimulation , synapto- dendritic eIF4B is dephosphorylated at serine 406 in a rapid process that is mediated by protein phosphatase 2A . Such dephosphorylation causes a significant decrease in the binding affinity between eIF4B and BC RNA translational repressors , enabling the factor to engage the 40S small ribosomal subunit for translation initiation . BC RNA translational control , mediated via eIF4B phosphorylation status , couples neuronal activity to translational output , and thus provides a mechanistic basis for long- term plastic changes in nerve cells .",
+    "title": "Neuronal BC RNAs cooperate with eIF4B to mediate activity- dependent translational control ."
+}
