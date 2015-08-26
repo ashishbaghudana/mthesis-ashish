@@ -28,4 +28,9 @@ public class Token {
 	public void setTokenTag(String tag) {
 		this.tokenTag = tag;
 	}
+	
+	public Phrase toPhrase() {
+		Phrase phrase = new Phrase(this);
+		return phrase;
+	}
 }
