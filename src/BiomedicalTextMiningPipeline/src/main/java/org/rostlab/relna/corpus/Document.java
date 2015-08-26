@@ -74,6 +74,15 @@ public class Document {
 		return RNATokens;
 	}
 	
+	public HashMap<Integer, HashMap<Integer, ArrayList<Token>>> getTriggerWords() {
+		HashMap<Integer, HashMap<Integer, ArrayList<Token>>> triggerWords = new HashMap<Integer, HashMap<Integer, ArrayList<Token>>>();
+		for (Section section : sections) {
+			if (!section.getTriggerWords().isEmpty())
+				triggerWords.put(section.sectionId, section.getTriggerWords());
+		}
+		return triggerWords;
+	}
+	
 	public int size() {
 		return this.sections.size();
 	}

@@ -70,6 +70,15 @@ public class Section {
 		return RNATokens;
 	}
 	
+	public HashMap<Integer, ArrayList<Token>> getTriggerWords() {
+		HashMap<Integer, ArrayList<Token>> triggerWords = new HashMap<Integer, ArrayList<Token>>();
+		for (Sentence sentence : sentences) {
+			if (!sentence.getTriggerWords().isEmpty())
+				triggerWords.put(sentence.sentenceId, sentence.getTriggerWords());
+		}
+		return triggerWords;
+	}
+	
 	public int size() {
 		return this.sentences.size();
 	}

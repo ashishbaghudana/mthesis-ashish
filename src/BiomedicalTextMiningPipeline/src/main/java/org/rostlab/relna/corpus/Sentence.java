@@ -3,6 +3,12 @@ package org.rostlab.relna.corpus;
 import java.util.ArrayList;
 import org.rostlab.relna.config.Constants;
 import org.rostlab.relna.corpus.Token;
+import opennlp.tools.postag.POSTaggerME;
+import opennlp.tools.postag.POSModel;
+import opennlp.tools.stemmer.PorterStemmer;
+import java.io.FileInputStream;
+import java.io.IOException;
+import org.rostlab.relna.config.TriggerWords;
 
 public class Sentence {
 	public final int sentenceId;
@@ -108,5 +114,48 @@ public class Sentence {
 			}
 		}
 		return DNATokens;
+	}
+	
+	public ArrayList<Token> getTriggerWords() {
+		FileInputStream modelIn = null;
+		POSModel posModel = null;
+		try {
+			modelIn = new FileInputStream("src/main/java/resources/postag/en-pos-maxent.bin");
+			posModel = new POSModel(modelIn);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		finally {
+			if (modelIn != null) {
+				try {
+					modelIn.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		POSTaggerME posTagger = new POSTaggerME(posModel);
+		PorterStemmer stemmer = new PorterStemmer();
+		String [] tags = posTagger.tag(this.toArray());
+		ArrayList<Token> triggerWords = new ArrayList<Token>();
+		int i = 0;
+		
+		for (String tag : tags) {
+			if (tag.startsWith("VB") && TriggerWords.triggers.contains(stemmer.stem(tag))) {
+				triggerWords.add(this.words.get(i));
+			}
+			i++;
+		}
+		return triggerWords;
+	}
+	
+	private String [] toArray() {
+		String [] wordArray = new String[words.size()];
+		int i = 0;
+		for (Token token : words) {
+			wordArray[i] = token.tokenText;
+			i++;
+		}
+		return wordArray;
 	}
 }
