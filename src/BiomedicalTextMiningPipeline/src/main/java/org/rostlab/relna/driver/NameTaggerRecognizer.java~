@@ -83,16 +83,16 @@ public class NameTaggerRecognizer {
 			return;
 		}
 		
-		if (format.equals("iob2")) {
-			NamedEntityRecognizer ner = new NamedEntityRecognizer(corpus, gdep, output);		
-			ner.tag();
-		}
-		else {
-			GimliConverter gimliConverter = new GimliConverter(corpus, FilenameUtils.removeExtension(corpus)+".iob2");
-			gimliConverter.convert();
-			NamedEntityRecognizer ner = new NamedEntityRecognizer(FilenameUtils.removeExtension(corpus)+".iob2", gdep, output);
-			ner.tag();
-		}
+//		if (format.equals("iob2")) {
+//			NamedEntityRecognizer ner = new NamedEntityRecognizer(corpus, gdep, output);		
+//			ner.tag();
+//		}
+//		else {
+//			GimliConverter gimliConverter = new GimliConverter(corpus, FilenameUtils.removeExtension(corpus)+".iob2");
+//			gimliConverter.convert();
+//			NamedEntityRecognizer ner = new NamedEntityRecognizer(FilenameUtils.removeExtension(corpus)+".iob2", gdep, output);
+//			ner.tag();
+//		}
 		
 		GimliParser gimli = new GimliParser();
 		Document doc = null;
