@@ -2,6 +2,8 @@
 
 * NLPBA corpus of 2000 abstracts with tag annotations of `Protein`, `DNA`, and `RNA`. No relations
 * LLL05 corpuswith 85 sentences with relations of `genic` interaction (to anything)
+* Stub implementation of Relna: (https://github.com/ashishbaghudana/mthesis-ashish/tree/master/src/BiomedicalTextMiningPipeline)
+* README for Relna: (https://github.com/ashishbaghudana/mthesis-ashish/tree/master/src/BiomedicalTextMiningPipeline/README.md)
 
 # Goal
 
