@@ -12,11 +12,13 @@ Navigate to `build/libs` and run the tool with `java -jar BiomedicalTextMiningPi
 * -o **path-to-output-with-suffix-iob2**
 * -f **input format - txt or iob2**
 
-**Example**
+#### Example ####
 
-`java -jar build/libs/BiomedicalTextMiningPipeline.jar -c sample/txt/corpus2.txt -f txt -g sample/txt/gdep.gz -o sample/txt/output2.iob2`
+**Input format : iob2**
+`java -jar build/libs/BiomedicalTextMiningPipeline-1.0.jar -c sample/txt/corpus1.iob2 -f txt -g sample/iob2/gdep.gz -o sample/iob2/output1.iob2`
 
-`java -jar build/libs/BiomedicalTextMiningPipeline.jar -c sample/txt/corpus1.iob2 -f txt -g sample/iob2/gdep.gz -o sample/iob2/output1.iob2`
+**Input format : txt**
+`java -jar build/libs/BiomedicalTextMiningPipeline-1.0.jar -c sample/txt/corpus2.txt -f txt -g sample/txt/gdep.gz -o sample/txt/output2.iob2`
 
 If the file is in `txt` format, it must follow the pattern below.
 
