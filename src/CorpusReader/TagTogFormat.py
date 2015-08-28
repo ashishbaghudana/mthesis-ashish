@@ -23,10 +23,10 @@ class TagTogReader(object):
                     id = 1
                     json_single={}
                     json_single['annotatable']={}
-                    json_single['annotatable']['parts']={}
+                    json_single['annotatable']['parts']=["s1h1", "s2h2", "s2s1p1"]
                     json_single['anncomplete']=False
                     json_single['sources']=[]
-                    json_single['sources'].append({"name": "MEDLINE", "id": pmid.rstrip(), "url": "null"})
+                    json_single['sources'].append({"name": "MEDLINE", "id": pmid.rstrip(), "url": None})
                     json_single['entities']=entities
                     json_single['relations']=[]
                     self.json_content[pmid.rstrip()]=json_single
@@ -40,12 +40,12 @@ class TagTogReader(object):
                 if str(line).split()[0] in self.symbols or tempString.endswith('('):
                     tempString = tempString + tempWord[0]
                 else:
-                    if tempWord[1].startswith("B-"):
+                    if tempWord[1].startswith("B-protein") or tempWord[1].startswith("B-RNA") or tempWord[1].startswith("B-DNA"):
                         classId = "e_"+str(id)
                         id += 1
                         entity = {}
                         entity['classId']=classId
-                        entity['offsets']=[{'start': len(tempString), 'text': tempWord[0]}]
+                        entity['offsets']=[{'start': len(tempString)+1, 'text': tempWord[0]}]
                         entity['confidence']={'state': "", 'who': ['genia4er'], 'prob': 1.0000}
                         entities.append(entity)
                     tempString = tempString + ' ' + tempWord[0]
@@ -60,7 +60,7 @@ class TagTogReader(object):
                 else:
                     self.json_content[key]['entities'][i]['part']='s1h1'
             f = open(str(key)+'.json', 'w')
-            f.write(json.dumps(self.json_content[key]))
+            f.write(json.dumps(self.json_content[key], sort_keys=True, indent=2, separators=(',', ': ')))
             f.close()
 
     def writeHTML(self, key):
@@ -87,7 +87,7 @@ class TagTogReader(object):
 
         content = '\t\t\t\t<p id = "s2s1p1">'
 
-        content_close = '<\p>\n'
+        content_close = '</p>\n'
 
         abstract_close = "\t\t\t</section>\n"
 
@@ -118,7 +118,7 @@ class TagTogReader(object):
         for pmid  in self.documents.keys():
             print pmid, self.documents[pmid]
 
-tagtog = TagTogReader('D:\\Genia4ERtask2.iob2')
+tagtog = TagTogReader('/home/ashish/mthesis-ashish/src/CorpusReader/jnlpba/Genia4ERtask2.iob2')
 tagtog.parse()
-#tagtog.convert_to_html()
+tagtog.convert_to_html()
 tagtog.createJSON()
