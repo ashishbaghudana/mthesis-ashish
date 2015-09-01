@@ -1,6 +1,7 @@
 __author__ = 'Ashish'
 from nltk.tokenize import sent_tokenize
 import json
+import uuid
 
 class TagTogReader(object):
     def __init__(self, file_location):
@@ -59,7 +60,7 @@ class TagTogReader(object):
                     self.json_content[key]['entities'][i]['part']='s2h1'
                 else:
                     self.json_content[key]['entities'][i]['part']='s1h1'
-            f = open(str(key)+'.json', 'w')
+            f = open('/home/ashish/mthesis-ashish/resources/corpora/entity_recognition/jnlpba/anndoc/'+str(key)+'.ann.json', 'w')
             f.write(json.dumps(self.json_content[key], sort_keys=True, indent=2, separators=(',', ': ')))
             f.close()
 
@@ -68,10 +69,14 @@ class TagTogReader(object):
         abstr = self.documents.get(key)['text']
 
         doctype = "<!DOCTYPE html>\n"
-
-        header = "<html>\n" \
+        
+        hashId = str(uuid.uuid4().hex) + ':' + key.rstrip()
+	
+        header = '<html id='+ hashId +' data-origid='+key.rstrip() + ' class="anndoc" data-anndoc-version="2.0" lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">\n' \
                  "\t<head>\n" \
-                 "\t\t<title>MEDLINE: " + key.rstrip() + "</title>\n" \
+                 '\t\t<meta charset="UTF-8"/>\n' \
+		 '\t\t<meta name="generator" content="org.rostlab.relna"/>\n' \
+                 "\t\t<title>" + hashId + "</title>\n" \
                  "\t</head>\n"
 
         body = "\t<body>\n" \
@@ -81,22 +86,23 @@ class TagTogReader(object):
                "\t\t\t</section>\n"
 
         abstract = '\t\t\t<section data-type="abstract">\n' \
-                   '\t\t\t\t<h3 id="s2h1">' \
+        	   '\t\t\t\t<div class="subsections">\n' \
+                   '\t\t\t\t\t<h3 id="s2h1">' \
                    'Abstract' \
                    '</h3>\n'
 
-        content = '\t\t\t\t<p id = "s2s1p1">'
+        content = '\t\t\t\t\t<p id = "s2s1p1">'
 
         content_close = '</p>\n'
 
-        abstract_close = "\t\t\t</section>\n"
+        abstract_close = "\t\t\t\t</div>\n\t\t\t</section>\n"
 
         body_close = "\t\t</article>\n" \
                      "\t</body>\n"
 
         html_close = "</html>"
 
-        html_file = open(str(key).rstrip()+'.html', 'w')
+        html_file = open('/home/ashish/mthesis-ashish/resources/corpora/entity_recognition/jnlpba/anndoc/'+str(key).rstrip()+'.html', 'w')
         html_file.write(doctype)
         html_file.write(header)
         html_file.write(body)
@@ -118,7 +124,7 @@ class TagTogReader(object):
         for pmid  in self.documents.keys():
             print pmid, self.documents[pmid]
 
-tagtog = TagTogReader('/home/ashish/mthesis-ashish/src/CorpusReader/jnlpba/Genia4ERtask2.iob2')
+tagtog = TagTogReader('/home/ashish/mthesis-ashish/resources/corpora/entity_recognition/jnlpba/iob/train/Genia4ERtask2.iob2')
 tagtog.parse()
 tagtog.convert_to_html()
 tagtog.createJSON()
