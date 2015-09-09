@@ -24,7 +24,7 @@ class TagTogReader(object):
                     id = 1
                     json_single={}
                     json_single['annotatable']={}
-                    json_single['annotatable']['parts']=["s1h1", "s2h2", "s2s1p1"]
+                    json_single['annotatable']['parts']=["s1h1", "s2h1", "s2s1p1"]
                     json_single['anncomplete']=False
                     json_single['sources']=[]
                     json_single['sources'].append({"name": "MEDLINE", "id": pmid.rstrip(), "url": None})
@@ -42,8 +42,12 @@ class TagTogReader(object):
                     tempString = tempString + tempWord[0]
                 else:
                     if tempWord[1].startswith("B-protein") or tempWord[1].startswith("B-RNA") or tempWord[1].startswith("B-DNA"):
-                        classId = "e_"+str(id)
-                        id += 1
+                    	if tempWord[1].startswith("B-protein"):
+	                        classId = "e_1"
+	                elif tempWord[1].startswith("B-RNA"):
+	                	classId = "e_3"
+	               	else:
+	               		classId = "e_2"
                         entity = {}
                         entity['classId']=classId
                         entity['offsets']=[{'start': len(tempString)+1, 'text': tempWord[0]}]
