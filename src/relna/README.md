@@ -11,8 +11,11 @@ Navigate to `build/libs` and run the tool with `java -jar BiomedicalTextMiningPi
 * `-o` **path-to-output-file**
 * `-w` **writer-format - anndoc or json**
 * `-r` **reader-format - can be txt or iob2 (optional argument)**
+* `-s` **string - text to tag given from command line (optional argument)**
 
 If `reader format (-r)` argument is not given, the program will guess based on the extension.
+
+If `string (-s)` argument is given, the program will automatically read from the command line for an input.
 
 #### Example ####
 
