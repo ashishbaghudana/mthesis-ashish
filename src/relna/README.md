@@ -7,18 +7,23 @@
 ### RUNNING THE TOOL ###
 
 Navigate to `build/libs` and run the tool with `java -jar BiomedicalTextMiningPipeline.jar` with the following arguments:
-* -c **path-to-corpus-in-IOB-format** 
-* -g **path-to-load-or-save-gdep**
-* -o **path-to-output-with-suffix-iob2**
-* -f **input format - txt or iob2**
+* -i **path-to-input-file** 
+* -o **path-to-output-file**
+* -w **writer-format - anndoc or json**
+* -r **reader-format - can be txt or iob2 (optional argument)**
+
+If `reader format (-r)` argument is not given, the program will guess based on the extension.
 
 #### Example ####
 
-**Input format : iob2**
-`java -jar build/libs/BiomedicalTextMiningPipeline-1.0.jar -c sample/txt/corpus1.iob2 -f txt -g sample/iob2/gdep.gz -o sample/iob2/output1.iob2`
+**Input format : iob2, `-r` specified, writer format : anndoc**
+`java -jar build/libs/BiomedicalTextMiningPipeline-1.0.jar -r iob2 -i sample/iob2/corpus1.iob2 -w anndoc -o sample/iob2/output1.ann.json`
 
-**Input format : txt**
-`java -jar build/libs/BiomedicalTextMiningPipeline-1.0.jar -c sample/txt/corpus2.txt -f txt -g sample/txt/gdep.gz -o sample/txt/output2.iob2`
+**Input format : iob2, `-r` not specified, writer format : json**
+`java -jar build/libs/BiomedicalTextMiningPipeline-1.0.jar -i sample/iob2/corpus1.iob2 -w json -o sample/iob2/output1.json`
+
+**Input format : txt, `-r` specified, writer format : anndoc**
+`java -jar build/libs/BiomedicalTextMiningPipeline-1.0.jar -i sample/txt/corpus2.txt -r txt -w anndoc -o sample/txt/output2.ann.json`
 
 If the file is in `txt` format, it must follow the pattern below.
 
