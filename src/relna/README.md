@@ -7,10 +7,10 @@
 ### RUNNING THE TOOL ###
 
 Navigate to `build/libs` and run the tool with `java -jar BiomedicalTextMiningPipeline.jar` with the following arguments:
-* -i **path-to-input-file** 
-* -o **path-to-output-file**
-* -w **writer-format - anndoc or json**
-* -r **reader-format - can be txt or iob2 (optional argument)**
+* `-i` **path-to-input-file** 
+* `-o` **path-to-output-file**
+* `-w` **writer-format - anndoc or json**
+* `-r` **reader-format - can be txt or iob2 (optional argument)**
 
 If `reader format (-r)` argument is not given, the program will guess based on the extension.
 
