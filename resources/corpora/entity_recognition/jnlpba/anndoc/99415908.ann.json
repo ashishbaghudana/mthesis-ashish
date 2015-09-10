@@ -3,13 +3,13 @@
   "annotatable": {
     "parts": [
       "s1h1",
-      "s2h2",
+      "s2h1",
       "s2s1p1"
     ]
   },
   "entities": [
     {
-      "classId": "e_1",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -19,8 +19,8 @@
       },
       "offsets": [
         {
-          "start": 15,
-          "text": "protein"
+          "start": 1,
+          "text": "Inhibition"
         }
       ],
       "part": "s1h1"
@@ -36,14 +36,14 @@
       },
       "offsets": [
         {
-          "start": 137,
-          "text": "STAT3"
+          "start": 12,
+          "text": "of"
         }
       ],
       "part": "s1h1"
     },
     {
-      "classId": "e_3",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -53,14 +53,201 @@
       },
       "offsets": [
         {
-          "start": 144,
-          "text": "Signal"
+          "start": 23,
+          "text": "phosphatase"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 35,
+          "text": "2A"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 38,
+          "text": "induces"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 46,
+          "text": "serine/threonine"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 63,
+          "text": "phosphorylation"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 80,
+          "text": "subcellular"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 92,
+          "text": "redistribution"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 108,
+          "text": "and"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 112,
+          "text": "functional"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 123,
+          "text": "inhibition"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 134,
+          "text": "of"
+        }
+      ],
+      "part": "s1h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 151,
+          "text": "transducers"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_4",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -70,14 +257,14 @@
       },
       "offsets": [
         {
-          "start": 266,
-          "text": "cytokine"
+          "start": 163,
+          "text": "and"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_5",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -87,14 +274,14 @@
       },
       "offsets": [
         {
-          "start": 279,
-          "text": "growth"
+          "start": 167,
+          "text": "activators"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_6",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -104,14 +291,14 @@
       },
       "offsets": [
         {
-          "start": 308,
-          "text": "cell"
+          "start": 178,
+          "text": "of"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_7",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -121,31 +308,14 @@
       },
       "offsets": [
         {
-          "start": 332,
-          "text": "STATs"
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_8",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 398,
+          "start": 181,
           "text": "transcription"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_9",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -155,14 +325,14 @@
       },
       "offsets": [
         {
-          "start": 475,
-          "text": "STATs"
+          "start": 195,
+          "text": "("
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_10",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -172,14 +342,14 @@
       },
       "offsets": [
         {
-          "start": 519,
-          "text": "STAT"
+          "start": 203,
+          "text": "are"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_11",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -189,14 +359,2241 @@
       },
       "offsets": [
         {
-          "start": 583,
+          "start": 207,
+          "text": "rapidly"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 215,
+          "text": "phosphorylated"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 230,
+          "text": "on"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 233,
+          "text": "tyrosine"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 242,
+          "text": "residues"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 251,
+          "text": "in"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 254,
+          "text": "response"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 263,
+          "text": "to"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 275,
+          "text": "and"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 286,
+          "text": "factor"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 293,
+          "text": "stimulation"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 305,
+          "text": "of"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 313,
+          "text": "surface"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 321,
+          "text": "receptors"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 338,
+          "text": "hereafter"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 348,
+          "text": "are"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 352,
+          "text": "translocated"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 365,
+          "text": "to"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 368,
+          "text": "the"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 372,
+          "text": "nucleus"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 380,
+          "text": "where"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 386,
+          "text": "they"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 391,
+          "text": "act"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 395,
+          "text": "as"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 412,
+          "text": "factors"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 421,
+          "text": "Recent"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 428,
+          "text": "reports"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 436,
+          "text": "suggest"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 444,
+          "text": "that"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 449,
+          "text": "serine"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 456,
+          "text": "phosphorylation"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 472,
+          "text": "of"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 481,
+          "text": "also"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 486,
+          "text": "is"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 489,
+          "text": "involved"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 498,
+          "text": "in"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 501,
+          "text": "the"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 505,
+          "text": "regulation"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 516,
+          "text": "of"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 524,
+          "text": "-mediated"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 534,
+          "text": "gene"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 539,
+          "text": "transcription"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 554,
+          "text": "Here"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 560,
+          "text": "we"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 563,
+          "text": "studied"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 571,
+          "text": "the"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 575,
+          "text": "role"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 580,
+          "text": "of"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 600,
+          "text": "phosphatases"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 613,
+          "text": "in"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 622,
+          "text": "signaling"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 632,
+          "text": "in"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 635,
+          "text": "human"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 641,
+          "text": "antigen-specific"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 658,
+          "text": "CD4"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 662,
+          "text": "("
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 666,
+          "text": "T"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 668,
+          "text": "cell"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 673,
+          "text": "lines"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 679,
+          "text": "and"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 683,
+          "text": "cutaneous"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 693,
+          "text": "T"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 695,
+          "text": "cell"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 700,
+          "text": "lymphoma"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 709,
+          "text": "lines"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 716,
+          "text": "expressing"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 727,
+          "text": "a"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 729,
+          "text": "constitutively"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 744,
+          "text": "activated"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 761,
+          "text": "We"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 764,
+          "text": "show"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 769,
+          "text": "that"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 774,
+          "text": "an"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 777,
+          "text": "inhibitor"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 787,
+          "text": "of"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 798,
+          "text": "phosphatases"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 811,
+          "text": "("
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 837,
+          "text": "A"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 840,
+          "text": "induces"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 848,
+          "text": "("
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 852,
+          "text": "phosphorylation"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 868,
+          "text": "of"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 877,
+          "text": "on"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 880,
+          "text": "serine"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 887,
+          "text": "and"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 891,
+          "text": "threonine"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 901,
+          "text": "residues"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 911,
+          "text": "("
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 916,
+          "text": "inhibition"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 927,
+          "text": "of"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 936,
+          "text": "tyrosine"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 945,
+          "text": "phosphorylation"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 961,
+          "text": "and"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 965,
+          "text": "DNA"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 969,
+          "text": "binding"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 977,
+          "text": "activity"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 987,
+          "text": "and"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 991,
+          "text": "("
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 997,
+          "text": "relocation"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1008,
+          "text": "of"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1017,
+          "text": "from"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1022,
+          "text": "the"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1026,
+          "text": "nucleus"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1034,
+          "text": "to"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1037,
+          "text": "the"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1041,
+          "text": "cytoplasm"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1052,
+          "text": "Similar"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1060,
+          "text": "results"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1068,
+          "text": "were"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1073,
+          "text": "obtained"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1082,
+          "text": "with"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1087,
+          "text": "other"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1093,
+          "text": "PP2A"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1098,
+          "text": "inhibitors"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1109,
+          "text": "("
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1118,
+          "text": "acid"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1124,
+          "text": "endothall"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1134,
+          "text": "thioanhydride"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1149,
+          "text": "but"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1153,
+          "text": "not"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1157,
+          "text": "with"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1162,
+          "text": "inhibitors"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1173,
+          "text": "of"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1180,
+          "text": "("
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1193,
+          "text": "or"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1201,
+          "text": "("
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1215,
+          "text": "A"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1219,
+          "text": "Pretreatment"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1232,
+          "text": "with"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1237,
+          "text": "the"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1241,
+          "text": "broad"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1247,
           "text": "serine/threonine"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_12",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -206,14 +2603,14 @@
       },
       "offsets": [
         {
-          "start": 616,
-          "text": "STAT3"
+          "start": 1264,
+          "text": "kinase"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_13",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -223,14 +2620,14 @@
       },
       "offsets": [
         {
-          "start": 754,
-          "text": "STAT3"
+          "start": 1271,
+          "text": "inhibitor"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_14",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -240,14 +2637,235 @@
       },
       "offsets": [
         {
-          "start": 790,
+          "start": 1281,
+          "text": "staurosporine"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1295,
+          "text": "partly"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1302,
+          "text": "blocked"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1310,
+          "text": "the"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1324,
+          "text": "A"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1326,
+          "text": "-induced"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1341,
+          "text": "phosphorylation"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1358,
+          "text": "whereas"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1366,
+          "text": "inhibitors"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1377,
+          "text": "of"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1397,
+          "text": "kinases"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1406,
+          "text": "such"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1411,
+          "text": "as"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1432,
           "text": "protein"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_15",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -257,14 +2875,14 @@
       },
       "offsets": [
         {
-          "start": 817,
-          "text": "PP1/PP2A"
+          "start": 1440,
+          "text": "kinase-1"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_16",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -274,14 +2892,14 @@
       },
       "offsets": [
         {
-          "start": 827,
-          "text": "calyculin"
+          "start": 1449,
+          "text": "extracellular-regulated"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_17",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -291,14 +2909,14 @@
       },
       "offsets": [
         {
-          "start": 871,
-          "text": "STAT3"
+          "start": 1473,
+          "text": "kinase-kinase"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_18",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -308,14 +2926,14 @@
       },
       "offsets": [
         {
-          "start": 930,
-          "text": "STAT3"
+          "start": 1506,
+          "text": "protein"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_19",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -325,14 +2943,14 @@
       },
       "offsets": [
         {
-          "start": 1011,
-          "text": "STAT3"
+          "start": 1514,
+          "text": "p38"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_20",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -342,14 +2960,14 @@
       },
       "offsets": [
         {
-          "start": 1176,
-          "text": "PP1"
+          "start": 1518,
+          "text": "kinase"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_21",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -359,14 +2977,14 @@
       },
       "offsets": [
         {
-          "start": 1196,
-          "text": "PP2B"
+          "start": 1526,
+          "text": "and"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_22",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -376,14 +2994,14 @@
       },
       "offsets": [
         {
-          "start": 1314,
-          "text": "calyculin"
+          "start": 1551,
+          "text": "3-kinase"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_23",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -393,14 +3011,14 @@
       },
       "offsets": [
         {
-          "start": 1335,
-          "text": "STAT3"
+          "start": 1561,
+          "text": "did"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_24",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -410,14 +3028,14 @@
       },
       "offsets": [
         {
-          "start": 1380,
-          "text": "serine/threonine"
+          "start": 1565,
+          "text": "not"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_25",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -427,14 +3045,14 @@
       },
       "offsets": [
         {
-          "start": 1414,
-          "text": "mitogen-activated"
+          "start": 1570,
+          "text": "In"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_26",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -444,14 +3062,14 @@
       },
       "offsets": [
         {
-          "start": 1488,
-          "text": "mitogen-activated"
+          "start": 1573,
+          "text": "conclusion"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_27",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -461,14 +3079,14 @@
       },
       "offsets": [
         {
-          "start": 1530,
-          "text": "phosphatidylinositol"
+          "start": 1585,
+          "text": "we"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_28",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -478,14 +3096,14 @@
       },
       "offsets": [
         {
-          "start": 1610,
-          "text": "PP2A"
+          "start": 1588,
+          "text": "provide"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_29",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -495,14 +3113,14 @@
       },
       "offsets": [
         {
-          "start": 1657,
-          "text": "STAT3"
+          "start": 1596,
+          "text": "evidence"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_30",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -512,14 +3130,14 @@
       },
       "offsets": [
         {
-          "start": 1769,
-          "text": "STAT3"
+          "start": 1605,
+          "text": "that"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_31",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -529,14 +3147,14 @@
       },
       "offsets": [
         {
-          "start": 1813,
-          "text": "staurosporine-sensitive"
+          "start": 1615,
+          "text": "plays"
         }
       ],
       "part": "s2h1"
     },
     {
-      "classId": "e_32",
+      "classId": "e_2",
       "confidence": {
         "prob": 1.0,
         "state": "",
@@ -546,8 +3164,501 @@
       },
       "offsets": [
         {
-          "start": 1852,
-          "text": "PP2A"
+          "start": 1621,
+          "text": "a"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1623,
+          "text": "crucial"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1631,
+          "text": "role"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1636,
+          "text": "in"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1639,
+          "text": "the"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1643,
+          "text": "regulation"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1654,
+          "text": "of"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1663,
+          "text": "phosphorylation"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1679,
+          "text": "and"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1683,
+          "text": "subcellular"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1695,
+          "text": "distribution"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1708,
+          "text": "in"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1711,
+          "text": "T"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1713,
+          "text": "cells"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1720,
+          "text": "Moreover"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1730,
+          "text": "our"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1734,
+          "text": "findings"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1743,
+          "text": "suggest"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1751,
+          "text": "that"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1756,
+          "text": "the"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1760,
+          "text": "level"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1766,
+          "text": "of"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1775,
+          "text": "phosphorylation"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1791,
+          "text": "is"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1794,
+          "text": "balanced"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1803,
+          "text": "between"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1811,
+          "text": "a"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1837,
+          "text": "kinase"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1844,
+          "text": "("
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1848,
+          "text": "and"
         }
       ],
       "part": "s2h1"
