@@ -42,24 +42,36 @@ class TagTogReader(object):
 				if str(line).split()[0] in self.symbols or tempString.endswith('('):
 					if (str(line).split()[0]=="." and is_title==True):
 						is_title = False;
+					if (entity):
+						entities.append(entity)
+						isEntity = False
+						entity = {}
 					tempString = tempString + tempWord[0]
 				else:
 					if tempWord[1].startswith("B-protein") or tempWord[1].startswith("B-RNA") or tempWord[1].startswith("B-DNA"):
 						if tempWord[1].startswith("B-protein"):
 							classId = "e_1"
-					elif tempWord[1].startswith("B-RNA"):
-						classId = "e_3"
-					else:
-						classId = "e_2"
+						elif tempWord[1].startswith("B-DNA"):
+							classId = "e_2"
+						else:
+							classId = "e_3"
 						entity = {}
 						entity['classId']=classId
-						entity['offsets']=[{'start': len(tempString)+1, 'text': tempWord[0]}]
+						word = tempWord[0]
+						entity['offsets']=[{'start': len(tempString)+1}]
 						entity['confidence']={'state': "", 'who': ['genia4er'], 'prob': 1.0000}
+						isEntity = True
 						if (is_title):
 							entity['part']='s1h1'
 						else:
 							entity['part']='s2s1h1'
+					elif tempWord[1].startswith("I-protein") or tempWord[1].startswith("I-RNA") or tempWord[1].startswith("I-DNA"):
+						word = word+" "+tempWord[0]
+					elif (tempWord[1].startswith("O") and isEntity):
+						entity['offsets'][0]['text'] = word
 						entities.append(entity)
+						isEntity = False
+						entity = {}
 					tempString = tempString + ' ' + tempWord[0]
 		data_file.close()
 
