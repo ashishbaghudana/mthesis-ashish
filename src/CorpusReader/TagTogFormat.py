@@ -7,7 +7,8 @@ class TagTogReader(object):
 	def __init__(self, file_location):
 		self.file_location = file_location
 		self.documents = {}
-		self.symbols = [',', '.', ')', ':', ';', '[', ']']
+		self.symbols = [',', '.', '(', ')', ':', ';', '[', ']']
+		self.punctuations = ['.', ',']
 		self.json_content = {}
 
 	def parse(self):
@@ -24,12 +25,13 @@ class TagTogReader(object):
 					id = 1
 					json_single={}
 					json_single['annotatable']={}
-					json_single['annotatable']['parts']=["s1h1", "s2h1", "s2s1p1"]
+					json_single['annotatable']['parts']=["s1h1", "s2h1", "s2p1"]
 					json_single['anncomplete']=False
 					json_single['sources']=[]
 					json_single['sources'].append({"name": "MEDLINE", "id": pmid.rstrip(), "url": None})
 					json_single['entities']=entities
 					json_single['relations']=[]
+					json_single['metas']={}
 					self.json_content[pmid.rstrip()]=json_single
 				entities = []
 				pmid = line.split(":")[1]
@@ -39,14 +41,23 @@ class TagTogReader(object):
 				continue
 			else:
 				tempWord = str(line).split('\t')
-				if str(line).split()[0] in self.symbols or tempString.endswith('('):
-					if (str(line).split()[0]=="." and is_title==True):
+				if tempWord[0] in self.symbols:
+					tempString = tempString + tempWord[0]
+					if (tempWord[0]=="." and is_title==True):
 						is_title = False;
-					if (entity):
+					if (entity and tempWord[1].startswith("I-")):
+						if tempWord[0]=="(":
+							word = word+" "+tempWord[0]
+							word.rstrip()
+						elif word.endswith("("):
+							word = word+tempWord[0];
+						elif tempWord[0]==")":
+							word = word+tempWord[0]
+					if (isEntity and tempWord[1].startswith("O")):
+						entity['offsets'][0]['text'] = word
 						entities.append(entity)
 						isEntity = False
 						entity = {}
-					tempString = tempString + tempWord[0]
 				else:
 					if tempWord[1].startswith("B-protein") or tempWord[1].startswith("B-RNA") or tempWord[1].startswith("B-DNA"):
 						if tempWord[1].startswith("B-protein"):
@@ -59,14 +70,17 @@ class TagTogReader(object):
 						entity['classId']=classId
 						word = tempWord[0]
 						entity['offsets']=[{'start': len(tempString)+1}]
-						entity['confidence']={'state': "", 'who': ['genia4er'], 'prob': 1.0000}
+						entity['confidence']={'state': "", 'who': ['user:genia4er'], 'prob': 1.0000}
 						isEntity = True
 						if (is_title):
 							entity['part']='s1h1'
 						else:
 							entity['part']='s2s1h1'
 					elif tempWord[1].startswith("I-protein") or tempWord[1].startswith("I-RNA") or tempWord[1].startswith("I-DNA"):
-						word = word+" "+tempWord[0]
+						if word.endswith("("):
+							word = word+tempWord[0]
+						else:
+							word = word+" "+tempWord[0]
 					elif (tempWord[1].startswith("O") and isEntity):
 						entity['offsets'][0]['text'] = word
 						entities.append(entity)
@@ -95,7 +109,7 @@ class TagTogReader(object):
 		
 		hashId = str(uuid.uuid4().hex) + ':' + key.rstrip()
 	
-		header = '<html id='+ hashId +' data-origid='+key.rstrip() + ' class="anndoc" data-anndoc-version="2.0" lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">\n' \
+		header = '<html id="'+ hashId +'" data-origid="'+key.rstrip() + '" class="anndoc" data-anndoc-version="2.0" lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">\n' \
 				 "\t<head>\n" \
 				 '\t\t<meta charset="UTF-8"/>\n' \
 		 '\t\t<meta name="generator" content="org.rostlab.relna"/>\n' \
@@ -108,13 +122,13 @@ class TagTogReader(object):
 			   '\t\t\t\t<h2 id="s1h1">' + title + "</h2>\n" \
 			   "\t\t\t</section>\n"
 
-		abstract = '\t\t\t<section data-type="abstract">\n' \
-			   '\t\t\t\t<div class="subsections">\n' \
-				   '\t\t\t\t\t<h3 id="s2h1">' \
-				   'Abstract' \
-				   '</h3>\n'
+		abstract = 	'\t\t\t<section data-type="abstract">\n' \
+					'\t\t\t\t<h3 id="s2h1">' \
+				   	'Abstract' \
+				   	'</h3>\n' \
+					'\t\t\t\t<div class="content">\n'
 
-		content = '\t\t\t\t\t<p id = "s2s1p1">'
+		content = '\t\t\t\t\t<p id = "s2p1">'
 
 		content_close = '</p>\n'
 
