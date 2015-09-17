@@ -4,7 +4,7 @@
     "parts": [
       "s1h1",
       "s2h1",
-      "s2s1p1"
+      "s2p1"
     ]
   },
   "entities": [
@@ -14,7 +14,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -31,7 +31,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -48,12 +48,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 153
+          "start": 153,
+          "text": "myeloid differentiation primary response (MyD) genes"
         }
       ],
       "part": "s2h1"
@@ -64,7 +65,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -81,12 +82,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 494
+          "start": 494,
+          "text": "Egr-1"
         }
       ],
       "part": "s2h1"
@@ -97,12 +99,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 503
+          "start": 503,
+          "text": "zinc finger transcription factor"
         }
       ],
       "part": "s2h1"
@@ -113,7 +116,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -130,7 +133,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -147,7 +150,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -159,12 +162,29 @@
       "part": "s2h1"
     },
     {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 913,
+          "text": "HL-60Egr-1"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
       "classId": "e_1",
       "confidence": {
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -176,6 +196,7 @@
       "part": "s2h1"
     }
   ],
+  "metas": {},
   "relations": [],
   "sources": [
     {

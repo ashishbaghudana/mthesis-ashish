@@ -4,7 +4,7 @@
     "parts": [
       "s1h1",
       "s2h1",
-      "s2s1p1"
+      "s2p1"
     ]
   },
   "entities": [
@@ -14,12 +14,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 1
+          "start": 1,
+          "text": "Glucocorticoid receptors"
         }
       ],
       "part": "s1h1"
@@ -30,7 +31,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -47,7 +48,24 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 519,
+          "text": "GR"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -64,7 +82,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -81,7 +99,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -91,8 +109,26 @@
         }
       ],
       "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 2010,
+          "text": "MR"
+        }
+      ],
+      "part": "s2h1"
     }
   ],
+  "metas": {},
   "relations": [],
   "sources": [
     {

@@ -4,7 +4,7 @@
     "parts": [
       "s1h1",
       "s2h1",
-      "s2s1p1"
+      "s2p1"
     ]
   },
   "entities": [
@@ -14,7 +14,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -31,7 +31,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -48,12 +48,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 80
+          "start": 80,
+          "text": "Stat1 alpha"
         }
       ],
       "part": "s1h1"
@@ -64,12 +65,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 124
+          "start": 124,
+          "text": "cytokines"
         }
       ],
       "part": "s2h1"
@@ -80,12 +82,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 145
+          "start": 145,
+          "text": "interferons"
         }
       ],
       "part": "s2h1"
@@ -96,12 +99,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 158
+          "start": 158,
+          "text": "interleukins"
         }
       ],
       "part": "s2h1"
@@ -112,12 +116,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 176
+          "start": 176,
+          "text": "growth factors"
         }
       ],
       "part": "s2h1"
@@ -128,7 +133,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -145,12 +150,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 231
+          "start": 231,
+          "text": "Stat (Signal transducers and activators of transcription) proteins"
         }
       ],
       "part": "s2h1"
@@ -161,7 +167,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -178,7 +184,24 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 384,
+          "text": "IL-5"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -195,7 +218,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -212,7 +235,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -229,12 +252,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 626
+          "start": 626,
+          "text": "JAK2"
         }
       ],
       "part": "s2h1"
@@ -245,7 +269,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -262,12 +286,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 668
+          "start": 668,
+          "text": "DNA-binding complexes"
         }
       ],
       "part": "s2h1"
@@ -278,7 +303,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -295,7 +320,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -307,12 +332,29 @@
       "part": "s2h1"
     },
     {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 815,
+          "text": "ICAM-1 pIRE"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
       "classId": "e_1",
       "confidence": {
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -329,12 +371,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 947
+          "start": 947,
+          "text": "Stat1 alpha"
         }
       ],
       "part": "s2h1"
@@ -345,7 +388,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -362,7 +405,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -379,7 +422,24 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1058,
+          "text": "4G10"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -396,7 +456,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -413,12 +473,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 1219
+          "start": 1219,
+          "text": "IL-5"
         }
       ],
       "part": "s2h1"
@@ -429,7 +490,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -446,12 +507,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 1283
+          "start": 1283,
+          "text": "Stat1 alpha"
         }
       ],
       "part": "s2h1"
@@ -462,7 +524,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -479,7 +541,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -496,17 +558,19 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 1463
+          "start": 1463,
+          "text": "Stat family"
         }
       ],
       "part": "s2h1"
     }
   ],
+  "metas": {},
   "relations": [],
   "sources": [
     {

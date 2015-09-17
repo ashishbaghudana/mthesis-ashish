@@ -4,7 +4,7 @@
     "parts": [
       "s1h1",
       "s2h1",
-      "s2s1p1"
+      "s2p1"
     ]
   },
   "entities": [
@@ -14,7 +14,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -31,7 +31,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -48,7 +48,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -65,7 +65,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -82,12 +82,12 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 339,
+          "start": 338,
           "text": "protein kinase C"
         }
       ],
@@ -99,12 +99,29 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 392,
+          "start": 356,
+          "text": "PKC"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 391,
           "text": "Ca2+/calmodulin-dependent kinases"
         }
       ],
@@ -116,12 +133,12 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 456,
+          "start": 455,
           "text": "Ca2+/calmodulin-dependent protein kinase II"
         }
       ],
@@ -133,12 +150,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 523
+          "start": 500,
+          "text": "CaM-K II"
         }
       ],
       "part": "s2h1"
@@ -149,28 +167,12 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 538
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 598,
+          "start": 522,
           "text": "calcineurin"
         }
       ],
@@ -182,12 +184,46 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 701,
+          "start": 537,
+          "text": "type 2B protein phosphatase"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 597,
+          "text": "calcineurin"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 700,
           "text": "CaM-K II"
         }
       ],
@@ -199,12 +235,12 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 757,
+          "start": 756,
           "text": "kinases"
         }
       ],
@@ -216,12 +252,12 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 769,
+          "start": 768,
           "text": "phosphatases"
         }
       ],
@@ -233,62 +269,12 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 801
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 863,
-          "text": "cytokine gene"
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 919,
-          "text": "PKC"
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 953,
+          "start": 782,
           "text": "gamma B*CaM-K"
         }
       ],
@@ -300,129 +286,12 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 971
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 1146,
-          "text": "IL-2 promoter"
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 1190
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 1257,
-          "text": "gamma B*CaM-K"
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 1280,
-          "text": "IL-2 promoter construct"
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 1440,
-          "text": "CaM-K II"
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 1452,
-          "text": "IL-2 promoter"
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 1585,
+          "start": 800,
           "text": "delta CaM-AI"
         }
       ],
@@ -434,13 +303,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 1611,
-          "text": "IL-2 promoter"
+          "start": 862,
+          "text": "cytokine gene"
         }
       ],
       "part": "s2h1"
@@ -451,113 +320,12 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 1712,
-          "text": "gamma B*CaM-K"
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 1757,
-          "text": "IL-2 promoter"
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 1774
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_2",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 1850,
-          "text": "IL-4 promoter"
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 1879,
-          "text": "gamma B*CaM-K"
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 1930,
-          "text": "AP-1"
-        }
-      ],
-      "part": "s2h1"
-    },
-    {
-      "classId": "e_1",
-      "confidence": {
-        "prob": 1.0,
-        "state": "",
-        "who": [
-          "genia4er"
-        ]
-      },
-      "offsets": [
-        {
-          "start": 2002,
+          "start": 918,
           "text": "PKC"
         }
       ],
@@ -569,12 +337,114 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 2058,
+          "start": 952,
+          "text": "gamma B*CaM-K"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 970,
+          "text": "delta CaM-AI"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1145,
+          "text": "IL-2 promoter"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1189,
+          "text": "chloramphenicol acetyltransferase reporter gene"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1256,
+          "text": "gamma B*CaM-K"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1279,
+          "text": "IL-2 promoter construct"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1439,
           "text": "CaM-K II"
         }
       ],
@@ -586,18 +456,206 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 2100,
+          "start": 1451,
+          "text": "IL-2 promoter"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1584,
+          "text": "delta CaM-AI"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1610,
+          "text": "IL-2 promoter"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1711,
+          "text": "gamma B*CaM-K"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1756,
+          "text": "IL-2 promoter"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1773,
+          "text": "delta CaM-AI"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1849,
+          "text": "IL-4 promoter"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1878,
+          "text": "gamma B*CaM-K"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1929,
+          "text": "AP-1"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 2001,
+          "text": "PKC"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 2057,
+          "text": "CaM-K II"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 2099,
           "text": "cytokine gene"
         }
       ],
       "part": "s2h1"
     }
   ],
+  "metas": {},
   "relations": [],
   "sources": [
     {

@@ -4,7 +4,7 @@
     "parts": [
       "s1h1",
       "s2h1",
-      "s2s1p1"
+      "s2p1"
     ]
   },
   "entities": [
@@ -14,7 +14,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -31,12 +31,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 34
+          "start": 34,
+          "text": "human IL-3 proximal promoter"
         }
       ],
       "part": "s1h1"
@@ -47,12 +48,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 68
+          "start": 68,
+          "text": "human interleukin-3 (IL-3) gene"
         }
       ],
       "part": "s2h1"
@@ -63,7 +65,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -75,17 +77,18 @@
       "part": "s2h1"
     },
     {
-      "classId": "e_2",
+      "classId": "e_1",
       "confidence": {
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 401
+          "start": 324,
+          "text": "PHA"
         }
       ],
       "part": "s2h1"
@@ -96,12 +99,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 566
+          "start": 401,
+          "text": "IL-3 gene"
         }
       ],
       "part": "s2h1"
@@ -112,7 +116,24 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 566,
+          "text": "IL-3 gene 5 ' and 3 ' flanking sequences"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_2",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -129,7 +150,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -146,12 +167,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 714
+          "start": 714,
+          "text": "IL-3 gene"
         }
       ],
       "part": "s2h1"
@@ -162,7 +184,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -179,7 +201,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -196,12 +218,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 790
+          "start": 790,
+          "text": "activating elements"
         }
       ],
       "part": "s2h1"
@@ -212,7 +235,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -229,7 +252,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -246,7 +269,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -263,7 +286,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -280,17 +303,19 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 1150
+          "start": 1150,
+          "text": "/PHA"
         }
       ],
       "part": "s2h1"
     }
   ],
+  "metas": {},
   "relations": [],
   "sources": [
     {

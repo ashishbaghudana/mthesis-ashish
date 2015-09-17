@@ -4,7 +4,7 @@
     "parts": [
       "s1h1",
       "s2h1",
-      "s2s1p1"
+      "s2p1"
     ]
   },
   "entities": [
@@ -14,12 +14,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 94
+          "start": 94,
+          "text": "myosin light chain kinase"
         }
       ],
       "part": "s1h1"
@@ -30,12 +31,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 360
+          "start": 360,
+          "text": "myosin light chain kinase"
         }
       ],
       "part": "s2h1"
@@ -46,7 +48,7 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -63,12 +65,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 1657
+          "start": 981,
+          "text": "ANAE"
         }
       ],
       "part": "s2h1"
@@ -79,12 +82,13 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
         ]
       },
       "offsets": [
         {
-          "start": 1713
+          "start": 1657,
+          "text": "monocyte-macrophage lineage-associated surface antigen"
         }
       ],
       "part": "s2h1"
@@ -95,7 +99,24 @@
         "prob": 1.0,
         "state": "",
         "who": [
-          "genia4er"
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 1713,
+          "text": "CD14"
+        }
+      ],
+      "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
         ]
       },
       "offsets": [
@@ -105,8 +126,26 @@
         }
       ],
       "part": "s2h1"
+    },
+    {
+      "classId": "e_1",
+      "confidence": {
+        "prob": 1.0,
+        "state": "",
+        "who": [
+          "user:genia4er"
+        ]
+      },
+      "offsets": [
+        {
+          "start": 2280,
+          "text": "TGF-beta 1"
+        }
+      ],
+      "part": "s2h1"
     }
   ],
+  "metas": {},
   "relations": [],
   "sources": [
     {
