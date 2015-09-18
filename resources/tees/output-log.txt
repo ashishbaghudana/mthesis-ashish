@@ -1,0 +1,24 @@
+[13:11:58 17/09]	Opening log output-log.txt at Thu Sep 17 13:11:58 2015
+####### Log opened at Thu Sep 17 13:11:58 2015 #######
+Command line: classify.py -m GE11 -i 10503549 -o output
+[13:11:58 17/09]	Classifying PubMed abstract 10503549
+[13:11:58 17/09]	*************************** NOTE ***************************
+[13:11:58 17/09]	Do not attempt to do large-scale classification of PubMed
+[13:11:58 17/09]	abstracts with this feature. For that, use the downloadable
+[13:11:58 17/09]	PubMed release. This is a demonstration feature only, and
+[13:11:58 17/09]	abusing it will cause you to be banned from PubMed!
+[13:11:58 17/09]	************************************************************
+[13:11:58 17/09]	Downloading PubMed abstract 10503549
+[13:12:03 17/09]	Downloading file http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=10503549&retmode=xml to /tmp/pmid-10503549.xml
+[13:12:04 17/09]	Model /home/ashish/relna/resources/tees/GE11 doesn't exist, looking for a default model
+[13:12:04 17/09]	Classifying with default model /home/ashish/.tees/models/GE11-test
+[13:12:04 17/09]	Preprocessor output output-preprocessed.xml.gz does not exist
+[13:12:04 17/09]	------------ Preprocessing ------------
+[13:12:04 17/09]	Traceback (most recent call last):
+[13:12:04 17/09]	  File "classify.py", line 190, in <module>
+[13:12:04 17/09]	    preprocessorParams=options.preprocessorParams, bioNLPSTParams=options.bioNLPSTParams)
+[13:12:04 17/09]	  File "classify.py", line 72, in classify
+[13:12:04 17/09]	    classifyInput = preprocessor.process(input, preprocessorOutput, preprocessorParams, model, [], fromStep=detectorSteps["PREPROCESS"], toStep=None, omitSteps=omitDetectorSteps["PREPROCESS"])
+[13:12:04 17/09]	  File "/home/ashish/relna/resources/tees/Detectors/Preprocessor.py", line 39, in process
+[13:12:04 17/09]	    if (type(omitSteps) in types.StringTypes and omitSteps == "CONVERT") or "CONVERT" in omitSteps:
+[13:12:04 17/09]	TypeError: argument of type 'NoneType' is not iterable

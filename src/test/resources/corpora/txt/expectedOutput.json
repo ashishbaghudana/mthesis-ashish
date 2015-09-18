@@ -1,0 +1,132 @@
+{
+    "DNAEntities": [
+        {
+            "sectionId": 0,
+            "sentenceId": 0,
+            "token": "katX gene",
+            "tokenEnd": 12,
+            "tokenStart": 4,
+            "tokenType": "protein"
+        },
+        {
+            "sectionId": 1,
+            "sentenceId": 0,
+            "token": "katX",
+            "tokenEnd": 92,
+            "tokenStart": 89,
+            "tokenType": "protein"
+        },
+        {
+            "sectionId": 1,
+            "sentenceId": 2,
+            "token": "sigmaB- dependent general stress gene",
+            "tokenEnd": 376,
+            "tokenStart": 340,
+            "tokenType": "protein"
+        },
+        {
+            "sectionId": 1,
+            "sentenceId": 3,
+            "token": "sigmaF- dependent promoters",
+            "tokenEnd": 551,
+            "tokenStart": 525,
+            "tokenType": "protein"
+        },
+        {
+            "sectionId": 1,
+            "sentenceId": 4,
+            "token": "sigB mutants",
+            "tokenEnd": 786,
+            "tokenStart": 775,
+            "tokenType": "protein"
+        }
+    ],
+    "abstract": "The gene katX , which encodes a catalase in Bacillus subtilis , is transcribed by EsigmaF in the pre- spore . This catalase is responsible for the resistance to hydrogen peroxide shown by germinating and outgrowing spores . We demonstrated that katX is also a sigmaB- dependent general stress gene , since it is strongly induced by heat , salt and ethanol stress , as well as by energy depletion . The - 10 and - 35 sequences of the sigmaB- and sigmaF- dependent promoters of katX overlap , and the transcriptional start points used by EsigmaB and EsigmaF differ by only one nucleotide . Our results indicate that the level of KatX level in outgrowing spores depends mainly on EsigmaF , because sigB mutants show normal KatX activity in dormant and outgrowing spores . katX mutants also develop the non- specific resistance to oxidative stress that is typical of glucose- starved cells . Therefore , the physiological role of sigmaB- dependent katX expression remains obscure . The results indicate an overlap between the sigmaB regulon and the sigmaF regulon , and the physiological implications of this overlap are discussed .",
+    "anncomplete": false,
+    "id": "###MEDLINE:10503549",
+    "proteinEntities": [
+        {
+            "sectionId": 0,
+            "sentenceId": 0,
+            "token": "sigmaB",
+            "tokenEnd": 65,
+            "tokenStart": 60,
+            "tokenType": "protein"
+        },
+        {
+            "sectionId": 0,
+            "sentenceId": 0,
+            "token": "sigmaF",
+            "tokenEnd": 76,
+            "tokenStart": 71,
+            "tokenType": "protein"
+        },
+        {
+            "sectionId": 1,
+            "sentenceId": 0,
+            "token": "catalase",
+            "tokenEnd": 119,
+            "tokenStart": 112,
+            "tokenType": "protein"
+        },
+        {
+            "sectionId": 1,
+            "sentenceId": 1,
+            "token": "catalase",
+            "tokenEnd": 202,
+            "tokenStart": 195,
+            "tokenType": "protein"
+        },
+        {
+            "sectionId": 1,
+            "sentenceId": 4,
+            "token": "KatX",
+            "tokenEnd": 710,
+            "tokenStart": 707,
+            "tokenType": "protein"
+        }
+    ],
+    "relationships": {"ProteinDNARelationships": [
+        {
+            "DNAToken": "katX gene",
+            "DNATokenEnd": 12,
+            "DNATokenStart": 4,
+            "proteinToken": "sigmaB",
+            "proteinTokenEnd": 65,
+            "proteinTokenStart": 60,
+            "sectionId": 0,
+            "sentenceId": 0
+        },
+        {
+            "DNAToken": "katX gene",
+            "DNATokenEnd": 12,
+            "DNATokenStart": 4,
+            "proteinToken": "sigmaF",
+            "proteinTokenEnd": 76,
+            "proteinTokenStart": 71,
+            "sectionId": 0,
+            "sentenceId": 0
+        },
+        {
+            "DNAToken": "katX",
+            "DNATokenEnd": 92,
+            "DNATokenStart": 89,
+            "proteinToken": "catalase",
+            "proteinTokenEnd": 119,
+            "proteinTokenStart": 112,
+            "sectionId": 1,
+            "sentenceId": 0
+        },
+        {
+            "DNAToken": "sigB mutants",
+            "DNATokenEnd": 786,
+            "DNATokenStart": 775,
+            "proteinToken": "KatX",
+            "proteinTokenEnd": 710,
+            "proteinTokenStart": 707,
+            "sectionId": 1,
+            "sentenceId": 4
+        }
+    ]},
+    "title": "The katX gene of Bacillus subtilis is under dual control of sigmaB and sigmaF ."
+}
