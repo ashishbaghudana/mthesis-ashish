@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ashishbaghudana/mthesis-ashish.svg)](https://travis-ci.org/ashishbaghudana/mthesis-ashish) [![Coverage Status](https://coveralls.io/repos/ashishbaghudana/mthesis-ashish/badge.svg?branch=develop&service=github)](https://coveralls.io/github/ashishbaghudana/mthesis-ashish?branch=develop)
+
 ## Status
 
 * NLPBA corpus of 2000 abstracts with tag annotations of `Protein`, `DNA`, and `RNA`. No relations
