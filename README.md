@@ -29,12 +29,12 @@
 ### INSTALLATION ###
 
 1. Install [gradle](http://gradle.com) on your system.
-2. Unzip the `genia.mod.tar.gz` from `resources/` and copy it to `src/main/resources/gimli/resources/tools/gdep`
-3. Navigate to the parent directory (where build.gradle is placed) and run `gradle clean build`
-
-#### ALTERNATE
-1. Install [gradle](http://gradle.com) on your system.
 2. Run install.sh.
+
+#### ALTERNATE (Deprecated)
+1. Install [gradle](http://gradle.com) on your system.
+2. Unzip the `genia.mod.tar.gz` from `resources/` and copy it to `src/main/resources/gimli/resources/tools/gdep`
+3. Navigate to the parent directory (where build.gradle is placed) and run `gradle assemble`
 
 ### RUNNING THE TOOL ###
 
