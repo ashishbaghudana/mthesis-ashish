@@ -28,14 +28,18 @@
 
 ### INSTALLATION ###
 
-1. Install `gradle` on your system.
+1. Install [gradle](http://gradle.com) on your system.
 2. Unzip the `genia.mod.tar.gz` from `resources/` and copy it to `src/main/resources/gimli/resources/tools/gdep`
 3. Navigate to the parent directory (where build.gradle is placed) and run `gradle clean build`
 
+#### ALTERNATE
+1. Install [gradle](http://gradle.com) on your system.
+2. Run install.sh.
+
 ### RUNNING THE TOOL ###
 
-Navigate to `build/libs` and run the tool with `java -jar BiomedicalTextMiningPipeline.jar` with the following arguments:
-* `-i` **path-to-input-file** 
+Navigate to `build/libs` and run the tool with `java -jar mthesis-ashish-*.jar` with the following arguments:
+* `-i` **path-to-input-file**
 * `-o` **path-to-output-file**
 * `-w` **writer-format - anndoc or json**
 * `-r` **reader-format - can be txt or iob2 (optional argument)**
@@ -48,13 +52,15 @@ If `string (-s)` argument is given, the program will automatically read from the
 #### Example ####
 
 **Input format : iob2, `-r` specified, writer format : anndoc**
-`java -jar build/libs/BiomedicalTextMiningPipeline-1.0.jar -r iob2 -i sample/iob2/corpus1.iob2 -w anndoc -o sample/iob2/output1.ann.json`
+`java -jar build/libs/mthesis-ashish-*.jar -r iob2 -i sample/iob2/corpus1.iob2 -w anndoc -o sample/iob2/output1.ann.json`
 
 **Input format : iob2, `-r` not specified, writer format : json**
-`java -jar build/libs/BiomedicalTextMiningPipeline-1.0.jar -i sample/iob2/corpus1.iob2 -w json -o sample/iob2/output1.json`
+`java -jar build/libs/mthesis-ashish-*.jar -i sample/iob2/corpus1.iob2 -w json -o sample/iob2/output1.json`
 
 **Input format : txt, `-r` specified, writer format : anndoc**
-`java -jar build/libs/BiomedicalTextMiningPipeline-1.0.jar -i sample/txt/corpus2.txt -r txt -w anndoc -o sample/txt/output2.ann.json`
+`java -jar build/libs/mthesis-ashish-*.jar -i sample/txt/corpus2.txt -r txt -w anndoc -o sample/txt/output2.ann.json`
+
+Eventually, the jar file will be called relna.
 
 If the file is in `txt` format, it must follow the pattern below.
 
