@@ -42,7 +42,10 @@ class TagTogReader(object):
 			else:
 				tempWord = str(line).split('\t')
 				if tempWord[0] in self.symbols:
-					tempString = tempString + tempWord[0]
+					if tempWord[0].startswith('('):
+						tempString = tempString + ' ' + tempWord[0]
+					else:
+						tempString = tempString + tempWord[0]
 					if (tempWord[0]=="." and is_title==True):
 						is_title = False;
 					if (entity and tempWord[1].startswith("I-")):
@@ -69,13 +72,13 @@ class TagTogReader(object):
 						entity = {}
 						entity['classId']=classId
 						word = tempWord[0]
-						entity['offsets']=[{'start': len(tempString)+1}]
+						entity['offsets']=[{'start': len(tempString)}]
 						entity['confidence']={'state': "", 'who': ['user:genia4er'], 'prob': 1.0000}
 						isEntity = True
 						if (is_title):
 							entity['part']='s1h1'
 						else:
-							entity['part']='s2s1h1'
+							entity['part']='s2p1'
 					elif tempWord[1].startswith("I-protein") or tempWord[1].startswith("I-RNA") or tempWord[1].startswith("I-DNA"):
 						if word.endswith("("):
 							word = word+tempWord[0]
@@ -86,7 +89,10 @@ class TagTogReader(object):
 						entities.append(entity)
 						isEntity = False
 						entity = {}
-					tempString = tempString + ' ' + tempWord[0]
+					if tempString.endswith('('):
+						tempString = tempString + tempWord[0]
+					else:
+						tempString = tempString + ' ' + tempWord[0]
 		data_file.close()
 
 	def createJSON(self):
@@ -94,7 +100,7 @@ class TagTogReader(object):
 			cutoff = len(self.documents[key]['abstract'])
 			for i in range(len(self.json_content[key]['entities'])):
 				if self.json_content[key]['entities'][i]['offsets'][0]['start']>cutoff:
-					self.json_content[key]['entities'][i]['part']='s2h1'
+					self.json_content[key]['entities'][i]['part']='s2p1'
 				else:
 					self.json_content[key]['entities'][i]['part']='s1h1'
 			f = open('/home/ashish/mthesis-ashish/resources/corpora/entity_recognition/jnlpba/anndoc/'+str(key)+'.ann.json', 'w')
