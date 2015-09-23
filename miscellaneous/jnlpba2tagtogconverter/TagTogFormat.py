@@ -101,7 +101,7 @@ class TagTogReader(object):
 			for i in range(len(self.json_content[key]['entities'])):
 				if self.json_content[key]['entities'][i]['offsets'][0]['start']>cutoff:
 					self.json_content[key]['entities'][i]['part']='s2p1'
-					self.json_content[key]['entities'][i]['offsets'][0]['start'] =  self.json_content[key]['entities'][i]['offsets'][0]['start'] + 9
+					self.json_content[key]['entities'][i]['offsets'][0]['start'] =  self.json_content[key]['entities'][i]['offsets'][0]['start'] - cutoff - 1
 				else:
 					self.json_content[key]['entities'][i]['part']='s1h1'
 			f = open('/home/ashish/mthesis-ashish/resources/corpora/entity_recognition/jnlpba/anndoc/'+str(key)+'.ann.json', 'w')
