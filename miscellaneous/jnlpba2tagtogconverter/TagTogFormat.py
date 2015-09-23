@@ -42,7 +42,7 @@ class TagTogReader(object):
 			else:
 				tempWord = str(line).split('\t')
 				if tempWord[0] in self.symbols:
-					if tempWord[0].startswith('('):
+					if tempWord[0].startswith('(') or tempWord[0].startswith('['):
 						tempString = tempString + ' ' + tempWord[0]
 					else:
 						tempString = tempString + tempWord[0]
@@ -89,7 +89,7 @@ class TagTogReader(object):
 						entities.append(entity)
 						isEntity = False
 						entity = {}
-					if tempString.endswith('('):
+					if tempString.endswith('(') or tempString.endswith('['):
 						tempString = tempString + tempWord[0]
 					else:
 						tempString = tempString + ' ' + tempWord[0]
